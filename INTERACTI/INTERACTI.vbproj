@@ -1426,6 +1426,12 @@
     <Compile Include="Forms\Producao\frmPrdCenarioManutencao.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Forms\Reports\Faturamento\usrFat0000000024_maria.Designer.vb">
+      <DependentUpon>usrFat0000000024_maria.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Reports\Faturamento\usrFat0000000024_maria.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="Forms\Venda\Orçamento\frmVenOrcamentoAdicionarChecklistCliente.Designer.vb">
       <DependentUpon>frmVenOrcamentoAdicionarChecklistCliente.vb</DependentUpon>
     </Compile>
@@ -6287,6 +6293,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Producao\frmPrdCenarioManutencao.resx">
       <DependentUpon>frmPrdCenarioManutencao.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Reports\Faturamento\usrFat0000000024_maria.resx">
+      <DependentUpon>usrFat0000000024_maria.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\Venda\Orçamento\frmVenOrcamentoAdicionarChecklistCliente.resx">
       <DependentUpon>frmVenOrcamentoAdicionarChecklistCliente.vb</DependentUpon>
