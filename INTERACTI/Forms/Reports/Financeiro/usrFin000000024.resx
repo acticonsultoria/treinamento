@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="Button1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAgruparGrid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHDSURBVDhPY/j//z9FGKsgKZjBbNJdBvMp9wliu7kv
+        GOznvZwJxDHWM5+A9Rn2XCfeAMtpDxmAGs+A8YzHMQgDJt6ZCeScIRb33fr/H8yeeCcGbIBB19UzE+78
+        /d9++RcYt11C4NaLENxyAYErjnz/33z+13+QPiD2YNBsPHOm9+af/41nf/xvOPPjf82Jb/+zt3/8n7Lx
+        zf+IFU/+x6x59D9x/cP/cWvu/Y9dffe/2/TL/+PXP/4P0gfEHgzKFYdnKpUfOgPDHnNuPPBa+/yf9eIH
+        //1X3H9v0Xvupkbt0fMwebc1T/6DaKC+GPW6kwwMQA6DXNEeBum8ndrqNYfPWW358Ft5zfv/5tOvPQGK
+        rZLJ32UvU7CbX754L0jNGRAGisWA9IENkMrdwSCSsh6Eqw3m3H7Bs/nPf91lz94D+avEM7cIAzUwAA1g
+        EE3byCCaumEmEMeAxOAG8EYvg+FVqhs+fuPf/v+/ZMX+m3wxy+35Y1eAbIUbALUILAY3gCNkPgwfVd79
+        56/Mnv//uaKXngfy+WFyQJfgNoDFfxYMz2T2m3kGhIHsVraguQwwLJi4BrcB2NI3KRirICkYqyDx+D8D
+        AHJ1S44YUScxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Button5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;AllowAddNew&gt;False&lt;/AllowAddNew&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="conta_bancaria"&gt;&lt;Caption&gt;Banco&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_bancaria&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;172&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="numero_documento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Nº Documento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="nota_fiscal"&gt;&lt;Caption&gt;Nota(s) Fiscal&lt;/Caption&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nota_fiscal&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;124&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="nfse"&gt;&lt;Caption&gt;NFSe&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nfse&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;64&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="data_emissao"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Data Emissão&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_emissao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="semana"&gt;&lt;Caption&gt;Semana&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;semana&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Width&gt;57&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="parcela"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Parcela&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="parceiro_negocio"&gt;&lt;Caption&gt;Cliente&lt;/Caption&gt;&lt;Key&gt;parceiro_negocio&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="logradouro"&gt;&lt;Caption&gt;Logradouro&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;logradouro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="numero"&gt;&lt;Caption&gt;Número&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Width&gt;59&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="cep"&gt;&lt;Caption&gt;CEP&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cep&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Width&gt;62&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="complemento"&gt;&lt;Caption&gt;Complemento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;complemento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="setor"&gt;&lt;Caption&gt;Setor&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;setor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="codigo_consultora"&gt;&lt;Caption&gt;Código Consultora&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_consultora&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;82&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column14&gt;&lt;Column15 ID="telefone"&gt;&lt;Caption&gt;Telefone&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="telefone2"&gt;&lt;Caption&gt;Telefone 2&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;75&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column16&gt;&lt;Column17 ID="telefone_recado"&gt;&lt;Caption&gt;Telefone 3&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone_recado&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;82&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column17&gt;&lt;Column18 ID="email"&gt;&lt;Caption&gt;E-mail&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;email&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;Width&gt;171&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column18&gt;&lt;Column19 ID="pagamento_vista"&gt;&lt;Caption&gt;Pagamento à Vista&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;pagamento_vista&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;72&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column19&gt;&lt;Column20 ID="descritivo"&gt;&lt;Caption&gt;Descritivo&lt;/Caption&gt;&lt;Key&gt;descritivo&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Width&gt;66&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column20&gt;&lt;Column21 ID="data_vencimento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;Info&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column21&gt;&lt;Column22 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;Info&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column22&gt;&lt;Column23 ID="juros"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Juros&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;juros&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column23&gt;&lt;Column24 ID="multa"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Multa&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;multa&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;84&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column24&gt;&lt;Column25 ID="desconto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Desconto&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;desconto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;25&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column25&gt;&lt;Column26 ID="data_pagamento"&gt;&lt;Caption&gt;Data Pagamento&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_pagamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;26&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column26&gt;&lt;Column27 ID="valor_pago"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;27&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column27&gt;&lt;Column28 ID="status"&gt;&lt;Key&gt;status&lt;/Key&gt;&lt;Position&gt;28&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column28&gt;&lt;Column29 ID="nosso_numero"&gt;&lt;Caption&gt;Nosso Número&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nosso_numero&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;29&lt;/Position&gt;&lt;Width&gt;123&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column29&gt;&lt;Column30 ID="status2"&gt;&lt;Caption&gt;Status&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;status2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;30&lt;/Position&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column30&gt;&lt;Column31 ID="codigo_titulo_capa"&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;31&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column31&gt;&lt;Column32 ID="tipo"&gt;&lt;Caption&gt;Tipo&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;tipo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;32&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column32&gt;&lt;/Columns&gt;&lt;AllowDelete&gt;False&lt;/AllowDelete&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;ColumnSets Collection="true" ElementName="ColumnSet"&gt;&lt;ColumnSet0 ID="ColumnSet1"&gt;&lt;Key&gt;ColumnSet1&lt;/Key&gt;&lt;ColumnCount&gt;7&lt;/ColumnCount&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;100&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;100&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;100&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;100&lt;/ColumnWidth5&gt;&lt;ColumnWidth6&gt;100&lt;/ColumnWidth6&gt;&lt;/ColumnSet0&gt;&lt;/ColumnSets&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatConditionAberto"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Gray&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionAberto&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;28&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatConditionPago"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionPago&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;28&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="FormatConditionParcialmentePago"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionParcialmentePago&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;28&lt;/ColumnIndex&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;Condition3 ID="FormatConditionCancelado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionCancelado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;28&lt;/ColumnIndex&gt;&lt;Value1&gt;4&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition3&gt;&lt;Condition4 ID="FormatConditionAlterarValor"&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;TargetColIndex&gt;22&lt;/TargetColIndex&gt;&lt;Key&gt;FormatConditionAlterarValor&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;27&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;GreaterThan&lt;/ConditionOperator&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition4&gt;&lt;Condition5 ID="FormatConditionAlterarDataVencimento"&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;TargetColIndex&gt;21&lt;/TargetColIndex&gt;&lt;Key&gt;FormatConditionAlterarDataVencimento&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;27&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;GreaterThan&lt;/ConditionOperator&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition5&gt;&lt;Condition6 ID="FormatConditionCartaoCredito"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;DeepPink&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionCartaoCredito&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;29&lt;/ColumnIndex&gt;&lt;Value1&gt;CARTÃO DE CRÉDITO&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition6&gt;&lt;Condition7 ID="FormatConditionCredito"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;DarkViolet&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionCredito&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;29&lt;/ColumnIndex&gt;&lt;Value1&gt;CRÉDITO&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition7&gt;&lt;Condition8 ID="FormatConditionPagamentoAntecipado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Goldenrod&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionPagamentoAntecipado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;29&lt;/ColumnIndex&gt;&lt;Value1&gt;PAGAMENTO ANTECIPADO&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition8&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;CustomGroups Collection="true" ElementName="CustomGroup"&gt;&lt;CustomGroup0 ID="CustomGroup0"&gt;&lt;CompositeColumnsLength&gt;1&lt;/CompositeColumnsLength&gt;&lt;CompositeColumn0&gt;8&lt;/CompositeColumn0&gt;&lt;CustomGroupType&gt;CompositeColumns&lt;/CustomGroupType&gt;&lt;Key&gt;CustomGroup1&lt;/Key&gt;&lt;HeaderCaption&gt;AMBIENTE - TIPO DOCUMENTO&lt;/HeaderCaption&gt;&lt;/CustomGroup0&gt;&lt;/CustomGroups&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdValoresAberto_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;AllowAddNew&gt;False&lt;/AllowAddNew&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="conta_bancaria"&gt;&lt;Caption&gt;Banco&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_bancaria&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;172&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="parceiro_negocio"&gt;&lt;Caption&gt;Parceiro de Negócio&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parceiro_negocio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;241&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="codigo_consultora"&gt;&lt;Caption&gt;Código Consultora&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_consultora&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;111&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="distrito"&gt;&lt;Caption&gt;Distrito&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;distrito&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column4&gt;&lt;Column5 ID="setor"&gt;&lt;Caption&gt;Setor&lt;/Caption&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;setor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;93&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="email"&gt;&lt;Caption&gt;Email&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;email&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;162&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="telefone"&gt;&lt;Caption&gt;Telefone&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;142&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="telefone2"&gt;&lt;Caption&gt;Telefone 2&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Width&gt;129&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="telefone_recado"&gt;&lt;Caption&gt;Telefone Recado&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone_recado&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;135&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="valor_pago"&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;94&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="valor_aberto"&gt;&lt;Caption&gt;Valor em Aberto&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_aberto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="valor_atraso"&gt;&lt;Caption&gt;Valor em Atraso&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_atraso&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="codigo_titulo_capa"&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="codigo_parceiro_negocio"&gt;&lt;Key&gt;codigo_parceiro_negocio&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;AllowDelete&gt;False&lt;/AllowDelete&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;ChildTables Collection="true" ElementName="Table"&gt;&lt;Table0 ID="children"&gt;&lt;Key&gt;children&lt;/Key&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="numero_documento"&gt;&lt;Caption&gt;Número Documento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="descritivo"&gt;&lt;Caption&gt;Descritivo&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descritivo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;367&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="numero_parcela"&gt;&lt;Caption&gt;Número Parcela&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column2&gt;&lt;Column3 ID="data_vencimento"&gt;&lt;Caption&gt;Data de Vencimento&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;144&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="valor_parcela"&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column4&gt;&lt;Column5 ID="valor_aberto"&gt;&lt;Caption&gt;Valor Aberto&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_aberto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column5&gt;&lt;Column6 ID="valor_atraso"&gt;&lt;Caption&gt;Valor Atraso&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_atraso&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column6&gt;&lt;Column7 ID="valor_pago"&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;FormatString&gt;R$ 0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column7&gt;&lt;Column8 ID="codigo_titulo_capa"&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column8&gt;&lt;Column9 ID="codigo_parceiro_negocio"&gt;&lt;Key&gt;codigo_parceiro_negocio&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column9&gt;&lt;/Columns&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatConditionAberto"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionAberto&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;5&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;NotEqual&lt;/ConditionOperator&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatConditionAtrasado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionAtrasado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;6&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;NotEqual&lt;/ConditionOperator&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="FormatConditionPago"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionPago&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;7&lt;/ColumnIndex&gt;&lt;ValueColumnIndex1&gt;4&lt;/ValueColumnIndex1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RowFormatStyle&gt;&lt;BackColor&gt;White&lt;/BackColor&gt;&lt;/RowFormatStyle&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;ColumnSets Collection="true" ElementName="ColumnSet"&gt;&lt;ColumnSet0 ID="ColumnSet1"&gt;&lt;Key&gt;ColumnSet1&lt;/Key&gt;&lt;ColumnCount&gt;7&lt;/ColumnCount&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;100&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;100&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;100&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;100&lt;/ColumnWidth5&gt;&lt;ColumnWidth6&gt;100&lt;/ColumnWidth6&gt;&lt;/ColumnSet0&gt;&lt;/ColumnSets&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;CustomGroups Collection="true" ElementName="CustomGroup"&gt;&lt;CustomGroup0 ID="CustomGroup0"&gt;&lt;CompositeColumnsLength&gt;1&lt;/CompositeColumnsLength&gt;&lt;CompositeColumn0&gt;10&lt;/CompositeColumn0&gt;&lt;CustomGroupType&gt;CompositeColumns&lt;/CustomGroupType&gt;&lt;Key&gt;CustomGroup1&lt;/Key&gt;&lt;HeaderCaption&gt;AMBIENTE - TIPO DOCUMENTO&lt;/HeaderCaption&gt;&lt;/CustomGroup0&gt;&lt;/CustomGroups&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdPercentuais_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;AllowAddNew&gt;False&lt;/AllowAddNew&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="tipo"&gt;&lt;Caption&gt;Descritivo&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;tipo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;310&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="quantidade"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column1&gt;&lt;Column2 ID="percentual_qtd"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Percentual Qtd.&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;percentual_qtd&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="percentual_valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Percentual Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;percentual_valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column4&gt;&lt;/Columns&gt;&lt;AllowDelete&gt;False&lt;/AllowDelete&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;ColumnSets Collection="true" ElementName="ColumnSet"&gt;&lt;ColumnSet0 ID="ColumnSet1"&gt;&lt;Key&gt;ColumnSet1&lt;/Key&gt;&lt;ColumnCount&gt;7&lt;/ColumnCount&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ColumnWidth0&gt;100&lt;/ColumnWidth0&gt;&lt;ColumnWidth1&gt;100&lt;/ColumnWidth1&gt;&lt;ColumnWidth2&gt;100&lt;/ColumnWidth2&gt;&lt;ColumnWidth3&gt;100&lt;/ColumnWidth3&gt;&lt;ColumnWidth4&gt;100&lt;/ColumnWidth4&gt;&lt;ColumnWidth5&gt;100&lt;/ColumnWidth5&gt;&lt;ColumnWidth6&gt;100&lt;/ColumnWidth6&gt;&lt;/ColumnSet0&gt;&lt;/ColumnSets&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;CustomGroups Collection="true" ElementName="CustomGroup"&gt;&lt;CustomGroup0 ID="CustomGroup0"&gt;&lt;CustomGroupType&gt;CompositeColumns&lt;/CustomGroupType&gt;&lt;Key&gt;CustomGroup1&lt;/Key&gt;&lt;HeaderCaption&gt;AMBIENTE - TIPO DOCUMENTO&lt;/HeaderCaption&gt;&lt;/CustomGroup0&gt;&lt;/CustomGroups&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnCadastrarSMS.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEwAQAIEAAMzMzIiFaWZmM////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEwAQ
+        AAAIXAAHCBwQoKBBgwMTDiyokGDDhAEABHgo4CFBABIVCqj4MGLGgRs5NvQ4UWDIkyIvfkR5EiLGkgNY
+        bnTJEOTMji81pnT5MeHOhTkXjjwYVOBBhDQtKq2ptGPTAQEBADs=
+</value>
+  </data>
+  <data name="grdDuplicata_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="pago"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Pago&lt;/Caption&gt;&lt;CellToolTipText&gt;Marque as duplicatas que já estão pagas.&lt;/CellToolTipText&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;36&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="data_vencimento"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;00/00/0000&lt;/InputMask&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;93&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column1&gt;&lt;Column2 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number3&lt;/InputMask&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;UpDownMaximum&gt;366&lt;/UpDownMaximum&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_pago"&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;TotalRowFormatStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/TotalRowFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdServico_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAA55JREFUOE8dU3tMU2cUP723D+7tvW0v1FbKYzwal6ESfPyxkEmYG5NMErFmiX8M
+        FJL5IMYx7PARw5Jlmck2o4tzxRbGo9CWQks7oKsa40QFZ1x8bEKqEV2dDhQ1Plin2Tw7n7n3fPd85/t+
+        5/y+33cumCEdzLwFQKMHbf58ABMAWFUgpgHYyW3OW6wNl67tD71euTeybK26gmKlIMICxQQ8+VCoy6Wp
+        HnQSIQlELgDl02sBCsgd2lBzqFlnwAPpefht9qLxwQ/q7IspbiRTDAIrKIKJlyEnn+rJhKIViRLItOGf
+        C4Pv4k9teK5+Nba+MQ9dJfnYZLc9db69oipTy4Ga9oDCCZBjtjIXgAMQCKnXAEydbTc8O3Poxh13HeKV
+        I/jC8xEeLlNw20IZa5cVNBtou6imgvSC2SiBoFaBLUOALFoxUyx10dP+98+7MNlRiU/872Oqfx3i6E4M
+        7V71W1WRUWuh8lrGgVMRZUENEilSqPDs+PDvRF/1/WOf4rWuVfh46D1MepfgdHglXgusSU0MOpcvymDM
+        mWSkAacjJCWRyVjll5Ph+cnIjvvPTzXgg6FKvOkvxtl4Gd4aqcDESE1jLh2PCSiSSaDQqBPAaBLBQsn+
+        HO+Fx2f2D80Ob8brHSvwUawCZ2LlmIi8hVdHHCdG+zdwVjpzLuHSiH6G1kYJeBFESXil+u0x96bn57/E
+        mR/X49wxB85EV+Jfx6vxcrj60fWze7IVYmmla7aZDKAj+iLjrNKzgehTD0xfaEucdlUh/voJ3o2upm8D
+        Th2tw4njzvUMXJSneSW6mh6ZywBFk8VmRpAMMiQnT8G9372p1JWvERNf4Nz4xzgRqsGpk5/5X6MDs/7S
+        k1xZlhwQeAWUtEwQVUw1FS1R9su/DFv+uNSLOD2AL298jzNjn+PcpOf2eGQfEQZYkG0DDdFWkXTM0iUb
+        8SDhQCOAWstDeWnR8s0flmFirA3x4cn/cHbU/+Lu6QKmDVOcpy4zSlYwyja6djOI9O+wGPAaGojB0pJC
+        hz1Hj++8WRB9mDxfzCibqE8MdG1pHAfz0jMpomMVyTgGAVkkPxDsgM5ul72pqWHXjsat+4K93bUhv39j
+        tD+0Jdjb1+g+7Gk84nJv6erybozHY7X+gLc60Octj8UG7D09rUDg77jBaE9xW7vL4fP56n3e4Ha3q9sZ
+        8A23dHeGWgaCIy0dP3hb4vG488DBr7ZHon31voDH0dr6TUko3Mn9D36HSenjDROAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdServico_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="servico"&gt;&lt;Caption&gt;Serviço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;servico&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;398&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;135&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="observacao"&gt;&lt;Caption&gt;Observação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;observacao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;505&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="codigo"&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column5&gt;&lt;Column6 ID="codigo_ordem_servico"&gt;&lt;Key&gt;codigo_ordem_servico&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column6&gt;&lt;Column7 ID="codigo_servico"&gt;&lt;Key&gt;codigo_servico&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="Orçamento"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Orçamento&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Pedido Venda"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Pedido Venda&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="Cancelado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Cancelado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;Condition3 ID="Parcialmente Vendido"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Peru&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Parcialmente Vendido&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;4&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition3&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RepeatHeaders&gt;False&lt;/RepeatHeaders&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderWidth&gt;35&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnExcluirServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEQAPAIYAAL8ZBMCUk7VpZtTBwslKOsSjodB5cMkqGeXX1uB4bthVQtpnV/CSg9QTANKrqNcv
+        FsVhVeLb29JlWffJwbMdE8GPjNqFgv34+d+Sh95KNOFBK+O7uOVcSciwsc8mCt8hBufIxcQ5KOZYQu2V
+        jMd0bcB5ePOPf94xGdaDguVzY91lVdMkCtRwZc8bANRNO/LNyeipoeBOOPrY1MkhB9GCedq/vPWelMyZ
+        met/bcqNies0Ftqknejm5u5UPcwwG+AtE8y2t+BSPMISAM9NPt5zY/SUhf/Iw+aGe+qSiOdiUMw5JfFx
+        XObMyc4pEeZ7a75oYdjFxNR9c9JpW8i1tu6ajsJ3cd5KQsQXA////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        FABYACwAAAAAEQAPAAAIngCxTHBCBQSWgwgPXjCSQEANJzgYMICR8KAMGwYKYOHhAEMRE0tSIEBogkOV
+        ihFupOihQwOIFxlWVKiIEIqEDw18HKDQgWbFHFeEANDoM+GCGQdWuCiK0EULAlOifJDCVEELJUAO0vix
+        w6cKD00CJGSRgeaRJiue0AzComKQByF8MrEy8uCIGA8gFEVhASESEQ9IMC2BcEOSIQOYIgwIADs=
+</value>
+  </data>
+  <data name="btnInserirServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eAgAAAAAAADYAAAAoAAAADgAAAA4AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA5MPDwGhg
+        sFhQoFBQoFBQoFBQkEhQkEhAkEhAgEBAgDhAgDhAcDhAcDgwAADQaHDwkJDggICwSCBAMCDAuLDAuLDQ
+        wMDQyMBQUFCgQDCgQDCgODBwOEAAANBwcP+YoPCIgOCAgHBYUEBAMJB4cPDg4PDo4JCAcKBAMKBAQKBA
+        MIA4QAAA0Hhw/6Cg8JCQ8IiAcFhQAAAAQEAw8NjQ8ODQgHhgsEhAsEhAoEBAgEBAAADQeID/qLD/oKDw
+        kJBwWFBwWFBwWFBwWFBwYFCAaGDAWFCwUFCwSECAQEAAAOCAgP+wsP+wsP+goPCQkPCIgOCAgOB4gNBw
+        cNBocMBgYMBYULBQUJBIQAAA4IiQ/7jA/7iw0GBgwGBQwFhQwFBAsFAwsEgwoEAgoDgQwGBgwFhQkEhA
+        AADgkJD/wMDQaGD/////////+PDw8PDw6ODw2NDg0MDgyMCgOBDAYGCQSFAAAOCYoP/AwNBwcP//////
+        ///////48PDw8PDo4PDY0ODQwKBAINBoYKBQUAAA8KCg/8DA4Hhw//////////////////jw8PDw8Ojg
+        8NjQsEgw0HBwoFBQAADwqKD/wMDggID/////////////////////+PDw8PDw6OCwUDDgeICgUFAAAPCw
+        sP/AwPCIkP/////////////////////////48PDw8MBQQGAwMLBYUAAA8LCw/8DA/5CQ////////////
+        //////////////////jwwFhQsFhgsFhgAADwuLDwuLDwsLDwsLDwqLDwoKDgmKDgkJDgkJDgiJDggIDQ
+        eIDQeHDQcHAAAA==
+</value>
+  </data>
+  <data name="grdArquivos_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgdJREFUOE9j
+        IAQWS0iwbVZUXL1bTa1mh6IiC1SYeLDOy2vyLCGh/4tERP5vVlA4flRPTwUqRRi8PTPB5eKJnf+3VlX9
+        nyEm9n+esPD/1VJSn7cqKvpAleAGP8418309UXD37R6P/0/OdP+/unfP/8VmZv9BrlkoIlIGVYYbfD1Z
+        PPf9Pp//L7do/3+6RvD/kz1B/6+e2fN/Y1bW5RmCgmxQZdjB15MlAR8Ohv1/tc3o/4tNKv+frZcAsg3/
+        P16v+P3E/iUmUGXYAdBmiU+HY1+/3mb8/81OG6Bmyf9vdlgCDVIFukSgAKoMO/h2sojh05HEza93mP9/
+        u9sZbOvr7Sb/Qfzn62X2Pl3DxwRVih18OpKU9naXI9jG9/v8wZrf7fUEhcP7Z+ulZKDKcIN3J9tvvt7t
+        +v/z0TSgC5z+fzgQAvbGy83qEVAluMH7czMY3l2Y9f3DtaX/P55v+//xUNT/9/tBrjBdDlWCH7y/OFfs
+        w5VF/z/eWvf/88Nd/7882PD//ZHox8DAFIAqwQ/MjLRN0mK9/98+ufT/l6eH/n59fWb5t/eXlaDShIG6
+        unqQvLz8f1sr441fnh/VgwoTBkuXLgVhlby8vIri4uJ2IDsOiBOAOAOIC6AYxAaJgeQCgNgBiFWAGGwA
+        ExDrAXEQECcBcR4QlwBxHRoGiYHkQGpAag2WLl3KBADL7zgmiTT+3QAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdArquivos_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIYAAFdXV6O95ZmZmYl1c8qwidfy/9aDRM7O4nd3d6zf/6h2c56x0v/MjHZ2kOr3/46H
+        qsLx/46ozv+4Uq7H4M+MWP/YpaTP9YaavNb//4GFn2ZmZnJ0i/f//4yMjLzv/6nP8bq82M32///jvWFh
+        e4GUt8La76urq4GBgdTQyZmyzN3l8bnm/4qTuVtbX4J9mNz//+z//8XF3J644KGhod+IQKd5ecz//6bJ
+        77O94JOszODv9f///4yet8T3/46JreX//7Dj/6S00qXW9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        FAA7ACwAAAAAEAAQAAAIrwB3CBy4I8aCCDJkdCDIEIQKByE8QLDAgqHAGCV2OPCQAIiHDw0s4ghRYAWE
+        Hih7kFhIMECIFR5sYJiJIYcGhi4T9MDwoyeGFAAY4oAApMcLGBw4vOARlOCBGyd5ctihY8TNgRVQ+Piw
+        c6aODABY7mAggUKHDRdSTAiyIexAsgZquDgxQwMAABrEVpAQ10cLARYFiuBbwy+CwAIJ0FBgGLFAEwMe
+        tDjsWGAHAJQrBwQAOw==
+</value>
+  </data>
+  <data name="grdArquivos_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAedJREFUOE/V
+        kM1LVGEUxu/foIHu2hgtJCNooUUhBEVIZWoWRTHVQiUCQzI1vZqKmkZgYRAUVptWthEqiCj62kx+NGiN
+        5ujojJZ3cGa83hlnaub+PI7CvNt2+cKzOu/5Pc9ztP/juXq2lbm6M8v/SbKzua5pvldlWP4+4A0kX0Ni
+        EP4OQPw5xJ5B9BFEHoDVK7MBoot9+F4Ws7muaWF3GyueDpY9nfLhBZh3IdQOSzfBuAa/K2HBIZB7WL4e
+        wiMOwu5mFdAKq/1EvTqh8QZxfioLl2CuBLxHYfoQrNyWlN2Y384JtFoAugpoEdc7EO4i5q1hafgKduwh
+        TBXA9xyZtWJOt2AOHd8Az18QQJMKaJa44hyoJTF/FePLRQLOSuxVuYt5S6rp/Hp7gqRXEs0WS6oiATSq
+        AF16VmAvXMb4WIodfUzC0DE+nZZK1UTGzpI0ewm8kypTB+BngQAaVEAT+E4R/HyYP6H7qY7rh7P9DuLu
+        kzIrT90jvthO6H2e1NopgHoV0Ijl3E9kVo65fu25Uol5DGaOgKdQHPfB5N6Us+W5TuRDlgDq0gDDWUVw
+        tAr8ZyTiQfmYDxN74EeuuO2Ase3gyobRDHDnEhw6T+BrRRow+WR3qtOG6hXVKbqhqJaJ/l1pwFZ+mrYG
+        /yLfOjnViDgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="grdArquivos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;8&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="visualizar"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;8&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="email"&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column3.Image" /&gt;&lt;Key&gt;email&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;8&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="descricao"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;66&lt;/Width&gt;&lt;TotalFormatString&gt;Qtd: 00&lt;/TotalFormatString&gt;&lt;/Column4&gt;&lt;Column5 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar o arquivo&lt;/CellToolTipText&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="codigo"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;FormatString&gt;0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;97&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="codigo_ordem_servico"&gt;&lt;Key&gt;codigo_ordem_servico&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdEvento_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAA55JREFUOE8dU3tMU2cUP723D+7tvW0v1FbKYzwal6ESfPyxkEmYG5NMErFmiX8M
+        FJL5IMYx7PARw5Jlmck2o4tzxRbGo9CWQks7oKsa40QFZ1x8bEKqEV2dDhQ1Plin2Tw7n7n3fPd85/t+
+        5/y+33cumCEdzLwFQKMHbf58ABMAWFUgpgHYyW3OW6wNl67tD71euTeybK26gmKlIMICxQQ8+VCoy6Wp
+        HnQSIQlELgDl02sBCsgd2lBzqFlnwAPpefht9qLxwQ/q7IspbiRTDAIrKIKJlyEnn+rJhKIViRLItOGf
+        C4Pv4k9teK5+Nba+MQ9dJfnYZLc9db69oipTy4Ga9oDCCZBjtjIXgAMQCKnXAEydbTc8O3Poxh13HeKV
+        I/jC8xEeLlNw20IZa5cVNBtou6imgvSC2SiBoFaBLUOALFoxUyx10dP+98+7MNlRiU/872Oqfx3i6E4M
+        7V71W1WRUWuh8lrGgVMRZUENEilSqPDs+PDvRF/1/WOf4rWuVfh46D1MepfgdHglXgusSU0MOpcvymDM
+        mWSkAacjJCWRyVjll5Ph+cnIjvvPTzXgg6FKvOkvxtl4Gd4aqcDESE1jLh2PCSiSSaDQqBPAaBLBQsn+
+        HO+Fx2f2D80Ob8brHSvwUawCZ2LlmIi8hVdHHCdG+zdwVjpzLuHSiH6G1kYJeBFESXil+u0x96bn57/E
+        mR/X49wxB85EV+Jfx6vxcrj60fWze7IVYmmla7aZDKAj+iLjrNKzgehTD0xfaEucdlUh/voJ3o2upm8D
+        Th2tw4njzvUMXJSneSW6mh6ZywBFk8VmRpAMMiQnT8G9372p1JWvERNf4Nz4xzgRqsGpk5/5X6MDs/7S
+        k1xZlhwQeAWUtEwQVUw1FS1R9su/DFv+uNSLOD2AL298jzNjn+PcpOf2eGQfEQZYkG0DDdFWkXTM0iUb
+        8SDhQCOAWstDeWnR8s0flmFirA3x4cn/cHbU/+Lu6QKmDVOcpy4zSlYwyja6djOI9O+wGPAaGojB0pJC
+        hz1Hj++8WRB9mDxfzCibqE8MdG1pHAfz0jMpomMVyTgGAVkkPxDsgM5ul72pqWHXjsat+4K93bUhv39j
+        tD+0Jdjb1+g+7Gk84nJv6erybozHY7X+gLc60Octj8UG7D09rUDg77jBaE9xW7vL4fP56n3e4Ha3q9sZ
+        8A23dHeGWgaCIy0dP3hb4vG488DBr7ZHon31voDH0dr6TUko3Mn9D36HSenjDROAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdEvento_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="evento"&gt;&lt;Caption&gt;Evento&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;evento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;494&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="observacao"&gt;&lt;Caption&gt;Observação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;observacao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;536&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="codigo"&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column4&gt;&lt;Column5 ID="codigo_ordem_servico"&gt;&lt;Key&gt;codigo_ordem_servico&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column5&gt;&lt;Column6 ID="codigo_evento"&gt;&lt;Key&gt;codigo_evento&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column6&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="Orçamento"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Orçamento&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Pedido Venda"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Pedido Venda&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="Cancelado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Cancelado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;Condition3 ID="Parcialmente Vendido"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Peru&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Parcialmente Vendido&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;4&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition3&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RepeatHeaders&gt;False&lt;/RepeatHeaders&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderWidth&gt;35&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnExcluirEvento.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEQAPAIYAAL8ZBMCUk7VpZtTBwslKOsSjodB5cMkqGeXX1uB4bthVQtpnV/CSg9QTANKrqNcv
+        FsVhVeLb29JlWffJwbMdE8GPjNqFgv34+d+Sh95KNOFBK+O7uOVcSciwsc8mCt8hBufIxcQ5KOZYQu2V
+        jMd0bcB5ePOPf94xGdaDguVzY91lVdMkCtRwZc8bANRNO/LNyeipoeBOOPrY1MkhB9GCedq/vPWelMyZ
+        met/bcqNies0Ftqknejm5u5UPcwwG+AtE8y2t+BSPMISAM9NPt5zY/SUhf/Iw+aGe+qSiOdiUMw5JfFx
+        XObMyc4pEeZ7a75oYdjFxNR9c9JpW8i1tu6ajsJ3cd5KQsQXA////wAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACH/C05FVFNDQVBFMi4wAwEBAAAh+QQB
+        FABYACwAAAAAEQAPAAAIngCxTHBCBQSWgwgPXjCSQEANJzgYMICR8KAMGwYKYOHhAEMRE0tSIEBogkOV
+        ihFupOihQwOIFxlWVKiIEIqEDw18HKDQgWbFHFeEANDoM+GCGQdWuCiK0EULAlOifJDCVEELJUAO0vix
+        w6cKD00CJGSRgeaRJiue0AzComKQByF8MrEy8uCIGA8gFEVhASESEQ9IMC2BcEOSIQOYIgwIADs=
+</value>
+  </data>
+  <data name="btnInserirEvento.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        Qk2eAgAAAAAAADYAAAAoAAAADgAAAA4AAAABABgAAAAAAAAAAADEDgAAxA4AAAAAAAAAAAAA5MPDwGhg
+        sFhQoFBQoFBQoFBQkEhQkEhAkEhAgEBAgDhAgDhAcDhAcDgwAADQaHDwkJDggICwSCBAMCDAuLDAuLDQ
+        wMDQyMBQUFCgQDCgQDCgODBwOEAAANBwcP+YoPCIgOCAgHBYUEBAMJB4cPDg4PDo4JCAcKBAMKBAQKBA
+        MIA4QAAA0Hhw/6Cg8JCQ8IiAcFhQAAAAQEAw8NjQ8ODQgHhgsEhAsEhAoEBAgEBAAADQeID/qLD/oKDw
+        kJBwWFBwWFBwWFBwWFBwYFCAaGDAWFCwUFCwSECAQEAAAOCAgP+wsP+wsP+goPCQkPCIgOCAgOB4gNBw
+        cNBocMBgYMBYULBQUJBIQAAA4IiQ/7jA/7iw0GBgwGBQwFhQwFBAsFAwsEgwoEAgoDgQwGBgwFhQkEhA
+        AADgkJD/wMDQaGD/////////+PDw8PDw6ODw2NDg0MDgyMCgOBDAYGCQSFAAAOCYoP/AwNBwcP//////
+        ///////48PDw8PDo4PDY0ODQwKBAINBoYKBQUAAA8KCg/8DA4Hhw//////////////////jw8PDw8Ojg
+        8NjQsEgw0HBwoFBQAADwqKD/wMDggID/////////////////////+PDw8PDw6OCwUDDgeICgUFAAAPCw
+        sP/AwPCIkP/////////////////////////48PDw8MBQQGAwMLBYUAAA8LCw/8DA/5CQ////////////
+        //////////////////jwwFhQsFhgsFhgAADwuLDwuLDwsLDwsLDwqLDwoKDgmKDgkJDgkJDgiJDggIDQ
+        eIDQeHDQcHAAAA==
+</value>
+  </data>
+  <data name="GridEX2_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAA55JREFUOE8dU3tMU2cUP723D+7tvW0v1FbKYzwal6ESfPyxkEmYG5NMErFmiX8M
+        FJL5IMYx7PARw5Jlmck2o4tzxRbGo9CWQks7oKsa40QFZ1x8bEKqEV2dDhQ1Plin2Tw7n7n3fPd85/t+
+        5/y+33cumCEdzLwFQKMHbf58ABMAWFUgpgHYyW3OW6wNl67tD71euTeybK26gmKlIMICxQQ8+VCoy6Wp
+        HnQSIQlELgDl02sBCsgd2lBzqFlnwAPpefht9qLxwQ/q7IspbiRTDAIrKIKJlyEnn+rJhKIViRLItOGf
+        C4Pv4k9teK5+Nba+MQ9dJfnYZLc9db69oipTy4Ga9oDCCZBjtjIXgAMQCKnXAEydbTc8O3Poxh13HeKV
+        I/jC8xEeLlNw20IZa5cVNBtou6imgvSC2SiBoFaBLUOALFoxUyx10dP+98+7MNlRiU/872Oqfx3i6E4M
+        7V71W1WRUWuh8lrGgVMRZUENEilSqPDs+PDvRF/1/WOf4rWuVfh46D1MepfgdHglXgusSU0MOpcvymDM
+        mWSkAacjJCWRyVjll5Ph+cnIjvvPTzXgg6FKvOkvxtl4Gd4aqcDESE1jLh2PCSiSSaDQqBPAaBLBQsn+
+        HO+Fx2f2D80Ob8brHSvwUawCZ2LlmIi8hVdHHCdG+zdwVjpzLuHSiH6G1kYJeBFESXil+u0x96bn57/E
+        mR/X49wxB85EV+Jfx6vxcrj60fWze7IVYmmla7aZDKAj+iLjrNKzgehTD0xfaEucdlUh/voJ3o2upm8D
+        Th2tw4njzvUMXJSneSW6mh6ZywBFk8VmRpAMMiQnT8G9372p1JWvERNf4Nz4xzgRqsGpk5/5X6MDs/7S
+        k1xZlhwQeAWUtEwQVUw1FS1R9su/DFv+uNSLOD2AL298jzNjn+PcpOf2eGQfEQZYkG0DDdFWkXTM0iUb
+        8SDhQCOAWstDeWnR8s0flmFirA3x4cn/cHbU/+Lu6QKmDVOcpy4zSlYwyja6djOI9O+wGPAaGojB0pJC
+        hz1Hj++8WRB9mDxfzCibqE8MdG1pHAfz0jMpomMVyTgGAVkkPxDsgM5ul72pqWHXjsat+4K93bUhv39j
+        tD+0Jdjb1+g+7Gk84nJv6erybozHY7X+gLc60Octj8UG7D09rUDg77jBaE9xW7vL4fP56n3e4Ha3q9sZ
+        8A23dHeGWgaCIy0dP3hb4vG488DBr7ZHon31voDH0dr6TUko3Mn9D36HSenjDROAAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="GridEX2_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="servico"&gt;&lt;Caption&gt;Serviço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;servico&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;398&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;135&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="observacao"&gt;&lt;Caption&gt;Observação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;observacao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;505&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="codigo"&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column5&gt;&lt;Column6 ID="codigo_ordem_servico"&gt;&lt;Key&gt;codigo_ordem_servico&lt;/Key&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column6&gt;&lt;Column7 ID="codigo_servico"&gt;&lt;Key&gt;codigo_servico&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="Orçamento"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Orçamento&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Pedido Venda"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Pedido Venda&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="Cancelado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Cancelado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;Condition3 ID="Parcialmente Vendido"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Peru&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Parcialmente Vendido&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;2&lt;/ColumnIndex&gt;&lt;Value1&gt;4&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition3&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RepeatHeaders&gt;False&lt;/RepeatHeaders&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderWidth&gt;35&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnExcelGridServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnAgruparGridServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHDSURBVDhPY/j//z9FGKsgKZjBbNJdBvMp9wliu7kv
+        GOznvZwJxDHWM5+A9Rn2XCfeAMtpDxmAGs+A8YzHMQgDJt6ZCeScIRb33fr/H8yeeCcGbIBB19UzE+78
+        /d9++RcYt11C4NaLENxyAYErjnz/33z+13+QPiD2YNBsPHOm9+af/41nf/xvOPPjf82Jb/+zt3/8n7Lx
+        zf+IFU/+x6x59D9x/cP/cWvu/Y9dffe/2/TL/+PXP/4P0gfEHgzKFYdnKpUfOgPDHnNuPPBa+/yf9eIH
+        //1X3H9v0Xvupkbt0fMwebc1T/6DaKC+GPW6kwwMQA6DXNEeBum8ndrqNYfPWW358Ft5zfv/5tOvPQGK
+        rZLJ32UvU7CbX754L0jNGRAGisWA9IENkMrdwSCSsh6Eqw3m3H7Bs/nPf91lz94D+avEM7cIAzUwAA1g
+        EE3byCCaumEmEMeAxOAG8EYvg+FVqhs+fuPf/v+/ZMX+m3wxy+35Y1eAbIUbALUILAY3gCNkPgwfVd79
+        56/Mnv//uaKXngfy+WFyQJfgNoDFfxYMz2T2m3kGhIHsVraguQwwLJi4BrcB2NI3KRirICkYqyDx+D8D
+        AHJ1S44YUScxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridServico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHDSURBVDhPY/j//z9FGKsgKZjBbNJdBvMp9wliu7kv
+        GOznvZwJxDHWM5+A9Rn2XCfeAMtpDxmAGs+A8YzHMQgDJt6ZCeScIRb33fr/H8yeeCcGbIBB19UzE+78
+        /d9++RcYt11C4NaLENxyAYErjnz/33z+13+QPiD2YNBsPHOm9+af/41nf/xvOPPjf82Jb/+zt3/8n7Lx
+        zf+IFU/+x6x59D9x/cP/cWvu/Y9dffe/2/TL/+PXP/4P0gfEHgzKFYdnKpUfOgPDHnNuPPBa+/yf9eIH
+        //1X3H9v0Xvupkbt0fMwebc1T/6DaKC+GPW6kwwMQA6DXNEeBum8ndrqNYfPWW358Ft5zfv/5tOvPQGK
+        rZLJ32UvU7CbX754L0jNGRAGisWA9IENkMrdwSCSsh6Eqw3m3H7Bs/nPf91lz94D+avEM7cIAzUwAA1g
+        EE3byCCaumEmEMeAxOAG8EYvg+FVqhs+fuPf/v+/ZMX+m3wxy+35Y1eAbIUbALUILAY3gCNkPgwfVd79
+        56/Mnv//uaKXngfy+WFyQJfgNoDFfxYMz2T2m3kGhIHsVraguQwwLJi4BrcB2NI3KRirICkYqyDx+D8D
+        AHJ1S44YUScxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="Button4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>82</value>
+  </metadata>
+</root>

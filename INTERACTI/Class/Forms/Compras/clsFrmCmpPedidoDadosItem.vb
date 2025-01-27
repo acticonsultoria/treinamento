@@ -1,0 +1,142 @@
+Imports System.Data
+Imports System.Data.SqlClient
+Imports Janus.Windows.GridEX
+Imports INTERACTI.SQLHelper
+
+Public Class clsFrmCmpPedidoDadosItem
+
+#Region "::: FUNCTION / SUB :::"
+
+    Public Sub LoadGridCompra(ByVal oGrid As GridEX, _
+                              ByVal lCodigoItem As Long, _
+                              ByVal sDataInicio As String, _
+                              ByVal sDataTermino As String)
+
+        'Variaveis Locais
+        Dim oSqlParameter(3) As SqlParameter
+        Dim oDataSet As DataSet
+
+        Try
+
+            'Seta Parametros - Código Item
+            oSqlParameter(0) = New SqlParameter
+            oSqlParameter(0).ParameterName = "codigo_item"
+            oSqlParameter(0).Direction = ParameterDirection.Input
+            oSqlParameter(0).SqlDbType = SqlDbType.BigInt
+            oSqlParameter(0).Value = lCodigoItem
+
+            'Seta Parametros - Código Empresa
+            oSqlParameter(1) = New SqlParameter
+            oSqlParameter(1).ParameterName = "codigo_empresa"
+            oSqlParameter(1).Direction = ParameterDirection.Input
+            oSqlParameter(1).SqlDbType = SqlDbType.SmallInt
+            oSqlParameter(1).Value = goUsuario.iEmpresa
+
+            'Seta Parametros - Data Início
+            oSqlParameter(2) = New SqlParameter
+            oSqlParameter(2).ParameterName = "data_inicio"
+            oSqlParameter(2).Direction = ParameterDirection.Input
+            oSqlParameter(2).SqlDbType = SqlDbType.Date
+            oSqlParameter(2).Value = sDataInicio
+
+            'Seta Parametros - Data Termino
+            oSqlParameter(3) = New SqlParameter
+            oSqlParameter(3).ParameterName = "data_termino"
+            oSqlParameter(3).Direction = ParameterDirection.Input
+            oSqlParameter(3).SqlDbType = SqlDbType.Date
+            oSqlParameter(3).Value = sDataTermino
+
+            'Executa Query
+            oDataSet = ExecuteDataset(goDatabase.sConnection, CommandType.StoredProcedure, "sp_select_compra_pedido_dados_compra_item", oSqlParameter)
+
+            With oGrid
+
+                .RootTable.Columns.Item("numero_documento").DataMember = "numero_documento"
+                .RootTable.Columns.Item("fornecedor").DataMember = "fornecedor"
+                .RootTable.Columns.Item("data").DataMember = "data"
+                .RootTable.Columns.Item("quantidade").DataMember = "quantidade"
+                .RootTable.Columns.Item("valor_unitario").DataMember = "valor_unitario"
+                .RootTable.Columns.Item("desconto").DataMember = "desconto"
+                .RootTable.Columns.Item("valor_total").DataMember = "valor_total"
+
+                .DataSource = oDataSet.DefaultViewManager
+                .DataMember = oDataSet.Tables(0).TableName
+
+            End With
+
+        Catch SqlEx As SqlException
+            Throw SqlEx
+        Catch ex As Exception
+            Throw ex
+        End Try
+
+    End Sub
+
+    Public Sub LoadGridVenda(ByVal oGrid As GridEX, _
+                             ByVal lCodigoItem As Long, _
+                             ByVal sDataInicio As String, _
+                             ByVal sDataTermino As String)
+
+        'Variaveis Locais
+        Dim oSqlParameter(3) As SqlParameter
+        Dim oDataSet As DataSet
+
+        Try
+
+            'Seta Parametros - Código Item
+            oSqlParameter(0) = New SqlParameter
+            oSqlParameter(0).ParameterName = "codigo_item"
+            oSqlParameter(0).Direction = ParameterDirection.Input
+            oSqlParameter(0).SqlDbType = SqlDbType.BigInt
+            oSqlParameter(0).Value = lCodigoItem
+
+            'Seta Parametros - Código Empresa
+            oSqlParameter(1) = New SqlParameter
+            oSqlParameter(1).ParameterName = "codigo_empresa"
+            oSqlParameter(1).Direction = ParameterDirection.Input
+            oSqlParameter(1).SqlDbType = SqlDbType.SmallInt
+            oSqlParameter(1).Value = goUsuario.iEmpresa
+
+            'Seta Parametros - Data Início
+            oSqlParameter(2) = New SqlParameter
+            oSqlParameter(2).ParameterName = "data_inicio"
+            oSqlParameter(2).Direction = ParameterDirection.Input
+            oSqlParameter(2).SqlDbType = SqlDbType.Date
+            oSqlParameter(2).Value = sDataInicio
+
+            'Seta Parametros - Data Termino
+            oSqlParameter(3) = New SqlParameter
+            oSqlParameter(3).ParameterName = "data_termino"
+            oSqlParameter(3).Direction = ParameterDirection.Input
+            oSqlParameter(3).SqlDbType = SqlDbType.Date
+            oSqlParameter(3).Value = sDataTermino
+
+            'Executa Query
+            oDataSet = ExecuteDataset(goDatabase.sConnection, CommandType.StoredProcedure, "sp_select_compra_pedido_dados_venda_item", oSqlParameter)
+
+            With oGrid
+
+                .RootTable.Columns.Item("numero_documento").DataMember = "numero_documento"
+                .RootTable.Columns.Item("cliente").DataMember = "cliente"
+                .RootTable.Columns.Item("data").DataMember = "data"
+                .RootTable.Columns.Item("quantidade").DataMember = "quantidade"
+                .RootTable.Columns.Item("valor_unitario").DataMember = "valor_unitario"
+                .RootTable.Columns.Item("desconto").DataMember = "desconto"
+                .RootTable.Columns.Item("valor_total").DataMember = "valor_total"
+
+                .DataSource = oDataSet.DefaultViewManager
+                .DataMember = oDataSet.Tables(0).TableName
+
+            End With
+
+        Catch SqlEx As SqlException
+            Throw SqlEx
+        Catch ex As Exception
+            Throw ex
+        End Try
+
+    End Sub
+
+#End Region
+
+End Class

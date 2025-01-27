@@ -1,0 +1,3657 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 566</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLegendaBaixado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLegendaBaixado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLegendaBaixado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>93, 21</value>
+  </data>
+  <data name="lblLegendaBaixado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>46, 14</value>
+  </data>
+  <data name="lblLegendaBaixado.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblLegendaBaixado.Text" xml:space="preserve">
+    <value>Baixado</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaBaixado.Name" xml:space="preserve">
+    <value>lblLegendaBaixado</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaBaixado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaBaixado.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaBaixado.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="picLegendaBaixado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picLegendaBaixado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>74, 21</value>
+  </data>
+  <data name="picLegendaBaixado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="picLegendaBaixado.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;picLegendaBaixado.Name" xml:space="preserve">
+    <value>picLegendaBaixado</value>
+  </data>
+  <data name="&gt;&gt;picLegendaBaixado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picLegendaBaixado.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;picLegendaBaixado.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblLegendaFechado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLegendaFechado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLegendaFechado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>163, 21</value>
+  </data>
+  <data name="lblLegendaFechado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>49, 14</value>
+  </data>
+  <data name="lblLegendaFechado.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblLegendaFechado.Text" xml:space="preserve">
+    <value>Fechado</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaFechado.Name" xml:space="preserve">
+    <value>lblLegendaFechado</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaFechado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaFechado.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaFechado.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="picLegendaFechado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picLegendaFechado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <data name="picLegendaFechado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="picLegendaFechado.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;picLegendaFechado.Name" xml:space="preserve">
+    <value>picLegendaFechado</value>
+  </data>
+  <data name="&gt;&gt;picLegendaFechado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picLegendaFechado.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;picLegendaFechado.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblLegendaAberto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLegendaAberto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLegendaAberto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>28, 21</value>
+  </data>
+  <data name="lblLegendaAberto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 14</value>
+  </data>
+  <data name="lblLegendaAberto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblLegendaAberto.Text" xml:space="preserve">
+    <value>Aberto</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaAberto.Name" xml:space="preserve">
+    <value>lblLegendaAberto</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaAberto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaAberto.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;lblLegendaAberto.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="picLegendaAberto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="picLegendaAberto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 21</value>
+  </data>
+  <data name="picLegendaAberto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 14</value>
+  </data>
+  <data name="picLegendaAberto.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;picLegendaAberto.Name" xml:space="preserve">
+    <value>picLegendaAberto</value>
+  </data>
+  <data name="&gt;&gt;picLegendaAberto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picLegendaAberto.Parent" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;picLegendaAberto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpLegenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="grpLegenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 51</value>
+  </data>
+  <data name="grpLegenda.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="grpLegenda.Text" xml:space="preserve">
+    <value>Legenda</value>
+  </data>
+  <data name="&gt;&gt;grpLegenda.Name" xml:space="preserve">
+    <value>grpLegenda</value>
+  </data>
+  <data name="&gt;&gt;grpLegenda.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpLegenda.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grpLegenda.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboStatusFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboStatusFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboStatusFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>408, 74</value>
+  </data>
+  <data name="cboStatusFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 20</value>
+  </data>
+  <data name="cboStatusFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cboStatusFiltro.Name" xml:space="preserve">
+    <value>cboStatusFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboStatusFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboStatusFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboStatusFiltro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStatusFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatusFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStatusFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 57</value>
+  </data>
+  <data name="lblStatusFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 14</value>
+  </data>
+  <data name="lblStatusFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblStatusFiltro.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="&gt;&gt;lblStatusFiltro.Name" xml:space="preserve">
+    <value>lblStatusFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblStatusFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatusFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblStatusFiltro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorioFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorioFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 74</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 20</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>cboModalidadeAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>142, 57</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 14</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorioFiltro.Text" xml:space="preserve">
+    <value>Modalidade:</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>lblModalidadeAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboTipoAtoConcessorioFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboTipoAtoConcessorioFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboTipoAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>294, 74</value>
+  </data>
+  <data name="cboTipoAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="cboTipoAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>cboTipoAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>292, 57</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 14</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblTipoAtoConcessorioFiltro.Text" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>lblTipoAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnFiltrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 71</value>
+  </data>
+  <data name="btnFiltrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnFiltrar.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnFiltrar.Text" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Name" xml:space="preserve">
+    <value>btnFiltrar</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDataVigenteFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataVigenteFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataVigenteFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblDataVigenteFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>72, 14</value>
+  </data>
+  <data name="lblDataVigenteFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDataVigenteFiltro.Text" xml:space="preserve">
+    <value>Data Vigente:</value>
+  </data>
+  <data name="&gt;&gt;lblDataVigenteFiltro.Name" xml:space="preserve">
+    <value>lblDataVigenteFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDataVigenteFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataVigenteFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDataVigenteFiltro.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="dtpDataVigenteFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="dtpDataVigenteFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="dtpDataVigenteFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtpDataVigenteFiltro.Name" xml:space="preserve">
+    <value>dtpDataVigenteFiltro</value>
+  </data>
+  <data name="&gt;&gt;dtpDataVigenteFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataVigenteFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;dtpDataVigenteFiltro.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtNumeroAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="txtNumeroAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="txtNumeroAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>txtNumeroAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNumeroAtoConcessorioFiltro.Text" xml:space="preserve">
+    <value>Nº Ato Concessório:</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorioFiltro.Name" xml:space="preserve">
+    <value>lblNumeroAtoConcessorioFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorioFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorioFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorioFiltro.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtDescricaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 34</value>
+  </data>
+  <data name="txtDescricaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>550, 20</value>
+  </data>
+  <data name="txtDescricaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Name" xml:space="preserve">
+    <value>txtDescricaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblDescricaoFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricaoFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="lblDescricaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDescricaoFiltro.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Name" xml:space="preserve">
+    <value>lblDescricaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="grpFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 104</value>
+  </data>
+  <data name="grpFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Name" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        vAAADrwBlbxySQAAA5tJREFUOE8lUm1MW2UUPrff9/b2i492FCsWcT/IHIuSGI0StvgxZRrsfmw/FlaJ
+        Lmh0QwdsP5T9MjNqZoYKFVqYtKNfY103Wh240YGRTDTR8SVi3QQTkSpqhkG3kONza27ee9973vOc85zn
+        eclEZrIIBaQRJDK7NhEVEFGpQGQhKsGntWyLLvlAfXxw8xOvx6vrNQ/j+H7kVlptZMSeXNpSMpBIktFK
+        pENAxkIdtYHIiW3Cu+/9Vp2JT9jK+ERp5URkj7eiEnGbkmZCiSKAbYJMzvIKIqs+z0CyE3gRrU0OPsoj
+        fs4cqOOOLcX8YdVd3OIuuXl0e80up15NIKh0kai8EC01+AFeB+pG7H+60mNeGzuZ/eFUI/P8R/xX3wvc
+        UWPl1zbL/HyVu82EdJ0BAKWT02wGZRXZHCLZMUkxYre+6g78PXqEF0JP8vLZOv4zsZt5rI0vtD4+5bnH
+        rCvSEhjgJYKHWdSShPldReq8hrdno/W54Vb+PriTf/t0Jy9E7uOl5A6eizyzPjd4uLoKTWwqAlxEtgi+
+        KKKIgtHp9ndnN2WHWnJrEy/zrxfr+EZsG/8+UsvXU4/xdHpfswOsFfqKA5Y8SpbIUmAkFxisjIdodfzd
+        Cz8PN/G1aC2vZJ4Cgx38Y+IRnkl5Ll0e3K9COtmLlAIa2FyCAqKJjFYZbhCtfu4/8M/kcV5M7eXlzLOc
+        TW/n3Gce/iZc98f1iTfuMKlhEgSSTXpIL0I/zEJGTI15HNAjN+mfH/Pt4o1rh/nGJ0/zrZlXOHvxOf42
+        fWivBWOW4WKoUURAd5vGDr3gHgkmkmQjZecztDTbv742/Q7zwpu8fvVVnk408Oz4sbANWulQQHH6bocb
+        d81KxbKLRBV4C/9fSLr69ZB9buY083KMNxY+4JUrx/jmlG/pcvotqwDknW4niBrwyPlVaHEBhcoGtUQ6
+        rZoerKms3u+t4akvuplzlzb4l9Hwv4uZcg3GExS3VCqymkvIIZWS3eAggw6NBRyqlQSc31vl9rjKJK59
+        qDy5uvjl1rxNcMYoa0hr1JO50IGIntRwX4u3ghElUAvFeqnv486KtkMvHj3S/NLx2ECwIRqPeOPJRNNA
+        LN7s6/I3B3p6m/z+Xu/w6EhDINxXH0tGa1PnoxXRfh9RINKlSqbCW8P+bk8iGG4cOB0/2NHT3xKID7V3
+        hc60x8Ln20OBUHsyca7lZOd7B0+dCzaGh4IeX+fb29Jn+lX/ARClSWbzrz0zAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAqNJREFUOE99
+        kN9PUmEcxr1uTZdJRdPWD8PNq9aF899oq6y1ao22toZztnWhs2U/hjnTRRKiJy1B5JwDyCgED5iWAUIi
+        IqElaoj4G0Vpq6706T2cCzPLZ3u2d+/7fT57vm/GHyoUi8WKgoICirdEIqHy809TeceOUwcOiijyfkYY
+        +7cypVJpYjW5jtXkBhLEy4kkovFFeIbDYKx9kMlka2Tuv5Aig9FEAgs7PB2bQ3jiG9z+z1hcTuwJKTaa
+        ujC3uAKlSg2L1QaaNaKjk0bbay1GxiKYnV/CDIHKSkt5yFkhti0CMJHaa7DZOfR9cIF50wM5pcOTVhpO
+        9zDCkShpNI8p4nPnS3hIrhAVVMyvsLaegtcfhMLIgfaGEUt+xwxxhycEpcmBfpcPg4ExlFc+BJ8RooLS
+        gAWyZyNthYLzgAl8gSEYgWFkgpy/ot42AMrsxNTMHJTql7sBrMGI0fEIyigjKuyDeND7CfK+IVQ7fbhj
+        deFSezekLxgyMwmtTr8bwBCAe2gUVxo0uKqz4xbdg9u8GQ43WScuaGy41kjDFwiDZgz/ALAG+EfHUaZo
+        x41WEypMHOTWfjyyOFHZ5cB10uxuM4vgGFmJzPIZISqomGZYTEzHUKPSorSZwXMn+QdvEKwvRP7ETe5Y
+        1Lfo8OPnL9KA3Q2oltdBb3HASyreb2hBbRsLy3sv3rr8UJl7ca9OjcnoLDY3N6GnmR2AfTmHj75Ttnam
+        G2hMdpi7HWh61Yl6tQZPmzSgtCwCwRBSqRS2trag09PbgP1Z2ebyqhp4/CF0dPXA3juAeDyOWCyGaDSa
+        Dvytdq2OBxSlATlHcj9W1apQ8fgZaAuH5EZqTy8sreBiyeUEiWamAUQSkThvMCtbxIlEhxQnTp6i9jI/
+        QzKFQjQj4zdekCRvETo4TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAqNJREFUOE99
+        kN9PUmEcxr1uTZdJRdPWD8PNq9aF899oq6y1ao22toZztnWhs2U/hjnTRRKiJy1B5JwDyCgED5iWAUIi
+        IqElaoj4G0Vpq6706T2cCzPLZ3u2d+/7fT57vm/GHyoUi8WKgoICirdEIqHy809TeceOUwcOiijyfkYY
+        +7cypVJpYjW5jtXkBhLEy4kkovFFeIbDYKx9kMlka2Tuv5Aig9FEAgs7PB2bQ3jiG9z+z1hcTuwJKTaa
+        ujC3uAKlSg2L1QaaNaKjk0bbay1GxiKYnV/CDIHKSkt5yFkhti0CMJHaa7DZOfR9cIF50wM5pcOTVhpO
+        9zDCkShpNI8p4nPnS3hIrhAVVMyvsLaegtcfhMLIgfaGEUt+xwxxhycEpcmBfpcPg4ExlFc+BJ8RooLS
+        gAWyZyNthYLzgAl8gSEYgWFkgpy/ot42AMrsxNTMHJTql7sBrMGI0fEIyigjKuyDeND7CfK+IVQ7fbhj
+        deFSezekLxgyMwmtTr8bwBCAe2gUVxo0uKqz4xbdg9u8GQ43WScuaGy41kjDFwiDZgz/ALAG+EfHUaZo
+        x41WEypMHOTWfjyyOFHZ5cB10uxuM4vgGFmJzPIZISqomGZYTEzHUKPSorSZwXMn+QdvEKwvRP7ETe5Y
+        1Lfo8OPnL9KA3Q2oltdBb3HASyreb2hBbRsLy3sv3rr8UJl7ca9OjcnoLDY3N6GnmR2AfTmHj75Ttnam
+        G2hMdpi7HWh61Yl6tQZPmzSgtCwCwRBSqRS2trag09PbgP1Z2ebyqhp4/CF0dPXA3juAeDyOWCyGaDSa
+        Dvytdq2OBxSlATlHcj9W1apQ8fgZaAuH5EZqTy8sreBiyeUEiWamAUQSkThvMCtbxIlEhxQnTp6i9jI/
+        QzKFQjQj4zdekCRvETo4TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_3.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAqNJREFUOE99
+        kN9PUmEcxr1uTZdJRdPWD8PNq9aF899oq6y1ao22toZztnWhs2U/hjnTRRKiJy1B5JwDyCgED5iWAUIi
+        IqElaoj4G0Vpq6706T2cCzPLZ3u2d+/7fT57vm/GHyoUi8WKgoICirdEIqHy809TeceOUwcOiijyfkYY
+        +7cypVJpYjW5jtXkBhLEy4kkovFFeIbDYKx9kMlka2Tuv5Aig9FEAgs7PB2bQ3jiG9z+z1hcTuwJKTaa
+        ujC3uAKlSg2L1QaaNaKjk0bbay1GxiKYnV/CDIHKSkt5yFkhti0CMJHaa7DZOfR9cIF50wM5pcOTVhpO
+        9zDCkShpNI8p4nPnS3hIrhAVVMyvsLaegtcfhMLIgfaGEUt+xwxxhycEpcmBfpcPg4ExlFc+BJ8RooLS
+        gAWyZyNthYLzgAl8gSEYgWFkgpy/ot42AMrsxNTMHJTql7sBrMGI0fEIyigjKuyDeND7CfK+IVQ7fbhj
+        deFSezekLxgyMwmtTr8bwBCAe2gUVxo0uKqz4xbdg9u8GQ43WScuaGy41kjDFwiDZgz/ALAG+EfHUaZo
+        x41WEypMHOTWfjyyOFHZ5cB10uxuM4vgGFmJzPIZISqomGZYTEzHUKPSorSZwXMn+QdvEKwvRP7ETe5Y
+        1Lfo8OPnL9KA3Q2oltdBb3HASyreb2hBbRsLy3sv3rr8UJl7ca9OjcnoLDY3N6GnmR2AfTmHj75Ttnam
+        G2hMdpi7HWh61Yl6tQZPmzSgtCwCwRBSqRS2trag09PbgP1Z2ebyqhp4/CF0dPXA3juAeDyOWCyGaDSa
+        Dvytdq2OBxSlATlHcj9W1apQ8fgZaAuH5EZqTy8sreBiyeUEiWamAUQSkThvMCtbxIlEhxQnTp6i9jI/
+        QzKFQjQj4zdekCRvETo4TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro.&lt;/CellToolTipText&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="visualizar"&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar Arquivo do Ato Concessório&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="numero_documento"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Nº Ato Concessório&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;TotalFormatString&gt;Nº AC: 000000000&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;230&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="modalidade"&gt;&lt;Caption&gt;Modalidade&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;modalidade&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="tipo"&gt;&lt;Caption&gt;Tipo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;tipo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="data_abertura"&gt;&lt;Caption&gt;Data Abertura&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_abertura&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;65&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="data_validade"&gt;&lt;Caption&gt;Data Validade&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_validade&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;65&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column9&gt;&lt;Column10 ID="saldo"&gt;&lt;Caption&gt;Saldo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;saldo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column10&gt;&lt;Column11 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column11&gt;&lt;Column12 ID="status"&gt;&lt;Caption&gt;Status&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;status&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;ChildTables Collection="true" ElementName="Table"&gt;&lt;Table0&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="visualizar"&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar o Arquivo da DI&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.ChildTables.Table0.Columns.Column0.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="numero_di"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;DI&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_di&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;142&lt;/Width&gt;&lt;TotalFormatString&gt;Nº DI: 000000000&lt;/TotalFormatString&gt;&lt;/Column1&gt;&lt;Column2 ID="tipo_importacao"&gt;&lt;Caption&gt;Tipo Importação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;tipo_importacao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;137&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="moeda"&gt;&lt;Caption&gt;Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;moeda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="fator_cambial"&gt;&lt;Caption&gt;Fator Cambial&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.0000&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fator_cambial&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="valor_moeda_corrente"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor R$&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_moeda_corrente&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column6&gt;&lt;Column7 ID="data_registro"&gt;&lt;Caption&gt;Data Registro&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_registro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column7&gt;&lt;Column8 ID="data_desembaraco"&gt;&lt;Caption&gt;Data Desembaraço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_desembaraco&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;103&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="local_desembaraco"&gt;&lt;Caption&gt;Local Desembaraço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;local_desembaraco&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;377&lt;/Width&gt;&lt;/Column9&gt;&lt;Column10 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column10&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/Table0&gt;&lt;Table1&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="visualizar"&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar o Arquivo da RE&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.ChildTables.Table1.Columns.Column0.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="numero_re"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;RE&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_re&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;142&lt;/Width&gt;&lt;TotalFormatString&gt;Nº RE: 000000000&lt;/TotalFormatString&gt;&lt;/Column1&gt;&lt;Column2 ID="contrato_cambio"&gt;&lt;Caption&gt;Contrato Cambio&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;contrato_cambio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;237&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="moeda"&gt;&lt;Caption&gt;Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;moeda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="fator_cambial"&gt;&lt;Caption&gt;Fator Cambial&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.0000&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fator_cambial&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column5&gt;&lt;Column6 ID="valor_moeda_corrente"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor R$&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_moeda_corrente&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column6&gt;&lt;Column7 ID="data_registro"&gt;&lt;Caption&gt;Data Registro&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_registro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;103&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="local_embarque"&gt;&lt;Caption&gt;Local de Embarque&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;local_embarque&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;480&lt;/Width&gt;&lt;/Column8&gt;&lt;Column9 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column9&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/Table1&gt;&lt;/ChildTables&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="Aberto"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;SteelBlue&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Aberto&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;12&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Baixado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Baixado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;12&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;Condition2 ID="Fechado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Fechado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;12&lt;/ColumnIndex&gt;&lt;Value1&gt;3&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition2&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdListagem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdListagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="grdListagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 364</value>
+  </data>
+  <data name="grdListagem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Name" xml:space="preserve">
+    <value>grdListagem</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="btnExcel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnExcel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>280, 17</value>
+  </data>
+  <data name="btnExcel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcel.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnExcel.Text" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Name" xml:space="preserve">
+    <value>btnExcel</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnExcel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnNovo1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnNovo1.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="btnNovo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>377, 17</value>
+  </data>
+  <data name="btnNovo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnNovo1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnNovo1.Text" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Name" xml:space="preserve">
+    <value>btnNovo1</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSair.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEwAQAIEAAMzMzIiFaWZmM////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEwAQ
+        AAAIXAAHCBwQoKBBgwMTDiyokGDDhAEABHgo4CFBABIVCqj4MGLGgRs5NvQ4UWDIkyIvfkR5EiLGkgNY
+        bnTJEOTMji81pnT5MeHOhTkXjjwYVOBBhDQtKq2ptGPTAQEBADs=
+</value>
+  </data>
+  <data name="btnSair.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="btnSair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>571, 17</value>
+  </data>
+  <data name="btnSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnSair.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSair.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Name" xml:space="preserve">
+    <value>btnSair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnSair.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnExcluir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnExcluir.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="btnExcluir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>474, 17</value>
+  </data>
+  <data name="btnExcluir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcluir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnExcluir.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Name" xml:space="preserve">
+    <value>btnExcluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grpControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>234, 483</value>
+  </data>
+  <data name="grpControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>671, 51</value>
+  </data>
+  <data name="grpControl.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Name" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grpControl.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pagLista.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="pagLista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagLista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 543</value>
+  </data>
+  <data name="pagLista.Text" xml:space="preserve">
+    <value>Ato Concessório</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Name" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;pagLista.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtStatusAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 74</value>
+  </data>
+  <data name="txtStatusAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="txtStatusAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtStatusAtoConcessorio.Name" xml:space="preserve">
+    <value>txtStatusAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;txtStatusAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtStatusAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtStatusAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 57</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 14</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblStatusAtoConcessorio.Text" xml:space="preserve">
+    <value>Status:</value>
+  </data>
+  <data name="&gt;&gt;lblStatusAtoConcessorio.Name" xml:space="preserve">
+    <value>lblStatusAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblStatusAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblStatusAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblStatusAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>389, 57</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>53, 14</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblSaldoAtoConcessorio.Text" xml:space="preserve">
+    <value>Saldo R$:</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoAtoConcessorio.Name" xml:space="preserve">
+    <value>lblSaldoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblSaldoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtSaldoAtoConcessorio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="txtSaldoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>392, 74</value>
+  </data>
+  <data name="txtSaldoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="txtSaldoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="txtSaldoAtoConcessorio.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtSaldoAtoConcessorio.Name" xml:space="preserve">
+    <value>txtSaldoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;txtSaldoAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtSaldoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtSaldoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorio.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>516, 74</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 20</value>
+  </data>
+  <data name="cboModalidadeAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorio.Name" xml:space="preserve">
+    <value>cboModalidadeAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;cboModalidadeAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>513, 57</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 14</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblModalidadeAtoConcessorio.Text" xml:space="preserve">
+    <value>Modalidade:</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorio.Name" xml:space="preserve">
+    <value>lblModalidadeAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblModalidadeAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="cboTipoAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboTipoAtoConcessorio.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboTipoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 74</value>
+  </data>
+  <data name="cboTipoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="cboTipoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorio.Name" xml:space="preserve">
+    <value>cboTipoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;cboTipoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>868, 114</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnArquivoAtoConcessorio.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoAtoConcessorio.Name" xml:space="preserve">
+    <value>btnArquivoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 14</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lblArquivoAtoConcessorio.Text" xml:space="preserve">
+    <value>Arquivo:</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoAtoConcessorio.Name" xml:space="preserve">
+    <value>lblArquivoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtArquivoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 114</value>
+  </data>
+  <data name="txtArquivoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>860, 20</value>
+  </data>
+  <data name="txtArquivoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoAtoConcessorio.Name" xml:space="preserve">
+    <value>txtArquivoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 57</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>30, 14</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblTipoAtoConcessorio.Text" xml:space="preserve">
+    <value>Tipo:</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorio.Name" xml:space="preserve">
+    <value>lblTipoAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblTipoAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblValorExportado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorExportado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorExportado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 57</value>
+  </data>
+  <data name="lblValorExportado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 14</value>
+  </data>
+  <data name="lblValorExportado.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblValorExportado.Text" xml:space="preserve">
+    <value>Valor Exportado R$:</value>
+  </data>
+  <data name="&gt;&gt;lblValorExportado.Name" xml:space="preserve">
+    <value>lblValorExportado</value>
+  </data>
+  <data name="&gt;&gt;lblValorExportado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorExportado.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblValorExportado.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtValorExportado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="txtValorExportado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>268, 74</value>
+  </data>
+  <data name="txtValorExportado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="txtValorExportado.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="txtValorExportado.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorExportado.Name" xml:space="preserve">
+    <value>txtValorExportado</value>
+  </data>
+  <data name="&gt;&gt;txtValorExportado.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorExportado.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtValorExportado.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblValorImportado.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorImportado.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorImportado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 57</value>
+  </data>
+  <data name="lblValorImportado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="lblValorImportado.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblValorImportado.Text" xml:space="preserve">
+    <value>Valor Importado R$:</value>
+  </data>
+  <data name="&gt;&gt;lblValorImportado.Name" xml:space="preserve">
+    <value>lblValorImportado</value>
+  </data>
+  <data name="&gt;&gt;lblValorImportado.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorImportado.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblValorImportado.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtValorImportado.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt, style=Bold</value>
+  </data>
+  <data name="txtValorImportado.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 74</value>
+  </data>
+  <data name="txtValorImportado.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 20</value>
+  </data>
+  <data name="txtValorImportado.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtValorImportado.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorImportado.Name" xml:space="preserve">
+    <value>txtValorImportado</value>
+  </data>
+  <data name="&gt;&gt;txtValorImportado.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorImportado.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtValorImportado.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblValor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblValor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="lblValor.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblValor.Text" xml:space="preserve">
+    <value>Valor do AC.:</value>
+  </data>
+  <data name="&gt;&gt;lblValor.Name" xml:space="preserve">
+    <value>lblValor</value>
+  </data>
+  <data name="&gt;&gt;lblValor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValor.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblValor.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtValor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="txtValor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="txtValor.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtValor.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValor.Name" xml:space="preserve">
+    <value>txtValor</value>
+  </data>
+  <data name="&gt;&gt;txtValor.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValor.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtValor.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblDataValidade.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataValidade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataValidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>777, 17</value>
+  </data>
+  <data name="lblDataValidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 14</value>
+  </data>
+  <data name="lblDataValidade.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblDataValidade.Text" xml:space="preserve">
+    <value>Data da Validade:</value>
+  </data>
+  <data name="&gt;&gt;lblDataValidade.Name" xml:space="preserve">
+    <value>lblDataValidade</value>
+  </data>
+  <data name="&gt;&gt;lblDataValidade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataValidade.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblDataValidade.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="dtpDataValidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>780, 34</value>
+  </data>
+  <data name="dtpDataValidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="dtpDataValidade.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;dtpDataValidade.Name" xml:space="preserve">
+    <value>dtpDataValidade</value>
+  </data>
+  <data name="&gt;&gt;dtpDataValidade.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataValidade.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;dtpDataValidade.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblDataAbertura.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataAbertura.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataAbertura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>663, 17</value>
+  </data>
+  <data name="lblDataAbertura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 14</value>
+  </data>
+  <data name="lblDataAbertura.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblDataAbertura.Text" xml:space="preserve">
+    <value>Data Abertura:</value>
+  </data>
+  <data name="&gt;&gt;lblDataAbertura.Name" xml:space="preserve">
+    <value>lblDataAbertura</value>
+  </data>
+  <data name="&gt;&gt;lblDataAbertura.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataAbertura.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblDataAbertura.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="dtpDataAbertura.Location" type="System.Drawing.Point, System.Drawing">
+    <value>666, 34</value>
+  </data>
+  <data name="dtpDataAbertura.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="dtpDataAbertura.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtpDataAbertura.Name" xml:space="preserve">
+    <value>dtpDataAbertura</value>
+  </data>
+  <data name="&gt;&gt;dtpDataAbertura.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataAbertura.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;dtpDataAbertura.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="txtNumeroAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="txtNumeroAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="txtNumeroAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorio.Name" xml:space="preserve">
+    <value>txtNumeroAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorio.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>105, 14</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNumeroAtoConcessorio.Text" xml:space="preserve">
+    <value>Nº Ato Concessório:</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorio.Name" xml:space="preserve">
+    <value>lblNumeroAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorio.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="txtDescricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>144, 34</value>
+  </data>
+  <data name="txtDescricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>516, 20</value>
+  </data>
+  <data name="txtDescricao.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Name" xml:space="preserve">
+    <value>txtDescricao</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="lblDescricao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="lblDescricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricao.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblDescricao.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Name" xml:space="preserve">
+    <value>lblDescricao</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="grpDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 144</value>
+  </data>
+  <data name="grpDados.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Name" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tabDados.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="tabDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 153</value>
+  </data>
+  <data name="tabDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 327</value>
+  </data>
+  <data name="tabDados.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chrAtoConcessorio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="chrAtoConcessorio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 9</value>
+  </data>
+  <data name="chrAtoConcessorio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 287</value>
+  </data>
+  <data name="chrAtoConcessorio.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;chrAtoConcessorio.Name" xml:space="preserve">
+    <value>chrAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;chrAtoConcessorio.Type" xml:space="preserve">
+    <value>Dundas.Charting.WinControl.Chart, DundasWinChart, Version=5.0.0.1692, Culture=neutral, PublicKeyToken=a4c03dce5db22406</value>
+  </data>
+  <data name="&gt;&gt;chrAtoConcessorio.Parent" xml:space="preserve">
+    <value>pagResumo</value>
+  </data>
+  <data name="&gt;&gt;chrAtoConcessorio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagResumo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagResumo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 304</value>
+  </data>
+  <data name="pagResumo.Text" xml:space="preserve">
+    <value>Resumo do Ato Concessório</value>
+  </data>
+  <data name="&gt;&gt;pagResumo.Name" xml:space="preserve">
+    <value>pagResumo</value>
+  </data>
+  <data name="&gt;&gt;pagResumo.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagResumo.Parent" xml:space="preserve">
+    <value>tabDados</value>
+  </data>
+  <data name="&gt;&gt;pagResumo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 17</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblValorMoedaCorrenteDI.Text" xml:space="preserve">
+    <value>Valor R$:</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteDI.Name" xml:space="preserve">
+    <value>lblValorMoedaCorrenteDI</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteDI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtValorMoedaCorrenteDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 34</value>
+  </data>
+  <data name="txtValorMoedaCorrenteDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="txtValorMoedaCorrenteDI.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtValorMoedaCorrenteDI.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteDI.Name" xml:space="preserve">
+    <value>txtValorMoedaCorrenteDI</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteDI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblFatorCambialDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFatorCambialDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFatorCambialDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 17</value>
+  </data>
+  <data name="lblFatorCambialDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="lblFatorCambialDI.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblFatorCambialDI.Text" xml:space="preserve">
+    <value>Fator Cambial:</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialDI.Name" xml:space="preserve">
+    <value>lblFatorCambialDI</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialDI.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtFatorCambialDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 34</value>
+  </data>
+  <data name="txtFatorCambialDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="txtFatorCambialDI.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtFatorCambialDI.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialDI.Name" xml:space="preserve">
+    <value>txtFatorCambialDI</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialDI.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboMoedaDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboMoedaDI.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboMoedaDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="cboMoedaDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="cboMoedaDI.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaDI.Name" xml:space="preserve">
+    <value>cboMoedaDI</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaDI.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblMoedaDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMoedaDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMoedaDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 17</value>
+  </data>
+  <data name="lblMoedaDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 14</value>
+  </data>
+  <data name="lblMoedaDI.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMoedaDI.Text" xml:space="preserve">
+    <value>Moeda:</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaDI.Name" xml:space="preserve">
+    <value>lblMoedaDI</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaDI.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtNumeroDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="txtNumeroDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="txtNumeroDI.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDI.Name" xml:space="preserve">
+    <value>txtNumeroDI</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDI.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dtpDataRegistroDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 34</value>
+  </data>
+  <data name="dtpDataRegistroDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="dtpDataRegistroDI.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroDI.Name" xml:space="preserve">
+    <value>dtpDataRegistroDI</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroDI.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroDI.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtLocalDesembaracoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="txtLocalDesembaracoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
+  <data name="txtLocalDesembaracoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtLocalDesembaracoDI.Name" xml:space="preserve">
+    <value>txtLocalDesembaracoDI</value>
+  </data>
+  <data name="&gt;&gt;txtLocalDesembaracoDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtLocalDesembaracoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtLocalDesembaracoDI.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="dtpDataDesembaracoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 74</value>
+  </data>
+  <data name="dtpDataDesembaracoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="dtpDataDesembaracoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;dtpDataDesembaracoDI.Name" xml:space="preserve">
+    <value>dtpDataDesembaracoDI</value>
+  </data>
+  <data name="&gt;&gt;dtpDataDesembaracoDI.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataDesembaracoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;dtpDataDesembaracoDI.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblValorDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 17</value>
+  </data>
+  <data name="lblValorDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 14</value>
+  </data>
+  <data name="lblValorDI.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblValorDI.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="&gt;&gt;lblValorDI.Name" xml:space="preserve">
+    <value>lblValorDI</value>
+  </data>
+  <data name="&gt;&gt;lblValorDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblValorDI.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="txtValorDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 34</value>
+  </data>
+  <data name="txtValorDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="txtValorDI.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtValorDI.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorDI.Name" xml:space="preserve">
+    <value>txtValorDI</value>
+  </data>
+  <data name="&gt;&gt;txtValorDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtValorDI.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnArquivoDI.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnArquivoDI.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnArquivoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 74</value>
+  </data>
+  <data name="btnArquivoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="btnArquivoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnArquivoDI.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoDI.Name" xml:space="preserve">
+    <value>btnArquivoDI</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;btnArquivoDI.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblArquivoDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArquivoDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArquivoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 57</value>
+  </data>
+  <data name="lblArquivoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 14</value>
+  </data>
+  <data name="lblArquivoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblArquivoDI.Text" xml:space="preserve">
+    <value>Arquivo:</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoDI.Name" xml:space="preserve">
+    <value>lblArquivoDI</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoDI.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtArquivoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 74</value>
+  </data>
+  <data name="txtArquivoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>335, 20</value>
+  </data>
+  <data name="txtArquivoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoDI.Name" xml:space="preserve">
+    <value>txtArquivoDI</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoDI.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblDataDesembaracoDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataDesembaracoDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataDesembaracoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 57</value>
+  </data>
+  <data name="lblDataDesembaracoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 14</value>
+  </data>
+  <data name="lblDataDesembaracoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblDataDesembaracoDI.Text" xml:space="preserve">
+    <value>Data Desembaraço:</value>
+  </data>
+  <data name="&gt;&gt;lblDataDesembaracoDI.Name" xml:space="preserve">
+    <value>lblDataDesembaracoDI</value>
+  </data>
+  <data name="&gt;&gt;lblDataDesembaracoDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataDesembaracoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblDataDesembaracoDI.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 14</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblLocalDesembaracoDI.Text" xml:space="preserve">
+    <value>Local do Desembaraço:</value>
+  </data>
+  <data name="&gt;&gt;lblLocalDesembaracoDI.Name" xml:space="preserve">
+    <value>lblLocalDesembaracoDI</value>
+  </data>
+  <data name="&gt;&gt;lblLocalDesembaracoDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocalDesembaracoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblLocalDesembaracoDI.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblDataRegistroDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataRegistroDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataRegistroDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 17</value>
+  </data>
+  <data name="lblDataRegistroDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="lblDataRegistroDI.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblDataRegistroDI.Text" xml:space="preserve">
+    <value>Data Registro:</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroDI.Name" xml:space="preserve">
+    <value>lblDataRegistroDI</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroDI.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblNumeroDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumeroDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumeroDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblNumeroDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>19, 14</value>
+  </data>
+  <data name="lblNumeroDI.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNumeroDI.Text" xml:space="preserve">
+    <value>DI:</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroDI.Name" xml:space="preserve">
+    <value>lblNumeroDI</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroDI.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="btnExcluirDI.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="btnExcluirDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 71</value>
+  </data>
+  <data name="btnExcluirDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcluirDI.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="btnExcluirDI.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirDI.Name" xml:space="preserve">
+    <value>btnExcluirDI</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirDI.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnInserirDI.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnInserirDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 42</value>
+  </data>
+  <data name="btnInserirDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnInserirDI.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="btnInserirDI.Text" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="&gt;&gt;btnInserirDI.Name" xml:space="preserve">
+    <value>btnInserirDI</value>
+  </data>
+  <data name="&gt;&gt;btnInserirDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnInserirDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;btnInserirDI.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cboTipoImportacaoDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboTipoImportacaoDI.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboTipoImportacaoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
+  <data name="cboTipoImportacaoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
+  </data>
+  <data name="cboTipoImportacaoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboTipoImportacaoDI.Name" xml:space="preserve">
+    <value>cboTipoImportacaoDI</value>
+  </data>
+  <data name="&gt;&gt;cboTipoImportacaoDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboTipoImportacaoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;cboTipoImportacaoDI.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="lblTipoImportacaoDI.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTipoImportacaoDI.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblTipoImportacaoDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="lblTipoImportacaoDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="lblTipoImportacaoDI.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblTipoImportacaoDI.Text" xml:space="preserve">
+    <value>Tipo de Importação:</value>
+  </data>
+  <data name="&gt;&gt;lblTipoImportacaoDI.Name" xml:space="preserve">
+    <value>lblTipoImportacaoDI</value>
+  </data>
+  <data name="&gt;&gt;lblTipoImportacaoDI.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTipoImportacaoDI.Parent" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;lblTipoImportacaoDI.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="grpDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 104</value>
+  </data>
+  <data name="grpDI.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpDI.Name" xml:space="preserve">
+    <value>grpDI</value>
+  </data>
+  <data name="&gt;&gt;grpDI.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpDI.Parent" xml:space="preserve">
+    <value>pagDI</value>
+  </data>
+  <data name="&gt;&gt;grpDI.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grdDI.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="grdDI_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA6vAAAOrwFxEUPuAAADdklE
+        QVQ4Ty1Ta0yTZxQ+X29foTeqgK0STFwXx8JlJkyZzMGMQUKMI/BDszhCSGYICvKDWYwL2T//6CJeqOU6
+        2/RKQQpUZoFAGGHBbFkCGZcZVCBmw0tASYZM5/F5q03evt/3nvM+z3Oecz7SkYxlIomsJJt3EB6JErE0
+        RMnY7NuzNLf3ftUZTvv0++CefFUOqelDMlKqSqZ4xCmJtpIWEAoJN1VqIgMOtxBJSiLAUeSbE1fPa/R8
+        JdHCP+7Y9avraJnNhnOzWFokmSkBADIlpBiJ9DiNU5LOqBYY9HKy7RAPX+aJygJ2fryTHZkf8XcfGNbt
+        +elHtikVyAChGXIsOmiW8S40qSXoIXo0es24Of7DwpK7lHm+kTda6vjGgVQ+m058Mtt0VuSQAqQGUlFi
+        fFysZjkBgAC1IPbmt8a2179U8UPvfn7a/SWvdx1jHjvPkXO506VpksasEgi4J0OJDuxKCd6hhCQcb061
+        FK9GT/NDTx6vDnzBD/xp/Cicy/OBwxt/hk5np7+vVglyggGQ8s47wfzfrMOy0P/1k38nKvjZQBEv+zL4
+        +eA+Xr6TxTM/F9aKBolcUYIBvYsBqPFmxePjUT89n7D3rQwX84w/h58NFfBaJA/s+/ivwc+HR7uLFMJ4
+        A5QLAKtK/KMGCQcCeWX02smNu3Ze7i/kJyMFvBjJ4bXhIp7y5a0ujFelmKBYD3oNStZCvkF4EHMOJSTB
+        vMd3G+fHHIXMf5zipUg+v5o6wYvRUp7urzguCKxIFfMhlOvQPWOMFh3X6eLo/r1e+nvOsfFy+iLadoE3
+        J7/lufARnhur9m1Bh4RV2Gi7WR/bjdpkmCgmDjjCisnf/clzM23MKyHme05+MX6OX81eWh7psydoIN1q
+        2YoLYnwVAFOQIV70C71QAU8MVc6B3dll5bk8O3GD+Wn0f/4n6nuzFN2lRUwS3QJLnKwnkwTpGCBJTKEI
+        iMtCQUaWrWRnqp4PfpYSXlscy4zNOgLCcRkoBlPs0wGhOrbETy2GyN35E3W4nDb7mer6+prqC0FPR1ko
+        4CoPdfkrvR53bZvDWetyNle2NzvKB4cGylpd7cWBbn9+X0/A5r/pJGr2NSm6+gKZ3ubWkh53sCLo6axp
+        aumoc3X2NLS6Aw29/nBDsN3V0H8rVHe16VKN+5anwtvrLXFev/jJ7ZBb8RZY1kM1HQJRSQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="grdDI_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAqNJREFUOE99
+        kN9PUmEcxr1uTZdJRdPWD8PNq9aF899oq6y1ao22toZztnWhs2U/hjnTRRKiJy1B5JwDyCgED5iWAUIi
+        IqElaoj4G0Vpq6706T2cCzPLZ3u2d+/7fT57vm/GHyoUi8WKgoICirdEIqHy809TeceOUwcOiijyfkYY
+        +7cypVJpYjW5jtXkBhLEy4kkovFFeIbDYKx9kMlka2Tuv5Aig9FEAgs7PB2bQ3jiG9z+z1hcTuwJKTaa
+        ujC3uAKlSg2L1QaaNaKjk0bbay1GxiKYnV/CDIHKSkt5yFkhti0CMJHaa7DZOfR9cIF50wM5pcOTVhpO
+        9zDCkShpNI8p4nPnS3hIrhAVVMyvsLaegtcfhMLIgfaGEUt+xwxxhycEpcmBfpcPg4ExlFc+BJ8RooLS
+        gAWyZyNthYLzgAl8gSEYgWFkgpy/ot42AMrsxNTMHJTql7sBrMGI0fEIyigjKuyDeND7CfK+IVQ7fbhj
+        deFSezekLxgyMwmtTr8bwBCAe2gUVxo0uKqz4xbdg9u8GQ43WScuaGy41kjDFwiDZgz/ALAG+EfHUaZo
+        x41WEypMHOTWfjyyOFHZ5cB10uxuM4vgGFmJzPIZISqomGZYTEzHUKPSorSZwXMn+QdvEKwvRP7ETe5Y
+        1Lfo8OPnL9KA3Q2oltdBb3HASyreb2hBbRsLy3sv3rr8UJl7ca9OjcnoLDY3N6GnmR2AfTmHj75Ttnam
+        G2hMdpi7HWh61Yl6tQZPmzSgtCwCwRBSqRS2trag09PbgP1Z2ebyqhp4/CF0dPXA3juAeDyOWCyGaDSa
+        Dvytdq2OBxSlATlHcj9W1apQ8fgZaAuH5EZqTy8sreBiyeUEiWamAUQSkThvMCtbxIlEhxQnTp6i9jI/
+        QzKFQjQj4zdekCRvETo4TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdDI_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="visualizar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar o Documento da DI&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="numero_di"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;DI&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_di&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;TotalFormatString&gt;Nº DI: 000000000&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="tipo_importacao"&gt;&lt;Caption&gt;Tipo Importação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;tipo_importacao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;137&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column5&gt;&lt;Column6 ID="moeda"&gt;&lt;Caption&gt;Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;moeda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="fator_cambial"&gt;&lt;Caption&gt;Fator Cambial&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.0000&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fator_cambial&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="valor_moeda_corrente"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor R$&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_moeda_corrente&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column8&gt;&lt;Column9 ID="data_registro"&gt;&lt;Caption&gt;Data Registro&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_registro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column9&gt;&lt;Column10 ID="local_desembaraco"&gt;&lt;Caption&gt;Local de Desembaraço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;local_desembaraco&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;361&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="data_desembaraco"&gt;&lt;Caption&gt;Data Desembaraço&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_desembaraco&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;103&lt;/Width&gt;&lt;/Column11&gt;&lt;Column12 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="codigo_tipo_importacao"&gt;&lt;Caption&gt;Código Tipo Importação&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_tipo_importacao&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="codigo_moeda"&gt;&lt;Caption&gt;Código Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_moeda&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;Column15 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column15&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdDI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="grdDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 180</value>
+  </data>
+  <data name="grdDI.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grdDI.Name" xml:space="preserve">
+    <value>grdDI</value>
+  </data>
+  <data name="&gt;&gt;grdDI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdDI.Parent" xml:space="preserve">
+    <value>pagDI</value>
+  </data>
+  <data name="&gt;&gt;grdDI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagDI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 304</value>
+  </data>
+  <data name="pagDI.Text" xml:space="preserve">
+    <value>DI - Declaração de Importação</value>
+  </data>
+  <data name="&gt;&gt;pagDI.Name" xml:space="preserve">
+    <value>pagDI</value>
+  </data>
+  <data name="&gt;&gt;pagDI.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDI.Parent" xml:space="preserve">
+    <value>tabDados</value>
+  </data>
+  <data name="&gt;&gt;pagDI.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grdRE.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="grdRE_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA6vAAAOrwFxEUPuAAADdklE
+        QVQ4Ty1Ta0yTZxQ+X29foTeqgK0STFwXx8JlJkyZzMGMQUKMI/BDszhCSGYICvKDWYwL2T//6CJeqOU6
+        2/RKQQpUZoFAGGHBbFkCGZcZVCBmw0tASYZM5/F5q03evt/3nvM+z3Oecz7SkYxlIomsJJt3EB6JErE0
+        RMnY7NuzNLf3ftUZTvv0++CefFUOqelDMlKqSqZ4xCmJtpIWEAoJN1VqIgMOtxBJSiLAUeSbE1fPa/R8
+        JdHCP+7Y9avraJnNhnOzWFokmSkBADIlpBiJ9DiNU5LOqBYY9HKy7RAPX+aJygJ2fryTHZkf8XcfGNbt
+        +elHtikVyAChGXIsOmiW8S40qSXoIXo0es24Of7DwpK7lHm+kTda6vjGgVQ+m058Mtt0VuSQAqQGUlFi
+        fFysZjkBgAC1IPbmt8a2179U8UPvfn7a/SWvdx1jHjvPkXO506VpksasEgi4J0OJDuxKCd6hhCQcb061
+        FK9GT/NDTx6vDnzBD/xp/Cicy/OBwxt/hk5np7+vVglyggGQ8s47wfzfrMOy0P/1k38nKvjZQBEv+zL4
+        +eA+Xr6TxTM/F9aKBolcUYIBvYsBqPFmxePjUT89n7D3rQwX84w/h58NFfBaJA/s+/ivwc+HR7uLFMJ4
+        A5QLAKtK/KMGCQcCeWX02smNu3Ze7i/kJyMFvBjJ4bXhIp7y5a0ujFelmKBYD3oNStZCvkF4EHMOJSTB
+        vMd3G+fHHIXMf5zipUg+v5o6wYvRUp7urzguCKxIFfMhlOvQPWOMFh3X6eLo/r1e+nvOsfFy+iLadoE3
+        J7/lufARnhur9m1Bh4RV2Gi7WR/bjdpkmCgmDjjCisnf/clzM23MKyHme05+MX6OX81eWh7psydoIN1q
+        2YoLYnwVAFOQIV70C71QAU8MVc6B3dll5bk8O3GD+Wn0f/4n6nuzFN2lRUwS3QJLnKwnkwTpGCBJTKEI
+        iMtCQUaWrWRnqp4PfpYSXlscy4zNOgLCcRkoBlPs0wGhOrbETy2GyN35E3W4nDb7mer6+prqC0FPR1ko
+        4CoPdfkrvR53bZvDWetyNle2NzvKB4cGylpd7cWBbn9+X0/A5r/pJGr2NSm6+gKZ3ubWkh53sCLo6axp
+        aumoc3X2NLS6Aw29/nBDsN3V0H8rVHe16VKN+5anwtvrLXFev/jJ7ZBb8RZY1kM1HQJRSQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="grdRE_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAqNJREFUOE99
+        kN9PUmEcxr1uTZdJRdPWD8PNq9aF899oq6y1ao22toZztnWhs2U/hjnTRRKiJy1B5JwDyCgED5iWAUIi
+        IqElaoj4G0Vpq6706T2cCzPLZ3u2d+/7fT57vm/GHyoUi8WKgoICirdEIqHy809TeceOUwcOiijyfkYY
+        +7cypVJpYjW5jtXkBhLEy4kkovFFeIbDYKx9kMlka2Tuv5Aig9FEAgs7PB2bQ3jiG9z+z1hcTuwJKTaa
+        ujC3uAKlSg2L1QaaNaKjk0bbay1GxiKYnV/CDIHKSkt5yFkhti0CMJHaa7DZOfR9cIF50wM5pcOTVhpO
+        9zDCkShpNI8p4nPnS3hIrhAVVMyvsLaegtcfhMLIgfaGEUt+xwxxhycEpcmBfpcPg4ExlFc+BJ8RooLS
+        gAWyZyNthYLzgAl8gSEYgWFkgpy/ot42AMrsxNTMHJTql7sBrMGI0fEIyigjKuyDeND7CfK+IVQ7fbhj
+        deFSezekLxgyMwmtTr8bwBCAe2gUVxo0uKqz4xbdg9u8GQ43WScuaGy41kjDFwiDZgz/ALAG+EfHUaZo
+        x41WEypMHOTWfjyyOFHZ5cB10uxuM4vgGFmJzPIZISqomGZYTEzHUKPSorSZwXMn+QdvEKwvRP7ETe5Y
+        1Lfo8OPnL9KA3Q2oltdBb3HASyreb2hBbRsLy3sv3rr8UJl7ca9OjcnoLDY3N6GnmR2AfTmHj75Ttnam
+        G2hMdpi7HWh61Yl6tQZPmzSgtCwCwRBSqRS2trag09PbgP1Z2ebyqhp4/CF0dPXA3juAeDyOWCyGaDSa
+        Dvytdq2OBxSlATlHcj9W1apQ8fgZaAuH5EZqTy8sreBiyeUEiWamAUQSkThvMCtbxIlEhxQnTp6i9jI/
+        QzKFQjQj4zdekCRvETo4TwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdRE_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="visualizar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para visualizar o Documento da DI&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;visualizar&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="numero_re"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;RE&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_re&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;TotalFormatString&gt;Nº DI: 000000000&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="contrato_cambio"&gt;&lt;Caption&gt;Contrato Cambio&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;contrato_cambio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;240&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column5&gt;&lt;Column6 ID="moeda"&gt;&lt;Caption&gt;Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;moeda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;/Column6&gt;&lt;Column7 ID="fator_cambial"&gt;&lt;Caption&gt;Fator Cambial&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.0000&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fator_cambial&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;/Column7&gt;&lt;Column8 ID="valor_moeda_corrente"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor R$&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_moeda_corrente&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column8&gt;&lt;Column9 ID="data_registro"&gt;&lt;Caption&gt;Data Registro&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_registro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column9&gt;&lt;Column10 ID="local_embarque"&gt;&lt;Caption&gt;Local de Embarque&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;local_embarque&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;361&lt;/Width&gt;&lt;/Column10&gt;&lt;Column11 ID="arquivo"&gt;&lt;Caption&gt;Arquivo&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;arquivo&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column11&gt;&lt;Column12 ID="codigo_contrato_cambio"&gt;&lt;Caption&gt;Código Contrato Cambio&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_contrato_cambio&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column12&gt;&lt;Column13 ID="codigo_moeda"&gt;&lt;Caption&gt;Código Moeda&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_moeda&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column13&gt;&lt;Column14 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdRE.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 116</value>
+  </data>
+  <data name="grdRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 180</value>
+  </data>
+  <data name="grdRE.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdRE.Name" xml:space="preserve">
+    <value>grdRE</value>
+  </data>
+  <data name="&gt;&gt;grdRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdRE.Parent" xml:space="preserve">
+    <value>pagRE</value>
+  </data>
+  <data name="&gt;&gt;grdRE.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 18</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="btnCadastrarContratoCambio.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarContratoCambio.Name" xml:space="preserve">
+    <value>btnCadastrarContratoCambio</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarContratoCambio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarContratoCambio.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarContratoCambio.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboContratoCambio.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboContratoCambio.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboContratoCambio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
+  <data name="cboContratoCambio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
+  </data>
+  <data name="cboContratoCambio.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;cboContratoCambio.Name" xml:space="preserve">
+    <value>cboContratoCambio</value>
+  </data>
+  <data name="&gt;&gt;cboContratoCambio.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboContratoCambio.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;cboContratoCambio.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblContratoCambio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblContratoCambio.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblContratoCambio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>151, 17</value>
+  </data>
+  <data name="lblContratoCambio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 14</value>
+  </data>
+  <data name="lblContratoCambio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblContratoCambio.Text" xml:space="preserve">
+    <value>Contrato de Cambio:</value>
+  </data>
+  <data name="&gt;&gt;lblContratoCambio.Name" xml:space="preserve">
+    <value>lblContratoCambio</value>
+  </data>
+  <data name="&gt;&gt;lblContratoCambio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblContratoCambio.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblContratoCambio.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>540, 17</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>51, 14</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblValorMoedaCorrenteRE.Text" xml:space="preserve">
+    <value>Valor R$:</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteRE.Name" xml:space="preserve">
+    <value>lblValorMoedaCorrenteRE</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblValorMoedaCorrenteRE.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtValorMoedaCorrenteRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>543, 34</value>
+  </data>
+  <data name="txtValorMoedaCorrenteRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="txtValorMoedaCorrenteRE.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="txtValorMoedaCorrenteRE.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteRE.Name" xml:space="preserve">
+    <value>txtValorMoedaCorrenteRE</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtValorMoedaCorrenteRE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblFatorCambialRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFatorCambialRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblFatorCambialRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>448, 17</value>
+  </data>
+  <data name="lblFatorCambialRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="lblFatorCambialRE.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblFatorCambialRE.Text" xml:space="preserve">
+    <value>Fator Cambial:</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialRE.Name" xml:space="preserve">
+    <value>lblFatorCambialRE</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblFatorCambialRE.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtFatorCambialRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>451, 34</value>
+  </data>
+  <data name="txtFatorCambialRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>86, 20</value>
+  </data>
+  <data name="txtFatorCambialRE.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="txtFatorCambialRE.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialRE.Name" xml:space="preserve">
+    <value>txtFatorCambialRE</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtFatorCambialRE.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboMoedaRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboMoedaRE.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboMoedaRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>387, 34</value>
+  </data>
+  <data name="cboMoedaRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 20</value>
+  </data>
+  <data name="cboMoedaRE.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaRE.Name" xml:space="preserve">
+    <value>cboMoedaRE</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaRE.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;cboMoedaRE.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblMoedaRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMoedaRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMoedaRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>384, 17</value>
+  </data>
+  <data name="lblMoedaRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 14</value>
+  </data>
+  <data name="lblMoedaRE.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblMoedaRE.Text" xml:space="preserve">
+    <value>Moeda:</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaRE.Name" xml:space="preserve">
+    <value>lblMoedaRE</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblMoedaRE.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtValorRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 34</value>
+  </data>
+  <data name="txtValorRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 20</value>
+  </data>
+  <data name="txtValorRE.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtValorRE.Text" xml:space="preserve">
+    <value>0,00</value>
+  </data>
+  <data name="&gt;&gt;txtValorRE.Name" xml:space="preserve">
+    <value>txtValorRE</value>
+  </data>
+  <data name="&gt;&gt;txtValorRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtValorRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtValorRE.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtLocalEmbarqueRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="txtLocalEmbarqueRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>269, 20</value>
+  </data>
+  <data name="txtLocalEmbarqueRE.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtLocalEmbarqueRE.Name" xml:space="preserve">
+    <value>txtLocalEmbarqueRE</value>
+  </data>
+  <data name="&gt;&gt;txtLocalEmbarqueRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtLocalEmbarqueRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtLocalEmbarqueRE.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="dtpDataRegistroRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 34</value>
+  </data>
+  <data name="dtpDataRegistroRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 20</value>
+  </data>
+  <data name="dtpDataRegistroRE.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroRE.Name" xml:space="preserve">
+    <value>dtpDataRegistroRE</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroRE.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;dtpDataRegistroRE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtNumeroRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="txtNumeroRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="txtNumeroRE.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroRE.Name" xml:space="preserve">
+    <value>txtNumeroRE</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroRE.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblValorRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblValorRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblValorRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 17</value>
+  </data>
+  <data name="lblValorRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 14</value>
+  </data>
+  <data name="lblValorRE.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblValorRE.Text" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="&gt;&gt;lblValorRE.Name" xml:space="preserve">
+    <value>lblValorRE</value>
+  </data>
+  <data name="&gt;&gt;lblValorRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblValorRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblValorRE.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 14</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblLocalEmbarqueRE.Text" xml:space="preserve">
+    <value>Local de Embarque:</value>
+  </data>
+  <data name="&gt;&gt;lblLocalEmbarqueRE.Name" xml:space="preserve">
+    <value>lblLocalEmbarqueRE</value>
+  </data>
+  <data name="&gt;&gt;lblLocalEmbarqueRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblLocalEmbarqueRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblLocalEmbarqueRE.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="UiButton1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="UiButton1.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="UiButton1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>721, 74</value>
+  </data>
+  <data name="UiButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>20, 20</value>
+  </data>
+  <data name="UiButton1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="UiButton1.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;UiButton1.Name" xml:space="preserve">
+    <value>UiButton1</value>
+  </data>
+  <data name="&gt;&gt;UiButton1.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;UiButton1.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;UiButton1.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="lblArquivoRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArquivoRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArquivoRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>281, 57</value>
+  </data>
+  <data name="lblArquivoRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 14</value>
+  </data>
+  <data name="lblArquivoRE.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblArquivoRE.Text" xml:space="preserve">
+    <value>Arquivo:</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoRE.Name" xml:space="preserve">
+    <value>lblArquivoRE</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblArquivoRE.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtArquivoRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>284, 74</value>
+  </data>
+  <data name="txtArquivoRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 20</value>
+  </data>
+  <data name="txtArquivoRE.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoRE.Name" xml:space="preserve">
+    <value>txtArquivoRE</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoRE.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;txtArquivoRE.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblDataRegistroRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDataRegistroRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDataRegistroRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 17</value>
+  </data>
+  <data name="lblDataRegistroRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 14</value>
+  </data>
+  <data name="lblDataRegistroRE.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblDataRegistroRE.Text" xml:space="preserve">
+    <value>Data Registro:</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroRE.Name" xml:space="preserve">
+    <value>lblDataRegistroRE</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblDataRegistroRE.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="lblNumeroRE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNumeroRE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblNumeroRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblNumeroRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 14</value>
+  </data>
+  <data name="lblNumeroRE.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblNumeroRE.Text" xml:space="preserve">
+    <value>RE:</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroRE.Name" xml:space="preserve">
+    <value>lblNumeroRE</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroRE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;lblNumeroRE.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="btnExcluirRE.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="btnExcluirRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 71</value>
+  </data>
+  <data name="btnExcluirRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcluirRE.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="btnExcluirRE.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirRE.Name" xml:space="preserve">
+    <value>btnExcluirRE</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirRE.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirRE.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="btnInserirRE.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnInserirRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 42</value>
+  </data>
+  <data name="btnInserirRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnInserirRE.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btnInserirRE.Text" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="&gt;&gt;btnInserirRE.Name" xml:space="preserve">
+    <value>btnInserirRE</value>
+  </data>
+  <data name="&gt;&gt;btnInserirRE.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnInserirRE.Parent" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;btnInserirRE.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="grpRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 104</value>
+  </data>
+  <data name="grpRE.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpRE.Name" xml:space="preserve">
+    <value>grpRE</value>
+  </data>
+  <data name="&gt;&gt;grpRE.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpRE.Parent" xml:space="preserve">
+    <value>pagRE</value>
+  </data>
+  <data name="&gt;&gt;grpRE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagRE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagRE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 304</value>
+  </data>
+  <data name="pagRE.Text" xml:space="preserve">
+    <value>RE - Registro de Exportação</value>
+  </data>
+  <data name="&gt;&gt;pagRE.Name" xml:space="preserve">
+    <value>pagRE</value>
+  </data>
+  <data name="&gt;&gt;pagRE.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagRE.Parent" xml:space="preserve">
+    <value>tabDados</value>
+  </data>
+  <data name="&gt;&gt;pagRE.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnCadastrarProduto.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCadastrarProduto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCadastrarProduto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCadastrarProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <data name="btnCadastrarProduto.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnCadastrarProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="btnCadastrarProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarProduto.Name" xml:space="preserve">
+    <value>btnCadastrarProduto</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarProduto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarProduto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboCodigoProduto.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboCodigoProduto.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboCodigoProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="cboCodigoProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 20</value>
+  </data>
+  <data name="cboCodigoProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoProduto.Name" xml:space="preserve">
+    <value>cboCodigoProduto</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoProduto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblCodigoProduto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigoProduto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigoProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="lblCodigoProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 14</value>
+  </data>
+  <data name="lblCodigoProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCodigoProduto.Text" xml:space="preserve">
+    <value>Código Produto:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoProduto.Name" xml:space="preserve">
+    <value>lblCodigoProduto</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoProduto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoProduto.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblDescricaoProduto.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricaoProduto.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricaoProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>155, 17</value>
+  </data>
+  <data name="lblDescricaoProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricaoProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblDescricaoProduto.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoProduto.Name" xml:space="preserve">
+    <value>lblDescricaoProduto</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoProduto.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoProduto.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtDescricaoProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>158, 34</value>
+  </data>
+  <data name="txtDescricaoProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>438, 20</value>
+  </data>
+  <data name="txtDescricaoProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoProduto.Name" xml:space="preserve">
+    <value>txtDescricaoProduto</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoProduto.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnExcluirProduto.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="btnExcluirProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>779, 31</value>
+  </data>
+  <data name="btnExcluirProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcluirProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnExcluirProduto.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirProduto.Name" xml:space="preserve">
+    <value>btnExcluirProduto</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;btnExcluirProduto.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="btnInserirProduto.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnInserirProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>682, 31</value>
+  </data>
+  <data name="btnInserirProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnInserirProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnInserirProduto.Text" xml:space="preserve">
+    <value>Inserir</value>
+  </data>
+  <data name="&gt;&gt;btnInserirProduto.Name" xml:space="preserve">
+    <value>btnInserirProduto</value>
+  </data>
+  <data name="&gt;&gt;btnInserirProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnInserirProduto.Parent" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;btnInserirProduto.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grpProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 64</value>
+  </data>
+  <data name="grpProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpProduto.Name" xml:space="preserve">
+    <value>grpProduto</value>
+  </data>
+  <data name="&gt;&gt;grpProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpProduto.Parent" xml:space="preserve">
+    <value>pagLaudoTecnico</value>
+  </data>
+  <data name="&gt;&gt;grpProduto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grdProduto.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left</value>
+  </data>
+  <data name="grdProduto_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA6vAAAOrwFxEUPuAAADdklE
+        QVQ4Ty1Ta0yTZxQ+X29foTeqgK0STFwXx8JlJkyZzMGMQUKMI/BDszhCSGYICvKDWYwL2T//6CJeqOU6
+        2/RKQQpUZoFAGGHBbFkCGZcZVCBmw0tASYZM5/F5q03evt/3nvM+z3Oecz7SkYxlIomsJJt3EB6JErE0
+        RMnY7NuzNLf3ftUZTvv0++CefFUOqelDMlKqSqZ4xCmJtpIWEAoJN1VqIgMOtxBJSiLAUeSbE1fPa/R8
+        JdHCP+7Y9avraJnNhnOzWFokmSkBADIlpBiJ9DiNU5LOqBYY9HKy7RAPX+aJygJ2fryTHZkf8XcfGNbt
+        +elHtikVyAChGXIsOmiW8S40qSXoIXo0es24Of7DwpK7lHm+kTda6vjGgVQ+m058Mtt0VuSQAqQGUlFi
+        fFysZjkBgAC1IPbmt8a2179U8UPvfn7a/SWvdx1jHjvPkXO506VpksasEgi4J0OJDuxKCd6hhCQcb061
+        FK9GT/NDTx6vDnzBD/xp/Cicy/OBwxt/hk5np7+vVglyggGQ8s47wfzfrMOy0P/1k38nKvjZQBEv+zL4
+        +eA+Xr6TxTM/F9aKBolcUYIBvYsBqPFmxePjUT89n7D3rQwX84w/h58NFfBaJA/s+/ivwc+HR7uLFMJ4
+        A5QLAKtK/KMGCQcCeWX02smNu3Ze7i/kJyMFvBjJ4bXhIp7y5a0ujFelmKBYD3oNStZCvkF4EHMOJSTB
+        vMd3G+fHHIXMf5zipUg+v5o6wYvRUp7urzguCKxIFfMhlOvQPWOMFh3X6eLo/r1e+nvOsfFy+iLadoE3
+        J7/lufARnhur9m1Bh4RV2Gi7WR/bjdpkmCgmDjjCisnf/clzM23MKyHme05+MX6OX81eWh7psydoIN1q
+        2YoLYnwVAFOQIV70C71QAU8MVc6B3dll5bk8O3GD+Wn0f/4n6nuzFN2lRUwS3QJLnKwnkwTpGCBJTKEI
+        iMtCQUaWrWRnqp4PfpYSXlscy4zNOgLCcRkoBlPs0wGhOrbETy2GyN35E3W4nDb7mer6+prqC0FPR1ko
+        4CoPdfkrvR53bZvDWetyNle2NzvKB4cGylpd7cWBbn9+X0/A5r/pJGr2NSm6+gKZ3ubWkh53sCLo6axp
+        aumoc3X2NLS6Aw29/nBDsN3V0H8rVHe16VKN+5anwtvrLXFev/jJ7ZBb8RZY1kM1HQJRSQAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="grdProduto_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="editar"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="codigo_produto"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Código do Produto&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_produto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;TotalFormatString&gt;Nº DI: 000000000&lt;/TotalFormatString&gt;&lt;/Column2&gt;&lt;Column3 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;Width&gt;700&lt;/Width&gt;&lt;/Column3&gt;&lt;Column4 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column4&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdProduto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdProduto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 76</value>
+  </data>
+  <data name="grdProduto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 220</value>
+  </data>
+  <data name="grdProduto.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grdProduto.Name" xml:space="preserve">
+    <value>grdProduto</value>
+  </data>
+  <data name="&gt;&gt;grdProduto.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdProduto.Parent" xml:space="preserve">
+    <value>pagLaudoTecnico</value>
+  </data>
+  <data name="&gt;&gt;grdProduto.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pagLaudoTecnico.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagLaudoTecnico.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 304</value>
+  </data>
+  <data name="pagLaudoTecnico.Text" xml:space="preserve">
+    <value>Laudo Técnico</value>
+  </data>
+  <data name="&gt;&gt;pagLaudoTecnico.Name" xml:space="preserve">
+    <value>pagLaudoTecnico</value>
+  </data>
+  <data name="&gt;&gt;pagLaudoTecnico.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagLaudoTecnico.Parent" xml:space="preserve">
+    <value>tabDados</value>
+  </data>
+  <data name="&gt;&gt;pagLaudoTecnico.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tabDados.Name" xml:space="preserve">
+    <value>tabDados</value>
+  </data>
+  <data name="&gt;&gt;tabDados.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITab, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabDados.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;tabDados.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnNovo.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="btnNovo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>603, 17</value>
+  </data>
+  <data name="btnNovo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnNovo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnNovo.Text" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Name" xml:space="preserve">
+    <value>btnNovo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnVoltar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 17</value>
+  </data>
+  <data name="btnVoltar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnVoltar.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnVoltar.Text" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Name" xml:space="preserve">
+    <value>btnVoltar</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSalvar.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 17</value>
+  </data>
+  <data name="btnSalvar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnSalvar.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnSalvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Name" xml:space="preserve">
+    <value>btnSalvar</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="grpControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 51</value>
+  </data>
+  <data name="grpControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Name" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pagDados.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="pagDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 543</value>
+  </data>
+  <data name="pagDados.Text" xml:space="preserve">
+    <value>Dados do Ato Concessório</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Name" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;pagDados.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITab, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="UiTabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="UiTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>893, 253</value>
+  </data>
+  <data name="UiTabPage1.Text" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="&gt;&gt;UiTabPage1.Name" xml:space="preserve">
+    <value>UiTabPage1</value>
+  </data>
+  <data name="&gt;&gt;UiTabPage1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="jstTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 12</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>58</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 566</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Name" xml:space="preserve">
+    <value>vsmMain</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.VisualStyleManager, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Name" xml:space="preserve">
+    <value>jstTip</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.JanusSuperTip, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>usrCadAtoConcessorio</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

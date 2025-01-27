@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///E:/Projetos/08_Pesola.NET/Fontes/SysACTi/SysACTi/Web References/br.gov.sp.fazenda.nfe.V3_RetAutorizacaoLote.asmx" filename="br.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

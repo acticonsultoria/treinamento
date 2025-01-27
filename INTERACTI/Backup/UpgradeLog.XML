@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="INTERACTI">
+</Property><Property Name="Solution File" Value="C:\Users\Kleber\Desktop\FONTES\INTERACTI\Backup\INTERACTI.sln">
+</Property><Property Name="Date" Value="quarta-feira, 13 de março de 2013">
+</Property><Property Name="Time" Value="18:55">
+</Property></Properties><Event ErrorLevel="2" Project="Interacti" Source="Interacti.vbproj" Description="Unable to open project file to perform upgrade.  ">
+</Event><Event ErrorLevel="0" Project="" Source="INTERACTI.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="INTERACTI.sln" Description="Converted">
+</Event></UpgradeLog>
