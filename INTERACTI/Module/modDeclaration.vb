@@ -1065,6 +1065,7 @@ Public Module modDeclaration
         RelatorioFAT000000018 = 1834
         RelatorioFAT000000019 = 1835
         RelatorioFAT000000020 = 1836
+        RelatorioFAT000000021 = 1853 'Mudei
         RelatorioFAT000000024 = 1837
         RelatorioFIN000000001 = 1840
         RelatorioFIN000000002 = 1841
