@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grdListagem_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAhpJREFUOE9j
+        wAcyJ5wLm7b+zsSY9lMuUCHSgEfN0ZkRPef+O1ccroAKEQccC/Zq1M69PDVj0vmXga2n/2dPufC1eMal
+        mxWzL6/0Kj9gAlWGHYTWHwnInHzhp1/Tyf/eDSf+e9YeB2Ov+hP/PWqP/TdL247bO/qxG9kC6o+9dqs+
+        9t+16uh/y6xd3YaJW/QME7YYmKXtiADy5xvEb+aAKscEetHr5RxKDv53LD/y3x5IAw10gEoRB3Qi1rKY
+        Z+16blt88L9tyaH/Vvn7fpul71hsELPeRTt0NQtUGX4AdIWTacau95b5+/9bFkCwFQjn7H5qnbEtSzNw
+        ORNUKW4AVCSmF7OxEej/20bJW/8bpWz7b5S87b9V1s7/HoW7OqHKiAPqfktNNINWHtYOW/0f6I3/fiW7
+        f6p4LsQdkMpu87mgTDhQdl9gpOG/7D8I+xTs+A9UIwSVwgTK7vPPq3gs2KvsNq9OyXVOgrLrnCwg/6yq
+        16L/qt6L/nsVbD8NVYoBmKTN6xSUXGb9V3KdC7RlHhyD+Kqe8/+bRS97rOrUYgBUC4oRlMAECfCxcAgr
+        iOmk5kmZVq6XsWy6KGfb81XefsJ/eZuWq3JmOb2s3JIWQHVKQCwCxKBwgBsCYoAEQH6TA2INIDaSMCw4
+        Km1e+19YPbIRyNcBYpBmMSDmAWIMV4AASACEQZJs4nqZGeL62RPFdFKsoGIweShgYAAA6l/Rl4X1hYkA
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="integrar_financeiro"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;BoundMode&gt;Unbound&lt;/BoundMode&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column0.Image" /&gt;&lt;Key&gt;integrar_financeiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="tipo_nota_fiscal"&gt;&lt;Caption&gt;Tipo de Nota Fiscal&lt;/Caption&gt;&lt;Key&gt;tipo_nota_fiscal&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="nota_fiscal"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Nota Fiscal&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nota_fiscal&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column2&gt;&lt;Column3 ID="serie"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Série&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;serie&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column3&gt;&lt;Column4 ID="data_emissao"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Data Emissão&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_emissao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="data_entrada"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Data Entrada&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy HH:mm:ss&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_entrada&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="cnpj"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;CNPJ&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cnpj&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="parceiro_negocio"&gt;&lt;Caption&gt;Fornecedor&lt;/Caption&gt;&lt;Key&gt;parceiro_negocio&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;300&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column7&gt;&lt;Column8 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="valor_financeiro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;Valor Financeiro&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_financeiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="codigo_entrada_capa"&gt;&lt;Caption&gt;Código Entrada Capa&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_entrada_capa&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="codigo_titulo_capa"&gt;&lt;Caption&gt;Código Título Capa&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="codigo_tipo_nota_fiscal"&gt;&lt;Caption&gt;Código Tipo Nota Fiscal&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_tipo_nota_fiscal&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="status"&gt;&lt;Caption&gt;Status&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;status&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="pago"&gt;&lt;Caption&gt;Pago&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;DataMember&gt;pago&lt;/DataMember&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="Nota Fiscal Integrada"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;ForestGreen&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Nota Fiscal Integrada&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;13&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Nota Fiscal Não Integrada"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Nota Fiscal Não Integrada&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;13&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RepeatHeaders&gt;False&lt;/RepeatHeaders&gt;&lt;RowHeaderWidth&gt;35&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;SelfReferencingSettings ID="SelfReferencingSettings"&gt;&lt;ChildDataMember&gt;codigo_requisicao&lt;/ChildDataMember&gt;&lt;ChildListMember&gt;codigo_requisicao&lt;/ChildListMember&gt;&lt;ParentDataMember&gt;codigo&lt;/ParentDataMember&gt;&lt;ParentRootMode&gt;SelfReferencingNode&lt;/ParentRootMode&gt;&lt;/SelfReferencingSettings&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdDuplicata_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="data_vencimento"&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;00/00/0000&lt;/InputMask&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;105&lt;/Width&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column0&gt;&lt;Column1 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;87&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;UpDownMaximum&gt;366&lt;/UpDownMaximum&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;TotalRowFormatStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/TotalRowFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>76</value>
+  </metadata>
+</root>

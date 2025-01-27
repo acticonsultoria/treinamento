@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--<Interacti>
+  <ConfigDatabase>
+    <StringConnection>Password=p@ssw0rd013459;Persist Security Info=True;User ID=sa;Initial Catalog=interacti_legado_prd;Data Source=srv-acti-01\dev,5172;Connect Timeout = 999;</StringConnection>
+    <DataSource>srv-acti-01\dev,5172</DataSource>
+    <InitialCatalog>interacti_legado_prd</InitialCatalog>
+    <UserID>sa</UserID>
+    <Password>p@ssw0rd013459</Password>
+  </ConfigDatabase>
+  <Report>
+    <Path>\\srv-acti-01\Desenvolvimento\00.00 - Usuarios\Gabriel\Reports\Legado\</Path>
+  </Report>
+</Interacti>-->
+
+<!--<Interacti>
+  <ConfigDatabase>
+    <StringConnection>Password=p@ssw0rd013459;Persist Security Info=True;User ID=sa;Initial Catalog=interacti_legado_prd;Data Source=note-acti-21;Connect Timeout = 999;</StringConnection>
+    <DataSource>note-acti-21</DataSource>
+    <InitialCatalog>interacti_legado_prd</InitialCatalog>
+    <UserID>sa</UserID>
+    <Password>p@ssw0rd013459</Password>
+  </ConfigDatabase>
+  <Report>
+    <Path>C:\Users\gabriel.abreu\Documents\EMPRESAS\SENG\Reports\</Path>
+  </Report>
+</Interacti>-->
+
+<Interacti>
+  <ConfigDatabase>er
+    <StringConnection>Password=p@ssw0rd013459;Persist Security Info=True;User ID=sa;Initial Catalog=interacti_legado_prd;Data Source=SISTEMAGRV\SERVER, 1434;Connect Timeout = 999;</StringConnection>
+    <DataSource>SISTEMAGRV\SERVER, 1434</DataSource>
+    <InitialCatalog>interacti_legado_prd</InitialCatalog>
+    <UserID>sa</UserID>
+    <Password>p@ssw0rd013459</Password>
+  </ConfigDatabase>
+  <Report>
+    <Path>\\sistemagrv\INTERACTI\Reports\</Path>
+  </Report>
+</Interacti>

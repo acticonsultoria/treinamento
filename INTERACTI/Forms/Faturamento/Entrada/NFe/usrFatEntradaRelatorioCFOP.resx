@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnExcel.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEwAQAIEAAMzMzIiFaWZmM////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEwAQ
+        AAAIXAAHCBwQoKBBgwMTDiyokGDDhAEABHgo4CFBABIVCqj4MGLGgRs5NvQ4UWDIkyIvfkR5EiLGkgNY
+        bnTJEOTMji81pnT5MeHOhTkXjjwYVOBBhDQtKq2ptGPTAQEBADs=
+</value>
+  </data>
+  <data name="btnAgruparGridAnalitico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHDSURBVDhPY/j//z9FGKsgKZjBbNJdBvMp9wliu7kv
+        GOznvZwJxDHWM5+A9Rn2XCfeAMtpDxmAGs+A8YzHMQgDJt6ZCeScIRb33fr/H8yeeCcGbIBB19UzE+78
+        /d9++RcYt11C4NaLENxyAYErjnz/33z+13+QPiD2YNBsPHOm9+af/41nf/xvOPPjf82Jb/+zt3/8n7Lx
+        zf+IFU/+x6x59D9x/cP/cWvu/Y9dffe/2/TL/+PXP/4P0gfEHgzKFYdnKpUfOgPDHnNuPPBa+/yf9eIH
+        //1X3H9v0Xvupkbt0fMwebc1T/6DaKC+GPW6kwwMQA6DXNEeBum8ndrqNYfPWW358Ft5zfv/5tOvPQGK
+        rZLJ32UvU7CbX754L0jNGRAGisWA9IENkMrdwSCSsh6Eqw3m3H7Bs/nPf91lz94D+avEM7cIAzUwAA1g
+        EE3byCCaumEmEMeAxOAG8EYvg+FVqhs+fuPf/v+/ZMX+m3wxy+35Y1eAbIUbALUILAY3gCNkPgwfVd79
+        56/Mnv//uaKXngfy+WFyQJfgNoDFfxYMz2T2m3kGhIHsVraguQwwLJi4BrcB2NI3KRirICkYqyDx+D8D
+        AHJ1S44YUScxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridAnalitico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdListagemAnalitico_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="cfop"&gt;&lt;Caption&gt;CFOP&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cfop&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column1&gt;&lt;Column2 ID="razao_social"&gt;&lt;Caption&gt;Cliente&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;razao_social&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;Width&gt;209&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="numero_documento"&gt;&lt;Caption&gt;Número Documento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column3&gt;&lt;Column4 ID="natureza_operacao"&gt;&lt;Caption&gt;Natureza Operação&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;natureza_operacao&lt;/Key&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;/Column4&gt;&lt;Column5 ID="valor_contabil"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Contábil&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column5&gt;&lt;Column6 ID="base_calculo_icms"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Base de Cálculo ICMS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;base_calculo_icms&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column6&gt;&lt;Column7 ID="valor_icms"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor ICMS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_icms&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column7&gt;&lt;Column8 ID="base_calculo_ipi"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Base de Cálculo IPI&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;base_calculo_ipi&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column8&gt;&lt;Column9 ID="valor_ipi"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor IPI&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_ipi&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column9&gt;&lt;Column10 ID="base_calculo_icms_st"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Base de Cálculo ST&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;base_calculo_icms_st&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column10&gt;&lt;Column11 ID="valor_icms_st"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor ST&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_icms_st&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column11&gt;&lt;Column12 ID="base_calculo_pis"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Base de Cálculo PIS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;base_calculo_pis&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column12&gt;&lt;Column13 ID="valor_pis"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor PIS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_pis&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="base_calculo_cofins"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Base de Cálculo COFINS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;base_calculo_cofins&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column14&gt;&lt;Column15 ID="valor_cofins"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor COFINS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_cofins&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="codigo_entrada_capa"&gt;&lt;Key&gt;codigo_entrada_capa&lt;/Key&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column16&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnAgruparGridSintetico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHDSURBVDhPY/j//z9FGKsgKZjBbNJdBvMp9wliu7kv
+        GOznvZwJxDHWM5+A9Rn2XCfeAMtpDxmAGs+A8YzHMQgDJt6ZCeScIRb33fr/H8yeeCcGbIBB19UzE+78
+        /d9++RcYt11C4NaLENxyAYErjnz/33z+13+QPiD2YNBsPHOm9+af/41nf/xvOPPjf82Jb/+zt3/8n7Lx
+        zf+IFU/+x6x59D9x/cP/cWvu/Y9dffe/2/TL/+PXP/4P0gfEHgzKFYdnKpUfOgPDHnNuPPBa+/yf9eIH
+        //1X3H9v0Xvupkbt0fMwebc1T/6DaKC+GPW6kwwMQA6DXNEeBum8ndrqNYfPWW358Ft5zfv/5tOvPQGK
+        rZLJ32UvU7CbX754L0jNGRAGisWA9IENkMrdwSCSsh6Eqw3m3H7Bs/nPf91lz94D+avEM7cIAzUwAA1g
+        EE3byCCaumEmEMeAxOAG8EYvg+FVqhs+fuPf/v+/ZMX+m3wxy+35Y1eAbIUbALUILAY3gCNkPgwfVd79
+        56/Mnv//uaKXngfy+WFyQJfgNoDFfxYMz2T2m3kGhIHsVraguQwwLJi4BrcB2NI3KRirICkYqyDx+D8D
+        AHJ1S44YUScxAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridSintetico.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdListagemSintetico_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="cfop"&gt;&lt;Caption&gt;CFOP&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cfop&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column1&gt;&lt;Column2 ID="valor_contabil"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Contábil&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_icms"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor ICMS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_icms&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;Column4 ID="valor_ipi"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor IPI&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_ipi&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column4&gt;&lt;Column5 ID="valor_st"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor ST&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_st&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;/Column5&gt;&lt;Column6 ID="valor_pis"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor PIS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_pis&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="valor_cofins"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor COFINS&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_cofins&lt;/Key&gt;&lt;LineAlignment&gt;Far&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+</root>

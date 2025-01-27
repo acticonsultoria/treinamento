@@ -1,0 +1,56 @@
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\obj\Debug\ResolveAssemblyReference.cache
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+D:\Projetos\15_MelMetais\boleto eletrônico\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+E:\02 - PROJETOS\00 - PADRAO\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+E:\02 - PROJETOS\00 - PADRAO\FONTES V2\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+E:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.pdb
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csprojResolveAssemblyReference.cache
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\BoletoNet.Html.resources
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.csproj.GenerateResource.Cache
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.dll
+D:\Projetos\00_SVN\INTERACTI_PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Debug\Boleto.Net.pdb
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll.CodeAnalysisLog.xml
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Debug\Boleto.Net.dll.lastcodeanalysissucceeded

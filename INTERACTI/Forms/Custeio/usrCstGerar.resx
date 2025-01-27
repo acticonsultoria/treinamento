@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 566</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="pagDados.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Right</value>
+  </data>
+  <data name="tabCustos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="tabCustos.FocusOnClick" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="tabCustos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 74</value>
+  </data>
+  <data name="tabCustos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 403</value>
+  </data>
+  <data name="tabCustos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="grdEncargo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdEncargo_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="centro_custo"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Centro de Custo&lt;/Caption&gt;&lt;DataMember&gt;centro_custo&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;centro_custo&lt;/DefaultGroupPrefix&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;centro_custo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;160&lt;/Width&gt;&lt;TotalFormatString&gt;000000&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="valor_encargo"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;DataMember&gt;encargo&lt;/DataMember&gt;&lt;FormatString&gt;R$ #,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_encargo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;102&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdEncargo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdEncargo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdEncargo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdEncargo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grdEncargo.Name" xml:space="preserve">
+    <value>grdEncargo</value>
+  </data>
+  <data name="&gt;&gt;grdEncargo.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdEncargo.Parent" xml:space="preserve">
+    <value>pagEncargos</value>
+  </data>
+  <data name="&gt;&gt;grdEncargo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagEncargos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagEncargos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagEncargos.Text" xml:space="preserve">
+    <value>Encargos</value>
+  </data>
+  <data name="&gt;&gt;pagEncargos.Name" xml:space="preserve">
+    <value>pagEncargos</value>
+  </data>
+  <data name="&gt;&gt;pagEncargos.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagEncargos.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagEncargos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grdGGF.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdGGF_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="conta_contabil"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Conta Contábil&lt;/Caption&gt;&lt;DataMember&gt;conta_contabil&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="sub_item"&gt;&lt;Caption&gt;Sub Item&lt;/Caption&gt;&lt;DataMember&gt;sub_item&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;sub_item&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="valor_ggf"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_ggf&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatCondition1"&gt;&lt;FormatStyle&gt;&lt;BackColor&gt;Info&lt;/BackColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatCondition1&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;Value1&gt;ALUGUEL&lt;/Value1&gt;&lt;Conditions Collection="true" ElementName="FilterCondition"&gt;&lt;FilterCondition0&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;ENERGIA&lt;/Value1&gt;&lt;/FilterCondition0&gt;&lt;FilterCondition1&gt;&lt;ColumnIndex&gt;0&lt;/ColumnIndex&gt;&lt;LogicalOperator&gt;Or&lt;/LogicalOperator&gt;&lt;Value1&gt;ÁGUA&lt;/Value1&gt;&lt;/FilterCondition1&gt;&lt;/Conditions&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdGGF.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdGGF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdGGF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdGGF.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdGGF.Name" xml:space="preserve">
+    <value>grdGGF</value>
+  </data>
+  <data name="&gt;&gt;grdGGF.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdGGF.Parent" xml:space="preserve">
+    <value>pagGGF</value>
+  </data>
+  <data name="&gt;&gt;grdGGF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagGGF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagGGF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagGGF.Text" xml:space="preserve">
+    <value>GGF</value>
+  </data>
+  <data name="&gt;&gt;pagGGF.Name" xml:space="preserve">
+    <value>pagGGF</value>
+  </data>
+  <data name="&gt;&gt;pagGGF.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagGGF.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagGGF.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grdDespesa.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdDespesa_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="conta_contabil"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Conta Contábil&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;486&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;50&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdDespesa.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdDespesa.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdDespesa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdDespesa.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdDespesa.Name" xml:space="preserve">
+    <value>grdDespesa</value>
+  </data>
+  <data name="&gt;&gt;grdDespesa.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdDespesa.Parent" xml:space="preserve">
+    <value>pagDespesas</value>
+  </data>
+  <data name="&gt;&gt;grdDespesa.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagDespesas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDespesas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagDespesas.Text" xml:space="preserve">
+    <value>Despesa</value>
+  </data>
+  <data name="&gt;&gt;pagDespesas.Name" xml:space="preserve">
+    <value>pagDespesas</value>
+  </data>
+  <data name="&gt;&gt;pagDespesas.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDespesas.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagDespesas.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grdCustos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdCustos_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="conta"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Conta&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;104&lt;/Width&gt;&lt;TotalFormatString&gt;000000&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;321&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="centro_custo"&gt;&lt;Caption&gt;Centro Custo&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;centro_custo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;221&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="saldo_inicial"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Saldo Inicial&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;saldo_inicial&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;85&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="data"&gt;&lt;Caption&gt;Data&lt;/Caption&gt;&lt;FormatString&gt;MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdCustos.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdCustos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdCustos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdCustos.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grdCustos.Name" xml:space="preserve">
+    <value>grdCustos</value>
+  </data>
+  <data name="&gt;&gt;grdCustos.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdCustos.Parent" xml:space="preserve">
+    <value>pagCustos</value>
+  </data>
+  <data name="&gt;&gt;grdCustos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagCustos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagCustos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagCustos.TabVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pagCustos.Text" xml:space="preserve">
+    <value>Custos</value>
+  </data>
+  <data name="&gt;&gt;pagCustos.Name" xml:space="preserve">
+    <value>pagCustos</value>
+  </data>
+  <data name="&gt;&gt;pagCustos.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagCustos.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagCustos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_producao"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;OP&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;57&lt;/Width&gt;&lt;TotalFormatString&gt;0000&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="produto"&gt;&lt;Caption&gt;Produto&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;produto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;184&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="nota_fiscal_entrada"&gt;&lt;Caption&gt;NF Entrada&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nota_fiscal_entrada&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="mes"&gt;&lt;Caption&gt;Mês&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;mes&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;163&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="data_entrada"&gt;&lt;Caption&gt;Data Entrada&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_entrada&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;112&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="parceiro_negocio"&gt;&lt;Caption&gt;Parceiro Negócio &lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parceiro_negocio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;224&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;68&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdBeneficiamentoCorreto1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoCorreto1.Name" xml:space="preserve">
+    <value>grdBeneficiamentoCorreto1</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoCorreto1.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoCorreto1.Parent" xml:space="preserve">
+    <value>pagBeneficiamento1</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoCorreto1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagBeneficiamento1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagBeneficiamento1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagBeneficiamento1.TabVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pagBeneficiamento1.Text" xml:space="preserve">
+    <value>Beneficiamento</value>
+  </data>
+  <data name="&gt;&gt;pagBeneficiamento1.Name" xml:space="preserve">
+    <value>pagBeneficiamento1</value>
+  </data>
+  <data name="&gt;&gt;pagBeneficiamento1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagBeneficiamento1.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagBeneficiamento1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="pagMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagMP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagMP.TabVisible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="pagMP.Text" xml:space="preserve">
+    <value>Custo Material Direto</value>
+  </data>
+  <data name="&gt;&gt;pagMP.Name" xml:space="preserve">
+    <value>pagMP</value>
+  </data>
+  <data name="&gt;&gt;pagMP.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagMP.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagMP.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grdDepreciacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdDepreciacao_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;DataMember&gt;descricao&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;486&lt;/Width&gt;&lt;/Column0&gt;&lt;Column1 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;DataMember&gt;valor&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaderWidth&gt;18&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdDepreciacao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdDepreciacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdDepreciacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdDepreciacao.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao.Name" xml:space="preserve">
+    <value>grdDepreciacao</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao.Parent" xml:space="preserve">
+    <value>pagDepreciacao</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagDepreciacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDepreciacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagDepreciacao.Text" xml:space="preserve">
+    <value>Depreciação</value>
+  </data>
+  <data name="&gt;&gt;pagDepreciacao.Name" xml:space="preserve">
+    <value>pagDepreciacao</value>
+  </data>
+  <data name="&gt;&gt;pagDepreciacao.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDepreciacao.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagDepreciacao.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="grdManutencao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdManutencao_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="conta_contabil"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Conta Contábil&lt;/Caption&gt;&lt;DataMember&gt;conta_contabil&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;/Column0&gt;&lt;Column1 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;DataMember&gt;descricao&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;486&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;DataMember&gt;valor&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;/Column2&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaderWidth&gt;18&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdManutencao.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdManutencao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdManutencao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdManutencao.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;grdManutencao.Name" xml:space="preserve">
+    <value>grdManutencao</value>
+  </data>
+  <data name="&gt;&gt;grdManutencao.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdManutencao.Parent" xml:space="preserve">
+    <value>pagManutencao</value>
+  </data>
+  <data name="&gt;&gt;grdManutencao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagManutencao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagManutencao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 380</value>
+  </data>
+  <data name="pagManutencao.Text" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="&gt;&gt;pagManutencao.Name" xml:space="preserve">
+    <value>pagManutencao</value>
+  </data>
+  <data name="&gt;&gt;pagManutencao.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagManutencao.Parent" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;pagManutencao.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tabCustos.Name" xml:space="preserve">
+    <value>tabCustos</value>
+  </data>
+  <data name="&gt;&gt;tabCustos.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITab, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabCustos.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;tabCustos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpDados.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="lblInfo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 12pt, style=Bold</value>
+  </data>
+  <data name="lblInfo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>664, 26</value>
+  </data>
+  <data name="lblInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 20</value>
+  </data>
+  <data name="lblInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblInfo.Text" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="lblInfo.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="lblInfo.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Name" xml:space="preserve">
+    <value>lblInfo</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="oProgress.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="oProgress.Location" type="System.Drawing.Point, System.Drawing">
+    <value>657, 18</value>
+  </data>
+  <data name="oProgress.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 36</value>
+  </data>
+  <data name="oProgress.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="oProgress.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;oProgress.Name" xml:space="preserve">
+    <value>oProgress</value>
+  </data>
+  <data name="&gt;&gt;oProgress.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;oProgress.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;oProgress.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="dtpData.CustomFormat" xml:space="preserve">
+    <value>MM/yyyy</value>
+  </data>
+  <assembly alias="Janus.Windows.CalendarCombo.v3" name="Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null" />
+  <data name="dtpData.DateFormat" type="Janus.Windows.CalendarCombo.DateFormat, Janus.Windows.CalendarCombo.v3">
+    <value>Custom</value>
+  </data>
+  <data name="dtpData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 34</value>
+  </data>
+  <data name="dtpData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="dtpData.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;dtpData.Name" xml:space="preserve">
+    <value>dtpData</value>
+  </data>
+  <data name="&gt;&gt;dtpData.Type" xml:space="preserve">
+    <value>Janus.Windows.CalendarCombo.CalendarCombo, Janus.Windows.CalendarCombo.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;dtpData.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;dtpData.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblData.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblData.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 17</value>
+  </data>
+  <data name="lblData.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 14</value>
+  </data>
+  <data name="lblData.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblData.Text" xml:space="preserve">
+    <value>Data:</value>
+  </data>
+  <data name="&gt;&gt;lblData.Name" xml:space="preserve">
+    <value>lblData</value>
+  </data>
+  <data name="&gt;&gt;lblData.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblData.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblData.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnImportar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnImportar.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnImportar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 31</value>
+  </data>
+  <data name="btnImportar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnImportar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnImportar.Text" xml:space="preserve">
+    <value>Importar</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Name" xml:space="preserve">
+    <value>btnImportar</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;btnImportar.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnArquivo.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 34</value>
+  </data>
+  <data name="btnArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 20</value>
+  </data>
+  <metadata name="jstTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>113, 12</value>
+  </metadata>
+  <data name="btnArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="btnArquivo.Text" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="&gt;&gt;btnArquivo.Name" xml:space="preserve">
+    <value>btnArquivo</value>
+  </data>
+  <data name="&gt;&gt;btnArquivo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnArquivo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;btnArquivo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblArquivo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblArquivo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>48, 14</value>
+  </data>
+  <data name="lblArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblArquivo.Text" xml:space="preserve">
+    <value>Arquivo:</value>
+  </data>
+  <data name="&gt;&gt;lblArquivo.Name" xml:space="preserve">
+    <value>lblArquivo</value>
+  </data>
+  <data name="&gt;&gt;lblArquivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblArquivo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblArquivo.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtArquivo.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="txtArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="txtArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 20</value>
+  </data>
+  <data name="txtArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtArquivo.Name" xml:space="preserve">
+    <value>txtArquivo</value>
+  </data>
+  <data name="&gt;&gt;txtArquivo.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtArquivo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtArquivo.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="grpDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 65</value>
+  </data>
+  <data name="grpDados.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Name" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnImportarAno.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnImportarAno.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnImportarAno.Location" type="System.Drawing.Point, System.Drawing">
+    <value>700, 17</value>
+  </data>
+  <data name="btnImportarAno.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnImportarAno.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="btnImportarAno.Text" xml:space="preserve">
+    <value>Importar Ano</value>
+  </data>
+  <data name="&gt;&gt;btnImportarAno.Name" xml:space="preserve">
+    <value>btnImportarAno</value>
+  </data>
+  <data name="&gt;&gt;btnImportarAno.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnImportarAno.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnImportarAno.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnSair.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEwAQAIEAAMzMzIiFaWZmM////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEwAQ
+        AAAIXAAHCBwQoKBBgwMTDiyokGDDhAEABHgo4CFBABIVCqj4MGLGgRs5NvQ4UWDIkyIvfkR5EiLGkgNY
+        bnTJEOTMji81pnT5MeHOhTkXjjwYVOBBhDQtKq2ptGPTAQEBADs=
+</value>
+  </data>
+  <data name="btnSair.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="btnSair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>797, 17</value>
+  </data>
+  <data name="btnSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnSair.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnSair.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Name" xml:space="preserve">
+    <value>btnSair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnSair.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="grpControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>897, 51</value>
+  </data>
+  <data name="grpControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Name" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="pagDados.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="pagDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>913, 543</value>
+  </data>
+  <data name="pagDados.Text" xml:space="preserve">
+    <value>Gerar Custo</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Name" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;pagDados.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITab, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grdInsumo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdInsumo_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_plantio"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Ordem Plantio&lt;/Caption&gt;&lt;DataMember&gt;ordem_plantio&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_plantio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;/Column0&gt;&lt;Column1 ID="parcela"&gt;&lt;Caption&gt;Parcela&lt;/Caption&gt;&lt;DataMember&gt;parcela&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column1&gt;&lt;Column2 ID="insumo"&gt;&lt;Caption&gt;Insumo&lt;/Caption&gt;&lt;DataMember&gt;insumo&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;insumo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;/Column2&gt;&lt;Column3 ID="quantidade"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade&lt;/Caption&gt;&lt;DataMember&gt;quantidade&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column3&gt;&lt;Column4 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;DataMember&gt;valor_total&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;/Column4&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaderWidth&gt;18&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdInsumo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdInsumo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdInsumo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdInsumo.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;grdInsumo.Name" xml:space="preserve">
+    <value>grdInsumo</value>
+  </data>
+  <data name="&gt;&gt;grdInsumo.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdBeneficiamento1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdBeneficiamento1_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_beneficiamento"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Ordem Beneficiamento&lt;/Caption&gt;&lt;DataMember&gt;ordem_beneficiamento&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_beneficiamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;/Column0&gt;&lt;Column1 ID="insumo"&gt;&lt;Caption&gt;Insumo&lt;/Caption&gt;&lt;DataMember&gt;insumo&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;insumo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="quantidade"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade&lt;/Caption&gt;&lt;DataMember&gt;quantidade&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;DataMember&gt;valor_total&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaderWidth&gt;18&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdBeneficiamento1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdBeneficiamento1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdBeneficiamento1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdBeneficiamento1.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamento1.Name" xml:space="preserve">
+    <value>grdBeneficiamento1</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamento1.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdBeneficiamentoTSI.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdBeneficiamentoTSI_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_beneficiamento"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Ordem Beneficiamento&lt;/Caption&gt;&lt;DataMember&gt;ordem_beneficiamento&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_beneficiamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;TotalFormatString&gt;00000&lt;/TotalFormatString&gt;&lt;/Column0&gt;&lt;Column1 ID="insumo"&gt;&lt;Caption&gt;Insumo&lt;/Caption&gt;&lt;DataMember&gt;insumo&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;insumo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="quantidade"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade&lt;/Caption&gt;&lt;DataMember&gt;quantidade&lt;/DataMember&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade&lt;/Key&gt;&lt;LineAlignment&gt;Near&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;/Column2&gt;&lt;Column3 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;DataMember&gt;valor_total&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;/Column3&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaderWidth&gt;18&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdBeneficiamentoTSI.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdBeneficiamentoTSI.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdBeneficiamentoTSI.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 355</value>
+  </data>
+  <data name="grdBeneficiamentoTSI.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoTSI.Name" xml:space="preserve">
+    <value>grdBeneficiamentoTSI</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamentoTSI.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdDepreciacao1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdDepreciacao1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdDepreciacao1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 339</value>
+  </data>
+  <data name="grdDepreciacao1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao1.Name" xml:space="preserve">
+    <value>grdDepreciacao1</value>
+  </data>
+  <data name="&gt;&gt;grdDepreciacao1.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdBeneficiamento.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdBeneficiamento_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_producao"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;OP&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;qtd : 00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="produto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Produto&lt;/Caption&gt;&lt;DataMember&gt;produto&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;produto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="nota_fiscal_entrada"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;NF Entrada&lt;/Caption&gt;&lt;DataMember&gt;nota_fiscal_entrada&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nota_fiscal_entrada&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="parceiro_negocio"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Parceiro Negócio&lt;/Caption&gt;&lt;DataMember&gt;parceiro_negocio&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parceiro_negocio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;DataMember&gt;valor_total&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="data_entrada"&gt;&lt;Caption&gt;Data Entrada&lt;/Caption&gt;&lt;DataMember&gt;data_entrada&lt;/DataMember&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_entrada&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;50&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdBeneficiamento.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdBeneficiamento.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="grdBeneficiamento.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 357</value>
+  </data>
+  <data name="grdBeneficiamento.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamento.Name" xml:space="preserve">
+    <value>grdBeneficiamento</value>
+  </data>
+  <data name="&gt;&gt;grdBeneficiamento.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdMP.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdMP_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_producao"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;OP&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;ordem_producao&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;qtd: 00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="codigo_produto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Código do Produto&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;codigo_produto&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_produto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="quantidade_op"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade OP&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;quantidade_op&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade_op&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="codigo_materia_prima"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Código MP&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;codigo_materia_prima&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_materia_prima&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="descricao_mp"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Descrição MP&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;descricao_mp&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao_mp&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="quantidade_bom"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade BOM&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;quantidade_bom&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade_bom&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="unidade_medida"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Unidade de Medida&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;unidade_medida&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;unidade_medida&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="custo_medio_un_bom"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Custo Médio Unidade BOM&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;custo_medio_un_bom&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;custo_medio_un_bom&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="valor_total_mp"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Total MP&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;valor_total_mp&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total_mp&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdMP.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdMP.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="grdMP.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 357</value>
+  </data>
+  <data name="grdMP.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdMP.Name" xml:space="preserve">
+    <value>grdMP</value>
+  </data>
+  <data name="&gt;&gt;grdMP.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdValor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdValor_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="conta_contabil"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Conta Contábil&lt;/Caption&gt;&lt;DataMember&gt;conta_contabil&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;conta_contabil&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;qtd: 00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="janeiro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Janeiro&lt;/Caption&gt;&lt;DataMember&gt;janeiro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;janeiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="fevereiro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Fevereiro&lt;/Caption&gt;&lt;DataMember&gt;fevereiro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fevereiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="março"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Março&lt;/Caption&gt;&lt;DataMember&gt;março&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;março&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="abril"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Abril&lt;/Caption&gt;&lt;DataMember&gt;abril&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;abril&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="maio"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Maio&lt;/Caption&gt;&lt;DataMember&gt;maio&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;maio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="junho"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Junho&lt;/Caption&gt;&lt;DataMember&gt;junho&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;junho&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="julho"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Julho&lt;/Caption&gt;&lt;DataMember&gt;julho&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;julho&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="agosto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Agosto&lt;/Caption&gt;&lt;DataMember&gt;agosto&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;agosto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="setembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Setembro&lt;/Caption&gt;&lt;DataMember&gt;setembro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;setembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="outubro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Outubro&lt;/Caption&gt;&lt;DataMember&gt;outubro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;outubro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="novembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Novembro&lt;/Caption&gt;&lt;DataMember&gt;novembro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;novembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="dezembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Dezembro&lt;/Caption&gt;&lt;DataMember&gt;dezembro&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;dezembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;50&lt;/RowHeaderWidth&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdValor.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdValor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="grdValor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 357</value>
+  </data>
+  <data name="grdValor.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdValor.Name" xml:space="preserve">
+    <value>grdValor</value>
+  </data>
+  <data name="&gt;&gt;grdValor.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdConsumo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdConsumo_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Key&gt;main&lt;/Key&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="ordem_producao"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;OP&lt;/Caption&gt;&lt;DataMember&gt;ordem_producao&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;qtd: 00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="centro_custo"&gt;&lt;Caption&gt;Centro de Custo&lt;/Caption&gt;&lt;DataMember&gt;centro_custo&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;centro_custo&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;Key&gt;centro_custo&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="descricao"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Descricao&lt;/Caption&gt;&lt;DataMember&gt;descricao&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;descricao&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="janeiro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Janeiro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;janeiro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;janeiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="fevereiro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Fevereiro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;fevereiro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;fevereiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="março"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Março&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;março:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;março&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="abril"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Abril&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;abril:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;abril&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="maio"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Maio&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;maio:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;maio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="junho"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Junho&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;junho:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;junho&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="julho"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Julho&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;julho:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;julho&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="agosto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Agosto&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;agosto:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;agosto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="setembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Setembro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;setembro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;setembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="outubro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Outubro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;outubro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;outubro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="novembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Novembro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;novembro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;novembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="dezembro"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Dezembro&lt;/Caption&gt;&lt;DefaultGroupPrefix&gt;dezembro:&lt;/DefaultGroupPrefix&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;dezembro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdConsumo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdConsumo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 12</value>
+  </data>
+  <data name="grdConsumo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 357</value>
+  </data>
+  <data name="grdConsumo.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdConsumo.Name" xml:space="preserve">
+    <value>grdConsumo</value>
+  </data>
+  <data name="&gt;&gt;grdConsumo.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdRateio.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdRateio_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="CCPP1"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;CCPP1&lt;/Caption&gt;&lt;DataMember&gt;CCPP1&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;CCPP1&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="CCPP2"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;CCPP2&lt;/Caption&gt;&lt;DataMember&gt;CCPP2&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;CCPP2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="CCPP3"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;CCPP3&lt;/Caption&gt;&lt;DataMember&gt;CCPP3&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;CCPP3&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="CCPP5"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;CCPP5&lt;/Caption&gt;&lt;DataMember&gt;CCPP5&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;CCPP5&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="CCPP6"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;CCPP6&lt;/Caption&gt;&lt;DataMember&gt;CCPP6&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;CCPP6&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="ordem_producao"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;OP&lt;/Caption&gt;&lt;DataMember&gt;ordem_producao&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ordem_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="total_mo"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Total MO&lt;/Caption&gt;&lt;DataMember&gt;total_mo&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;total_mo&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;total_mo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;qtd: 00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="beneficiamento"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Beneficiamento&lt;/Caption&gt;&lt;DataMember&gt;beneficiamento&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;beneficiamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="custo_direto_mp"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Custo Direto MP&lt;/Caption&gt;&lt;DataMember&gt;custo_direto_mp&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;custo_direto_mp&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="quantidade_op"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Quantidade OP&lt;/Caption&gt;&lt;DataMember&gt;quantidade_op&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;quantidade_op&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="total_geral"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Total Geral&lt;/Caption&gt;&lt;DataMember&gt;total_geral&lt;/DataMember&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;total_geral&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="custo_unitario"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Custo Unitário&lt;/Caption&gt;&lt;DataMember&gt;custo_unitario&lt;/DataMember&gt;&lt;DefaultGroupPrefix&gt;custo_unitario&lt;/DefaultGroupPrefix&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;custo_unitario&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdRateio.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdRateio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 13</value>
+  </data>
+  <data name="grdRateio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>879, 356</value>
+  </data>
+  <data name="grdRateio.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdRateio.Name" xml:space="preserve">
+    <value>grdRateio</value>
+  </data>
+  <data name="&gt;&gt;grdRateio.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="UiTabPage1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="UiTabPage1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>893, 253</value>
+  </data>
+  <data name="UiTabPage1.Text" xml:space="preserve">
+    <value>Vendas</value>
+  </data>
+  <data name="&gt;&gt;UiTabPage1.Name" xml:space="preserve">
+    <value>UiTabPage1</value>
+  </data>
+  <data name="&gt;&gt;UiTabPage1.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="cboPersonalidade.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboPersonalidade.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboPersonalidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="cboPersonalidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 20</value>
+  </data>
+  <data name="cboPersonalidade.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboPersonalidade.Name" xml:space="preserve">
+    <value>cboPersonalidade</value>
+  </data>
+  <data name="&gt;&gt;cboPersonalidade.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="grdCusto.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdCusto.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="grdCusto.Size" type="System.Drawing.Size, System.Drawing">
+    <value>889, 375</value>
+  </data>
+  <data name="grdCusto.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;grdCusto.Name" xml:space="preserve">
+    <value>grdCusto</value>
+  </data>
+  <data name="&gt;&gt;grdCusto.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdCusto.Parent" xml:space="preserve">
+    <value>pagICMSSimples</value>
+  </data>
+  <data name="&gt;&gt;grdCusto.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="pagICMSSimples.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagICMSSimples.Size" type="System.Drawing.Size, System.Drawing">
+    <value>895, 381</value>
+  </data>
+  <data name="pagICMSSimples.Text" xml:space="preserve">
+    <value>Custo Recorrente</value>
+  </data>
+  <data name="&gt;&gt;pagICMSSimples.Name" xml:space="preserve">
+    <value>pagICMSSimples</value>
+  </data>
+  <data name="&gt;&gt;pagICMSSimples.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>33</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>915, 566</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Name" xml:space="preserve">
+    <value>vsmMain</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.VisualStyleManager, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Name" xml:space="preserve">
+    <value>jstTip</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.JanusSuperTip, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>usrCstGerar</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

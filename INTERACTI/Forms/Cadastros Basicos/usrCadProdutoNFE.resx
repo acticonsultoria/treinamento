@@ -1,0 +1,3573 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tabMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tabMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 566</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tabMain.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="btnEditarGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnEditarGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnEditarGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnEditarGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>82, 463</value>
+  </data>
+  <data name="btnEditarGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnEditarGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnEditarGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnEditarGrid.Name" xml:space="preserve">
+    <value>btnEditarGrid</value>
+  </data>
+  <data name="&gt;&gt;btnEditarGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEditarGrid.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;btnEditarGrid.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnExcelGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGrid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>58, 463</value>
+  </data>
+  <data name="btnExcelGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGrid.Name" xml:space="preserve">
+    <value>btnExcelGrid</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGrid.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGrid.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnAgruparGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 463</value>
+  </data>
+  <data name="btnAgruparGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGrid.Name" xml:space="preserve">
+    <value>btnAgruparGrid</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGrid.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGrid.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnConfigurarGrid.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGrid.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGrid.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGrid.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGrid.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 463</value>
+  </data>
+  <data name="btnConfigurarGrid.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGrid.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGrid.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGrid.Name" xml:space="preserve">
+    <value>btnConfigurarGrid</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGrid.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGrid.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGrid.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="grdListagem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAA1xJREFUOE8lU+9PW2UYfe7t7b1t7+0V2pHSy4zG6YfF/8MPftBoSCSRxG+LftDo
+        F4nGbRIikbihwZWNbdKSDsPwB1TqKh0t26SDVlerW0GxOAZDsI6JisomejytNzm5b973fc5znvM8r4hr
+        j4gadCWmikjnK/hgah7Hx4sYnatiePYWXjmZeVzM/X5xtRiiBFRR/KIqhrjETWjCr0F4oI2mClj5DVjf
+        BX4CcIPom5jHe+eXcKAz+rQEHrbFuk8XsVURrygM9nssEbcZrhHoH2fL9cB4liryP+MayU6k5jFDpv5E
+        Ec90vNtOFbYoQd1nO2qNoJ5fxBS3fa/RfTqJb34FrvxCklwV0akKPru6hVi6jLOXljFRuo32jmPtYu6z
+        xRPWSaA2mT4RXbdFtKDxZvwCrlPBmeIOesYXUN4CNv4FbnPv+h0gevEm+s4t4kDXEJWEbEMzdQ/dq9ci
+        7kbj5UgSX/LiJOuIFrbx7e9A8nIFw+cKuElfDsbnMF0F3hq7imcP9bczyG4ytJqb/BTb6IxfRp4Xez//
+        Ax3vl8C7mF/bwS2SLv8JnMpt4sVYEd2J73F0JAcSPGiK+OtGaFbIeCmSwjSzzjLw0EcLKKzsIltYxCdZ
+        tvTCAi5tAkWe5XeAw6fT8HjtJ+nAHmFfxNfYYjx35EPM/Q2c/Ap44dQM1rj+cWsXq5t3sPEPkKPBMwwu
+        UFFnLEMFxlP0IFwnEMU0uoYvIrcNpJnp+eMZlNbu4tPpL4g8zma/RiRzA0cyG0ivAx2RRI2gzSvi1Esw
+        A47+xtAkehLX8PpoCa8OZlGlH5WN7TqW2NpVyp9hS5b5f61/DKKQQFMc9qFmo1cTY69f9AceEf2hJ7qG
+        qGB1G6lcCednyxhK5hDLLuJYqlyfld4zkyTwtik1BbRQDIszrjd5RAv7xd0SGkzm8QOzrv8FLFXvYoXm
+        Ujkq7MZ33H87Nl4nEJfHEY9ZewuGIqqlihXWfM5+38HeQbwTG0PPwAhOjKTQF59A98AoIlxHx7LoPDoA
+        X3BvK0maa8H/w0VLXOysamqi2rb4wo9Kw/2t4gq2iTfMbA2E1cbzGlqJx0S/J8AK2E0OFAeDivi6FMOl
+        2SGfqIFGBjeL1uSIN+Qo/jAd9zni9tM4b7On0QmIaln/AZuQ7svIqoipAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        wwAADsMBx2+oZAAAA29JREFUOE8lU1tME1EQnS5td0tpbWsFUYSoKBpMwwf4joKi/JTEYHwlKugHIBoC
+        iK+gfBijP2qIEKE1FFoouwVboCpo8REFUUlUFImYQATxAfhAJQjGmHHuurt3783sPXPOnLkLJrr1NECh
+        AQinWQ8ABoAgDiCClocjF6l9q1MbvEs2nWywWJXrKbaMxlyVAEE0wxwIg2AIAVBpAQQK0ARGADUlmEdL
+        f/qO0mOaYCwxR+LFOTGPxNRd0TEUn0FDp1HTCzSE42FWOPHxFKVcmpksDjDZJSZjWzl2ZW5GW6wJy+Oi
+        MH9h2ERB4iprmBKAHiB2DkJ1JJ1dpImjJDyx93dc1k90nB8YcexB7C3FP5UZWJ6kx1yLFtPj5x9llfIK
+        ApAIMIYIcjZDMK1VAGZa/+q+VDndfhjfu5Jwon4jTnmtiO0F6CtK7rHGhqjNMpaYmFmsFKY+nDwIZeAX
+        9i1jbQex352IP1vW4XDdUhxpXINvPClTPd5D8UvIZFaiGohNtpKSELnM/PtV9ey3jVmff7fvw+83k3Cw
+        fjF+u70Ch1rX4esbW/Nm0x5mINsvm88S8NRBA9Uw1HkFxttPX/vamo4DNQn4I7AWx24tx4GWBOwLWO/c
+        b9jGGRVEREpZw0wqpjdIBUrSzyQNPizJnHpShJ+aU3EisBlH/Mtx9F4KPvdtHO+5dyDCSGQ6UmsiQp7k
+        q2UFPEEpaCQfPj0te/OgIhnxWTZ+9G9AfJ6BA4Ht+PJW1k4j7YkK+286M1ygA6PjqN/AaSE4hIehvjYY
+        63VMTfeeQew/hb+6svB101bsv3tEDCev2PliYJN+BlXNg05lpjdrJjvCVFf3k8bQoW4X4pgbcbAERx+f
+        wMm+suEO30kD2xYZqpX9VhBMQen0gpmUsN5xKmDnYf3qmPjM3auwr7MCcTzwF78ExOkPbQuYN8wwBhbU
+        WtAIBuCVOtmBIFY7AzMFcZb5aQsjNLhhZVTz13edFiZZT9+MJFCg2WSgH0Sung2OQUBQ0gdRqoZqpy26
+        oCDneGF+zrl6t3OvV3JnNDVI2VJtTV6lrSLPbivPrqqqzGhp9e+tE11bRMmVeP2aL9rptAE4ay5zTX7R
+        4qiyp0mStF9yX829UuEs9Ij+YpfTU+y92lzscDiKCVx44eLZ3KZmz37R40iz20vifL5a7h8Ki0Mi3xoB
+        ZAAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="duplicar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para duplicar o registro&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;duplicar&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="editar"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para editar o registro&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;editar&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="grupo_item"&gt;&lt;Caption&gt;Grupo Item&lt;/Caption&gt;&lt;Key&gt;grupo_item&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="codigo_item"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_item&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column4&gt;&lt;Column5 ID="codigo_item2"&gt;&lt;Caption&gt;Código Item ²&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_item2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="codigo_ean"&gt;&lt;Caption&gt;Código EAN&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_ean&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column6&gt;&lt;Column7 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;300&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column7&gt;&lt;Column8 ID="referencia"&gt;&lt;Caption&gt;Referência&lt;/Caption&gt;&lt;Key&gt;referencia&lt;/Key&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="item_estoque"&gt;&lt;Caption&gt;Item Estoque&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;item_estoque&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="item_venda"&gt;&lt;Caption&gt;Item Venda&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;item_venda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="item_compra"&gt;&lt;Caption&gt;Item Compra&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;item_compra&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="item_producao"&gt;&lt;Caption&gt;Item Produção&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;item_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="ativo_fixo"&gt;&lt;Caption&gt;Ativo Fixo&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ativo_fixo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="ncm"&gt;&lt;Caption&gt;NCM&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ncm&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column14&gt;&lt;Column15 ID="ativo"&gt;&lt;Caption&gt;Ativo&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;ativo&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="insumo_producao"&gt;&lt;Caption&gt;Insumo Produção&lt;/Caption&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;insumo_producao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column16&gt;&lt;Column17 ID="peso_liquido"&gt;&lt;Caption&gt;Peso Líquido&lt;/Caption&gt;&lt;FormatString&gt;#,#0.000&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number4&lt;/InputMask&gt;&lt;Key&gt;peso_liquido&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column17&gt;&lt;Column18 ID="codigo_origem_item"&gt;&lt;Caption&gt;Código Origem&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_origem_item&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column18&gt;&lt;Column19 ID="unidade_medida_venda"&gt;&lt;Caption&gt;Und. Med. Venda&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;unidade_medida_venda&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column19&gt;&lt;Column20 ID="unidade_medida_compra"&gt;&lt;Caption&gt;Und. Med. Compra&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;unidade_medida_compra&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column20&gt;&lt;Column21 ID="unidade_medida_estoque"&gt;&lt;Caption&gt;Und. Med. Estoque&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;unidade_medida_estoque&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;60&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column21&gt;&lt;Column22 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column22&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdListagem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="grdListagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 156</value>
+  </data>
+  <data name="grdListagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 324</value>
+  </data>
+  <data name="grdListagem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Name" xml:space="preserve">
+    <value>grdListagem</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.GridEX, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grdListagem.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboMarcaFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cboMarcaFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboMarcaFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="UiComboBoxItem1.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UiComboBoxItem2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboMarcaFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 74</value>
+  </data>
+  <data name="cboMarcaFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>246, 20</value>
+  </data>
+  <data name="cboMarcaFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;cboMarcaFiltro.Name" xml:space="preserve">
+    <value>cboMarcaFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboMarcaFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboMarcaFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboMarcaFiltro.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 97</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>101, 14</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblControlaQualidadeFiltro.Text" xml:space="preserve">
+    <value>Controla Qualidade:</value>
+  </data>
+  <data name="&gt;&gt;lblControlaQualidadeFiltro.Name" xml:space="preserve">
+    <value>lblControlaQualidadeFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblControlaQualidadeFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblControlaQualidadeFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblControlaQualidadeFiltro.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 114</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="cboControlaQualidadeFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;cboControlaQualidadeFiltro.Name" xml:space="preserve">
+    <value>cboControlaQualidadeFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboControlaQualidadeFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboControlaQualidadeFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboControlaQualidadeFiltro.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 97</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 14</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblInsumoProducaoFiltro.Text" xml:space="preserve">
+    <value>Insumo de Produção:</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducaoFiltro.Name" xml:space="preserve">
+    <value>lblInsumoProducaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducaoFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducaoFiltro.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 114</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="cboInsumoProducaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducaoFiltro.Name" xml:space="preserve">
+    <value>cboInsumoProducaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducaoFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducaoFiltro.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtCodigo2Filtro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigo2Filtro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 34</value>
+  </data>
+  <data name="txtCodigo2Filtro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="txtCodigo2Filtro.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2Filtro.Name" xml:space="preserve">
+    <value>txtCodigo2Filtro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2Filtro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2Filtro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2Filtro.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblCodigo2Filtro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigo2Filtro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigo2Filtro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigo2Filtro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 17</value>
+  </data>
+  <data name="lblCodigo2Filtro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="lblCodigo2Filtro.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblCodigo2Filtro.Text" xml:space="preserve">
+    <value>Código ²:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2Filtro.Name" xml:space="preserve">
+    <value>lblCodigo2Filtro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2Filtro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2Filtro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2Filtro.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblMarcaFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblMarcaFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMarcaFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblMarcaFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>582, 57</value>
+  </data>
+  <data name="lblMarcaFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 14</value>
+  </data>
+  <data name="lblMarcaFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblMarcaFiltro.Text" xml:space="preserve">
+    <value>Marca:</value>
+  </data>
+  <data name="&gt;&gt;lblMarcaFiltro.Name" xml:space="preserve">
+    <value>lblMarcaFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblMarcaFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMarcaFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblMarcaFiltro.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCodigoFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>456, 34</value>
+  </data>
+  <data name="txtCodigoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="txtCodigoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoFiltro.Name" xml:space="preserve">
+    <value>txtCodigoFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoFiltro.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="txtDescricao2Filtro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtDescricao2Filtro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 114</value>
+  </data>
+  <data name="txtDescricao2Filtro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 20</value>
+  </data>
+  <data name="txtDescricao2Filtro.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao2Filtro.Name" xml:space="preserve">
+    <value>txtDescricao2Filtro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao2Filtro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao2Filtro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao2Filtro.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblDescricao2Filtro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricao2Filtro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricao2Filtro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="lblDescricao2Filtro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 14</value>
+  </data>
+  <data name="lblDescricao2Filtro.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lblDescricao2Filtro.Text" xml:space="preserve">
+    <value>Descrição ²:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao2Filtro.Name" xml:space="preserve">
+    <value>lblDescricao2Filtro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao2Filtro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao2Filtro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao2Filtro.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="btnFiltrar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnFiltrar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 111</value>
+  </data>
+  <data name="btnFiltrar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnFiltrar.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="btnFiltrar.Text" xml:space="preserve">
+    <value>Filtrar</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Name" xml:space="preserve">
+    <value>btnFiltrar</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;btnFiltrar.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtDescricaoFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtDescricaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="txtDescricaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>570, 20</value>
+  </data>
+  <data name="txtDescricaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Name" xml:space="preserve">
+    <value>txtDescricaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoFiltro.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblDescricaoFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricaoFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricaoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblDescricaoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricaoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lblDescricaoFiltro.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Name" xml:space="preserve">
+    <value>lblDescricaoFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoFiltro.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtCodigoEANFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigoEANFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>711, 34</value>
+  </data>
+  <data name="txtCodigoEANFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="txtCodigoEANFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEANFiltro.Name" xml:space="preserve">
+    <value>txtCodigoEANFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEANFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEANFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEANFiltro.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="lblGrupoItemFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrupoItemFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGrupoItemFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="lblGrupoItemFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="lblGrupoItemFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblGrupoItemFiltro.Text" xml:space="preserve">
+    <value>Grupo - Item:</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItemFiltro.Name" xml:space="preserve">
+    <value>lblGrupoItemFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItemFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItemFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItemFiltro.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="cboGrupoItemFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboGrupoItemFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboGrupoItemFiltro.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboGrupoItemFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="cboGrupoItemFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>441, 20</value>
+  </data>
+  <data name="cboGrupoItemFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItemFiltro.Name" xml:space="preserve">
+    <value>cboGrupoItemFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItemFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItemFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItemFiltro.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lblCodigoEANFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigoEANFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigoEANFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigoEANFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>708, 17</value>
+  </data>
+  <data name="lblCodigoEANFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 14</value>
+  </data>
+  <data name="lblCodigoEANFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lblCodigoEANFiltro.Text" xml:space="preserve">
+    <value>Código EAN:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEANFiltro.Name" xml:space="preserve">
+    <value>lblCodigoEANFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEANFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEANFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEANFiltro.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lblCodigoFiltro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigoFiltro.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigoFiltro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigoFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>453, 17</value>
+  </data>
+  <data name="lblCodigoFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 14</value>
+  </data>
+  <data name="lblCodigoFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblCodigoFiltro.Text" xml:space="preserve">
+    <value>Código:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoFiltro.Name" xml:space="preserve">
+    <value>lblCodigoFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoFiltro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoFiltro.Parent" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoFiltro.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="grpFiltro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpFiltro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 144</value>
+  </data>
+  <data name="grpFiltro.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Name" xml:space="preserve">
+    <value>grpFiltro</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grpFiltro.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="grpControl.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="lblCongelarColuna.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCongelarColuna.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCongelarColuna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 21</value>
+  </data>
+  <data name="lblCongelarColuna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 14</value>
+  </data>
+  <data name="lblCongelarColuna.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblCongelarColuna.Text" xml:space="preserve">
+    <value>Congelar Coluna:</value>
+  </data>
+  <data name="&gt;&gt;lblCongelarColuna.Name" xml:space="preserve">
+    <value>lblCongelarColuna</value>
+  </data>
+  <data name="&gt;&gt;lblCongelarColuna.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCongelarColuna.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;lblCongelarColuna.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="cboCongelarColuna.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboCongelarColuna.Location" type="System.Drawing.Point, System.Drawing">
+    <value>101, 18</value>
+  </data>
+  <data name="cboCongelarColuna.Size" type="System.Drawing.Size, System.Drawing">
+    <value>151, 20</value>
+  </data>
+  <data name="cboCongelarColuna.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cboCongelarColuna.Name" xml:space="preserve">
+    <value>cboCongelarColuna</value>
+  </data>
+  <data name="&gt;&gt;cboCongelarColuna.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboCongelarColuna.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;cboCongelarColuna.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnNovo1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnNovo1.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="btnNovo1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 17</value>
+  </data>
+  <data name="btnNovo1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnNovo1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnNovo1.Text" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Name" xml:space="preserve">
+    <value>btnNovo1</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnNovo1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnSair.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSair.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEwAQAIEAAMzMzIiFaWZmM////yH/C05FVFNDQVBFMi4wAwEBAAAh+QQBAAADACwAAAAAEwAQ
+        AAAIXAAHCBwQoKBBgwMTDiyokGDDhAEABHgo4CFBABIVCqj4MGLGgRs5NvQ4UWDIkyIvfkR5EiLGkgNY
+        bnTJEOTMji81pnT5MeHOhTkXjjwYVOBBhDQtKq2ptGPTAQEBADs=
+</value>
+  </data>
+  <data name="btnSair.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>19, 16</value>
+  </data>
+  <data name="btnSair.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 17</value>
+  </data>
+  <data name="btnSair.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnSair.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnSair.Text" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Name" xml:space="preserve">
+    <value>btnSair</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSair.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnSair.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnExcluir.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnExcluir.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>17, 15</value>
+  </data>
+  <data name="btnExcluir.Location" type="System.Drawing.Point, System.Drawing">
+    <value>785, 17</value>
+  </data>
+  <data name="btnExcluir.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnExcluir.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="btnExcluir.Text" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Name" xml:space="preserve">
+    <value>btnExcluir</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.Parent" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;btnExcluir.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpControl.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="grpControl.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 51</value>
+  </data>
+  <data name="grpControl.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Name" xml:space="preserve">
+    <value>grpControl</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpControl.Parent" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;grpControl.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="pagLista.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="pagLista.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagLista.Size" type="System.Drawing.Size, System.Drawing">
+    <value>998, 543</value>
+  </data>
+  <data name="pagLista.Text" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Name" xml:space="preserve">
+    <value>pagLista</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagLista.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;pagLista.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpDadosGerais.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="cboUnidadeMedida.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cboUnidadeMedida.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboUnidadeMedida.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboUnidadeMedida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>869, 74</value>
+  </data>
+  <data name="cboUnidadeMedida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 20</value>
+  </data>
+  <data name="cboUnidadeMedida.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;cboUnidadeMedida.Name" xml:space="preserve">
+    <value>cboUnidadeMedida</value>
+  </data>
+  <data name="&gt;&gt;cboUnidadeMedida.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboUnidadeMedida.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;cboUnidadeMedida.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblUnidadeMedida.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblUnidadeMedida.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblUnidadeMedida.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblUnidadeMedida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>866, 57</value>
+  </data>
+  <data name="lblUnidadeMedida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="lblUnidadeMedida.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblUnidadeMedida.Text" xml:space="preserve">
+    <value>Und. Medida:</value>
+  </data>
+  <data name="&gt;&gt;lblUnidadeMedida.Name" xml:space="preserve">
+    <value>lblUnidadeMedida</value>
+  </data>
+  <data name="&gt;&gt;lblUnidadeMedida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblUnidadeMedida.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblUnidadeMedida.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblInsumoProducao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInsumoProducao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblInsumoProducao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblInsumoProducao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 14</value>
+  </data>
+  <data name="lblInsumoProducao.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblInsumoProducao.Text" xml:space="preserve">
+    <value>Insumo de Produção:</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducao.Name" xml:space="preserve">
+    <value>lblInsumoProducao</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducao.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblInsumoProducao.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cboInsumoProducao.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboInsumoProducao.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboInsumoProducao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="cboInsumoProducao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="cboInsumoProducao.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducao.Name" xml:space="preserve">
+    <value>cboInsumoProducao</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducao.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducao.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;cboInsumoProducao.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtObservacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="txtObservacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 114</value>
+  </data>
+  <data name="txtObservacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>962, 230</value>
+  </data>
+  <data name="txtObservacao.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Name" xml:space="preserve">
+    <value>txtObservacao</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.EditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;txtObservacao.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblObservacao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblObservacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblObservacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 97</value>
+  </data>
+  <data name="lblObservacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 14</value>
+  </data>
+  <data name="lblObservacao.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblObservacao.Text" xml:space="preserve">
+    <value>Observação:</value>
+  </data>
+  <data name="&gt;&gt;lblObservacao.Name" xml:space="preserve">
+    <value>lblObservacao</value>
+  </data>
+  <data name="&gt;&gt;lblObservacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblObservacao.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblObservacao.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblOrigemItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblOrigemItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblOrigemItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>246, 57</value>
+  </data>
+  <data name="lblOrigemItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 14</value>
+  </data>
+  <data name="lblOrigemItem.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblOrigemItem.Text" xml:space="preserve">
+    <value>Origem do Item:</value>
+  </data>
+  <data name="&gt;&gt;lblOrigemItem.Name" xml:space="preserve">
+    <value>lblOrigemItem</value>
+  </data>
+  <data name="&gt;&gt;lblOrigemItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblOrigemItem.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblOrigemItem.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="cboOrigemItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboOrigemItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboOrigemItem.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboOrigemItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>249, 74</value>
+  </data>
+  <data name="cboOrigemItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>614, 20</value>
+  </data>
+  <data name="cboOrigemItem.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboOrigemItem.Name" xml:space="preserve">
+    <value>cboOrigemItem</value>
+  </data>
+  <data name="&gt;&gt;cboOrigemItem.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboOrigemItem.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;cboOrigemItem.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtPesoLiquido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 74</value>
+  </data>
+  <data name="txtPesoLiquido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 20</value>
+  </data>
+  <data name="txtPesoLiquido.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="txtPesoLiquido.Text" xml:space="preserve">
+    <value>0,0000</value>
+  </data>
+  <data name="&gt;&gt;txtPesoLiquido.Name" xml:space="preserve">
+    <value>txtPesoLiquido</value>
+  </data>
+  <data name="&gt;&gt;txtPesoLiquido.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.NumericEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtPesoLiquido.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;txtPesoLiquido.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblPesoLiquido.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPesoLiquido.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblPesoLiquido.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 57</value>
+  </data>
+  <data name="lblPesoLiquido.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 14</value>
+  </data>
+  <data name="lblPesoLiquido.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblPesoLiquido.Text" xml:space="preserve">
+    <value>Peso Líquido:</value>
+  </data>
+  <data name="&gt;&gt;lblPesoLiquido.Name" xml:space="preserve">
+    <value>lblPesoLiquido</value>
+  </data>
+  <data name="&gt;&gt;lblPesoLiquido.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPesoLiquido.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblPesoLiquido.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="txtDescricaoNCM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtDescricaoNCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>135, 34</value>
+  </data>
+  <data name="txtDescricaoNCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>836, 20</value>
+  </data>
+  <data name="txtDescricaoNCM.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoNCM.Name" xml:space="preserve">
+    <value>txtDescricaoNCM</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoNCM.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoNCM.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;txtDescricaoNCM.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblDescricaoNCM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricaoNCM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricaoNCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 17</value>
+  </data>
+  <data name="lblDescricaoNCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricaoNCM.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblDescricaoNCM.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoNCM.Name" xml:space="preserve">
+    <value>lblDescricaoNCM</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoNCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoNCM.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblDescricaoNCM.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lblCodigoNCM.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigoNCM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigoNCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="lblCodigoNCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>68, 14</value>
+  </data>
+  <data name="lblCodigoNCM.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblCodigoNCM.Text" xml:space="preserve">
+    <value>Código NCM:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoNCM.Name" xml:space="preserve">
+    <value>lblCodigoNCM</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoNCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoNCM.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoNCM.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="cboCodigoNCM.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboCodigoNCM.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboCodigoNCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="cboCodigoNCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 20</value>
+  </data>
+  <data name="cboCodigoNCM.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoNCM.Name" xml:space="preserve">
+    <value>cboCodigoNCM</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoNCM.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoNCM.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;cboCodigoNCM.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="btnCadastrarNCM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCadastrarNCM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCadastrarNCM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCadastrarNCM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <data name="btnCadastrarNCM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnCadastrarNCM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="btnCadastrarNCM.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarNCM.Name" xml:space="preserve">
+    <value>btnCadastrarNCM</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarNCM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarNCM.Parent" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarNCM.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="grpDadosGerais.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 123</value>
+  </data>
+  <data name="grpDadosGerais.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 354</value>
+  </data>
+  <data name="grpDadosGerais.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpDadosGerais.Name" xml:space="preserve">
+    <value>grpDadosGerais</value>
+  </data>
+  <data name="&gt;&gt;grpDadosGerais.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpDadosGerais.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpDadosGerais.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="grpTipoItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="chkItemProducao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 68</value>
+  </data>
+  <data name="chkItemProducao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="chkItemProducao.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="chkItemProducao.Text" xml:space="preserve">
+    <value>Item de produção</value>
+  </data>
+  <data name="&gt;&gt;chkItemProducao.Name" xml:space="preserve">
+    <value>chkItemProducao</value>
+  </data>
+  <data name="&gt;&gt;chkItemProducao.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkItemProducao.Parent" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;chkItemProducao.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkAtivoFixo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 87</value>
+  </data>
+  <data name="chkAtivoFixo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="chkAtivoFixo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkAtivoFixo.Text" xml:space="preserve">
+    <value>Ativo fixo</value>
+  </data>
+  <data name="&gt;&gt;chkAtivoFixo.Name" xml:space="preserve">
+    <value>chkAtivoFixo</value>
+  </data>
+  <data name="&gt;&gt;chkAtivoFixo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkAtivoFixo.Parent" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;chkAtivoFixo.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkItemCompra.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 30</value>
+  </data>
+  <data name="chkItemCompra.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="chkItemCompra.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkItemCompra.Text" xml:space="preserve">
+    <value>Item de compra</value>
+  </data>
+  <data name="&gt;&gt;chkItemCompra.Name" xml:space="preserve">
+    <value>chkItemCompra</value>
+  </data>
+  <data name="&gt;&gt;chkItemCompra.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkItemCompra.Parent" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;chkItemCompra.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkItemVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="chkItemVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="chkItemVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="chkItemVenda.Text" xml:space="preserve">
+    <value>Item de venda</value>
+  </data>
+  <data name="&gt;&gt;chkItemVenda.Name" xml:space="preserve">
+    <value>chkItemVenda</value>
+  </data>
+  <data name="&gt;&gt;chkItemVenda.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkItemVenda.Parent" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;chkItemVenda.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="chkItemEstoque.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 11</value>
+  </data>
+  <data name="chkItemEstoque.Size" type="System.Drawing.Size, System.Drawing">
+    <value>104, 18</value>
+  </data>
+  <data name="chkItemEstoque.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkItemEstoque.Text" xml:space="preserve">
+    <value>Item de estoque</value>
+  </data>
+  <data name="&gt;&gt;chkItemEstoque.Name" xml:space="preserve">
+    <value>chkItemEstoque</value>
+  </data>
+  <data name="&gt;&gt;chkItemEstoque.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UICheckBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;chkItemEstoque.Parent" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;chkItemEstoque.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="grpTipoItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>856, 3</value>
+  </data>
+  <data name="grpTipoItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 114</value>
+  </data>
+  <data name="grpTipoItem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;grpTipoItem.Name" xml:space="preserve">
+    <value>grpTipoItem</value>
+  </data>
+  <data name="&gt;&gt;grpTipoItem.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpTipoItem.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpTipoItem.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="grpControl2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left, Right</value>
+  </data>
+  <data name="btnNovo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnNovo.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>13, 16</value>
+  </data>
+  <data name="btnNovo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>688, 17</value>
+  </data>
+  <data name="btnNovo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnNovo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnNovo.Text" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Name" xml:space="preserve">
+    <value>btnNovo</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnNovo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnVoltar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnVoltar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>882, 17</value>
+  </data>
+  <data name="btnVoltar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnVoltar.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="btnVoltar.Text" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Name" xml:space="preserve">
+    <value>btnVoltar</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnVoltar.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnSalvar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnSalvar.ImageSize" type="System.Drawing.Size, System.Drawing">
+    <value>14, 14</value>
+  </data>
+  <data name="btnSalvar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>785, 17</value>
+  </data>
+  <data name="btnSalvar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 23</value>
+  </data>
+  <data name="btnSalvar.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="btnSalvar.Text" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Name" xml:space="preserve">
+    <value>btnSalvar</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIButton, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.Parent" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;btnSalvar.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpControl2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 483</value>
+  </data>
+  <data name="grpControl2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>982, 51</value>
+  </data>
+  <data name="grpControl2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Name" xml:space="preserve">
+    <value>grpControl2</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpControl2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="grpDados.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="btnProcurarGrupoItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="btnProcurarGrupoItem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnProcurarGrupoItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnProcurarGrupoItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>347, 15</value>
+  </data>
+  <data name="btnProcurarGrupoItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnProcurarGrupoItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>17, 16</value>
+  </data>
+  <data name="btnProcurarGrupoItem.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnProcurarGrupoItem.Name" xml:space="preserve">
+    <value>btnProcurarGrupoItem</value>
+  </data>
+  <data name="&gt;&gt;btnProcurarGrupoItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnProcurarGrupoItem.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;btnProcurarGrupoItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtReferencia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtReferencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 74</value>
+  </data>
+  <data name="txtReferencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 20</value>
+  </data>
+  <data name="txtReferencia.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;txtReferencia.Name" xml:space="preserve">
+    <value>txtReferencia</value>
+  </data>
+  <data name="&gt;&gt;txtReferencia.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtReferencia.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtReferencia.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblReferencia.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblReferencia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblReferencia.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblReferencia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 57</value>
+  </data>
+  <data name="lblReferencia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>63, 14</value>
+  </data>
+  <data name="lblReferencia.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblReferencia.Text" xml:space="preserve">
+    <value>Referência:</value>
+  </data>
+  <data name="&gt;&gt;lblReferencia.Name" xml:space="preserve">
+    <value>lblReferencia</value>
+  </data>
+  <data name="&gt;&gt;lblReferencia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblReferencia.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblReferencia.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtCodigo2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>499, 34</value>
+  </data>
+  <data name="txtCodigo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="txtCodigo2.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2.Name" xml:space="preserve">
+    <value>txtCodigo2</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblCodigo2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigo2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigo2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigo2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>496, 17</value>
+  </data>
+  <data name="lblCodigo2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 14</value>
+  </data>
+  <data name="lblCodigo2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblCodigo2.Text" xml:space="preserve">
+    <value>Código ²:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2.Name" xml:space="preserve">
+    <value>lblCodigo2</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="txtCodigo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>370, 34</value>
+  </data>
+  <data name="txtCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="txtCodigo.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Name" xml:space="preserve">
+    <value>txtCodigo</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtCodigo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtDescricao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="txtDescricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 74</value>
+  </data>
+  <data name="txtDescricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>613, 20</value>
+  </data>
+  <data name="txtDescricao.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Name" xml:space="preserve">
+    <value>txtDescricao</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtDescricao.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblDescricao.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDescricao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblDescricao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 57</value>
+  </data>
+  <data name="lblDescricao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 14</value>
+  </data>
+  <data name="lblDescricao.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblDescricao.Text" xml:space="preserve">
+    <value>Descrição:</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Name" xml:space="preserve">
+    <value>lblDescricao</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblDescricao.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="txtCodigoEAN.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="txtCodigoEAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>628, 34</value>
+  </data>
+  <data name="txtCodigoEAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>123, 20</value>
+  </data>
+  <data name="txtCodigoEAN.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEAN.Name" xml:space="preserve">
+    <value>txtCodigoEAN</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEAN.Type" xml:space="preserve">
+    <value>Janus.Windows.GridEX.EditControls.MaskedEditBox, Janus.Windows.GridEX.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEAN.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;txtCodigoEAN.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblAtivo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblAtivo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAtivo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblAtivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>754, 17</value>
+  </data>
+  <data name="lblAtivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>35, 14</value>
+  </data>
+  <data name="lblAtivo.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblAtivo.Text" xml:space="preserve">
+    <value>Ativo:</value>
+  </data>
+  <data name="&gt;&gt;lblAtivo.Name" xml:space="preserve">
+    <value>lblAtivo</value>
+  </data>
+  <data name="&gt;&gt;lblAtivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAtivo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblAtivo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="cboAtivo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="cboAtivo.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboAtivo.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="UiComboBoxItem3.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UiComboBoxItem4.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="cboAtivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>757, 34</value>
+  </data>
+  <data name="cboAtivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 20</value>
+  </data>
+  <data name="cboAtivo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;cboAtivo.Name" xml:space="preserve">
+    <value>cboAtivo</value>
+  </data>
+  <data name="&gt;&gt;cboAtivo.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboAtivo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;cboAtivo.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblGrupoItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblGrupoItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblGrupoItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 17</value>
+  </data>
+  <data name="lblGrupoItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 14</value>
+  </data>
+  <data name="lblGrupoItem.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="lblGrupoItem.Text" xml:space="preserve">
+    <value>Grupo - Item:</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItem.Name" xml:space="preserve">
+    <value>lblGrupoItem</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItem.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblGrupoItem.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="cboGrupoItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Left, Right</value>
+  </data>
+  <data name="cboGrupoItem.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="cboGrupoItem.CharacterCasing" type="System.Windows.Forms.CharacterCasing, System.Windows.Forms">
+    <value>Upper</value>
+  </data>
+  <data name="cboGrupoItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 34</value>
+  </data>
+  <data name="cboGrupoItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>355, 20</value>
+  </data>
+  <data name="cboGrupoItem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItem.Name" xml:space="preserve">
+    <value>cboGrupoItem</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItem.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIComboBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItem.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;cboGrupoItem.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="lblCodigoEAN.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigoEAN.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigoEAN.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigoEAN.Location" type="System.Drawing.Point, System.Drawing">
+    <value>625, 17</value>
+  </data>
+  <data name="lblCodigoEAN.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 14</value>
+  </data>
+  <data name="lblCodigoEAN.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="lblCodigoEAN.Text" xml:space="preserve">
+    <value>Código EAN:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEAN.Name" xml:space="preserve">
+    <value>lblCodigoEAN</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEAN.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEAN.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblCodigoEAN.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblCodigo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCodigo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCodigo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCodigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>367, 17</value>
+  </data>
+  <data name="lblCodigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>43, 14</value>
+  </data>
+  <data name="lblCodigo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lblCodigo.Text" xml:space="preserve">
+    <value>Código:</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo.Name" xml:space="preserve">
+    <value>lblCodigo</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;lblCodigo.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 18</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>13, 13</value>
+  </data>
+  <data name="btnCadastrarGrupoItem.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarGrupoItem.Name" xml:space="preserve">
+    <value>btnCadastrarGrupoItem</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarGrupoItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarGrupoItem.Parent" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;btnCadastrarGrupoItem.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="grpDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 3</value>
+  </data>
+  <data name="grpDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>840, 114</value>
+  </data>
+  <data name="grpDados.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Name" xml:space="preserve">
+    <value>grpDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Type" xml:space="preserve">
+    <value>Janus.Windows.EditControls.UIGroupBox, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;grpDados.Parent" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;grpDados.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="pagDados.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 22</value>
+  </data>
+  <data name="pagDados.Size" type="System.Drawing.Size, System.Drawing">
+    <value>998, 543</value>
+  </data>
+  <data name="pagDados.Text" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Name" xml:space="preserve">
+    <value>pagDados</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITabPage, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;pagDados.Parent" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;pagDados.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Name" xml:space="preserve">
+    <value>tabMain</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Type" xml:space="preserve">
+    <value>Janus.Windows.UI.Tab.UITab, Janus.Windows.UI.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;tabMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tabMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnExcelGridContaContabil.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridContaContabil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridContaContabil.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridContaContabil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridContaContabil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 773</value>
+  </data>
+  <data name="btnExcelGridContaContabil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridContaContabil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridContaContabil.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridContaContabil.Name" xml:space="preserve">
+    <value>btnExcelGridContaContabil</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridContaContabil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 773</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridContaContabil.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridContaContabil.Name" xml:space="preserve">
+    <value>btnAgruparGridContaContabil</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridContaContabil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 773</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridContaContabil.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridContaContabil.Name" xml:space="preserve">
+    <value>btnConfigurarGridContaContabil</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridContaContabil.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridClienteVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridClienteVenda.Name" xml:space="preserve">
+    <value>btnExcelGridClienteVenda</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridClienteVenda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridClienteVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridClienteVenda.Name" xml:space="preserve">
+    <value>btnAgruparGridClienteVenda</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridClienteVenda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridClienteVenda.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridClienteVenda.Name" xml:space="preserve">
+    <value>btnConfigurarGridClienteVenda</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridClienteVenda.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridFornecedor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridFornecedor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridFornecedor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridFornecedor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridFornecedor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridFornecedor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridFornecedor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridFornecedor.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridFornecedor.Name" xml:space="preserve">
+    <value>btnExcelGridFornecedor</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridFornecedor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridFornecedor.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridFornecedor.Name" xml:space="preserve">
+    <value>btnAgruparGridFornecedor</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridFornecedor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridFornecedor.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridFornecedor.Name" xml:space="preserve">
+    <value>btnConfigurarGridFornecedor</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridFornecedor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>383, 888</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridLocalizacao.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridLocalizacao.Name" xml:space="preserve">
+    <value>btnExcelGridLocalizacao</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridLocalizacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 888</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridLocalizacao.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridLocalizacao.Name" xml:space="preserve">
+    <value>btnAgruparGridLocalizacao</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridLocalizacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.Location" type="System.Drawing.Point, System.Drawing">
+    <value>335, 888</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridLocalizacao.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridLocalizacao.Name" xml:space="preserve">
+    <value>btnConfigurarGridLocalizacao</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridLocalizacao.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridRoteiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridRoteiro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridRoteiro.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridRoteiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridRoteiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridRoteiro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridRoteiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridRoteiro.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridRoteiro.Name" xml:space="preserve">
+    <value>btnExcelGridRoteiro</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridRoteiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridRoteiro.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridRoteiro.Name" xml:space="preserve">
+    <value>btnAgruparGridRoteiro</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridRoteiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridRoteiro.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridRoteiro.Name" xml:space="preserve">
+    <value>btnConfigurarGridRoteiro</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridRoteiro.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridBOM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridBOM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridBOM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridBOM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridBOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridBOM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridBOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridBOM.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridBOM.Name" xml:space="preserve">
+    <value>btnExcelGridBOM</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridBOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridBOM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridBOM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridBOM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridBOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridBOM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridBOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridBOM.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridBOM.Name" xml:space="preserve">
+    <value>btnAgruparGridBOM</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridBOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridBOM.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridBOM.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridBOM.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridBOM.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridBOM.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridBOM.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridBOM.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridBOM.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridBOM.Name" xml:space="preserve">
+    <value>btnConfigurarGridBOM</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridBOM.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridQualidade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridQualidade.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridQualidade.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridQualidade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridQualidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridQualidade.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridQualidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridQualidade.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridQualidade.Name" xml:space="preserve">
+    <value>btnExcelGridQualidade</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridQualidade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridQualidade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridQualidade.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridQualidade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridQualidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridQualidade.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridQualidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridQualidade.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridQualidade.Name" xml:space="preserve">
+    <value>btnAgruparGridQualidade</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridQualidade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridQualidade.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridQualidade.Name" xml:space="preserve">
+    <value>btnConfigurarGridQualidade</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridQualidade.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridArquivo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridArquivo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridArquivo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridArquivo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridArquivo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridArquivo.Name" xml:space="preserve">
+    <value>btnExcelGridArquivo</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridArquivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridArquivo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridArquivo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridArquivo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridArquivo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridArquivo.Name" xml:space="preserve">
+    <value>btnAgruparGridArquivo</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridArquivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridArquivo.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridArquivo.Name" xml:space="preserve">
+    <value>btnConfigurarGridArquivo</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridArquivo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridEmbalagem.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridEmbalagem.Name" xml:space="preserve">
+    <value>btnExcelGridEmbalagem</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridEmbalagem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridEmbalagem.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridEmbalagem.Name" xml:space="preserve">
+    <value>btnAgruparGridEmbalagem</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridEmbalagem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridEmbalagem.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridEmbalagem.Name" xml:space="preserve">
+    <value>btnConfigurarGridEmbalagem</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridEmbalagem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
+        xAAADsQBlSsOGwAAAoRJREFUOE99zmlI03Ecx/FfUPSgA1LMozRXFCWFXWq3DwpCiCgyLFQMzQ7zwqS0
+        xJAOinxQlsciy5wnuTlZihtLc5ulJnNaM28nOMWYqRGJBb37a/QgqH7w4gefLx++X9FqN1DRk4uyR46y
+        N0/6/03VK6e8+yG28R5EZlMixxu9OG3y40xjANGN/n81O4sybeeI0ZXqzhKp2HxRKu3C1N5A15AV62AH
+        7wctdAyY51gH2+ey2ZmuTUOYwZeaD+WI242JRL3eh33MzufpCSa+jDMz843fb+rL5Fw2PfOVvtFuQo3b
+        0HSWIq6bEjhZH0CpMZ+0unAyLKHcMEdiGxugebCBa+YTpFtCyGpL5qW1huD6LaitxYh0YyzBL/2lU1+R
+        qjzLcdVmjhpkXDAdJNKwhyMmL47q11LSmiOd3kaQzgfVO6mYUneeoNrNfBz7SP9wL6nlcQSX7OaAfqXE
+        k8O1G6loUsAP6JPmgS/W8LxDgUjSRxOo2cDIyCh8h3tvbrFfsZVDj/fiW+XCjioZibpIbprSULWWEaBe
+        TVl7ISJOF8VO9XpsNhv3mzJZVezE8rIFbCjwZF+2H7IiJ5YWCY6pgtC+rcG3wouitgLE+dpINpXLuF6d
+        wZLchYgcwfxcwbw8gdPDJXhmuiMeCXyK13FXfwdZsQsKs1SMro7AW+HGA20Wl7WXuFp7lTTtL1e0KcRU
+        xXCqMoKwylCSVUk45y/imfkp4pQmHO9CD3o6u5gancQx7OCTZFzisDsYGRhmqNfGSL+d+hY9yx4v5klr
+        PiKkMgSRLXAtcMFd2uxW6PqH2cxDsqLIA5cCZ0SWQN4iRyjNSmJVscSr44mv/L8EdQLnlOew2Cz8BH3A
+        EqhW0MAkAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 888</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnExcelGridUnidadeMedida.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridUnidadeMedida.Name" xml:space="preserve">
+    <value>btnExcelGridUnidadeMedida</value>
+  </data>
+  <data name="&gt;&gt;btnExcelGridUnidadeMedida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>33, 888</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnAgruparGridUnidadeMedida.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridUnidadeMedida.Name" xml:space="preserve">
+    <value>btnAgruparGridUnidadeMedida</value>
+  </data>
+  <data name="&gt;&gt;btnAgruparGridUnidadeMedida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Bottom, Left</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAgZJREFUOE+1
+        kM9rE0Ecxfc/EBGNaAMVQXvwIPQsIlYQUVCEHJQexIN70EtIoAXtyUNR669qW6SFFLX+WGIFwYgIuiKL
+        URAXIYhmu6nrULpt3SQERUvz/D52MBShJ33w4O13Pm9mdoz/ptLAaivMrwLNrMcrq9izNl0eSbjPzTVb
+        gpvrbPjdgHcQzJx5NxIuGY0vV7E3ka6/2AR83oXKeFIFt5M+FueBxmswK2uzwqcdIENW11ryxtpdVFLA
+        YgjMDcnJe4FfM8D390C5C6g9An56Mt8Db7Td1bWWeMXpie0K9UIMipuNt+J3f75RzaNya5siq2uxStc6
+        rMDqtMU+1Ak59Q1C+2TkZNabTmajGb7qizjDlxTIkGVH1w0jfLoTmO0FojG56n0sLeTgZDaYetlwMm1m
+        s/pAbjARMzOnwI5elg2eyf/OnZWyALV7aC5ch5Nta20gufltXNbuxsxsD9jRy/ILQ51WMLnbDh52+Zg/
+        LSfl5Be6IyebNOnw5fEINdkgzIIMWXZ0PRYfRj05rBANyCkjssmw3OSC+GL8TUf9mJ7c//cjUlPWARfV
+        cwJeFV8SnxdfiV1lvqxzP8jqWkvFM1vT9Y/ykI1BfC0cVcHjIz4zzSxWzGTI6tpyFfs60lP51AdeMSgc
+        s/EjB5qZs/KdQy4Zja+s0ug+KyzKa4uZ9fhfyzB+A6b5ukeIFBaKAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 888</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.Size" type="System.Drawing.Size, System.Drawing">
+    <value>24, 15</value>
+  </data>
+  <data name="btnConfigurarGridUnidadeMedida.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridUnidadeMedida.Name" xml:space="preserve">
+    <value>btnConfigurarGridUnidadeMedida</value>
+  </data>
+  <data name="&gt;&gt;btnConfigurarGridUnidadeMedida.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="jstTip.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>111, 23</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>36</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 14</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 8.25pt</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1000, 566</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Name" xml:space="preserve">
+    <value>vsmMain</value>
+  </data>
+  <data name="&gt;&gt;vsmMain.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.VisualStyleManager, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Name" xml:space="preserve">
+    <value>jstTip</value>
+  </data>
+  <data name="&gt;&gt;jstTip.Type" xml:space="preserve">
+    <value>Janus.Windows.Common.JanusSuperTip, Janus.Windows.Common.v3, Version=3.5.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>usrCadProdutoNFE</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.UserControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

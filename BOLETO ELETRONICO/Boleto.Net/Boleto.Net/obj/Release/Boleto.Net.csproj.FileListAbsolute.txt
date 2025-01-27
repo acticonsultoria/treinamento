@@ -1,0 +1,20 @@
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.dll
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.pdb
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\BoletoNet.Html.resources
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.csproj.GenerateResource.Cache
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.dll
+D:\PROJETOS\INTERACTI\FONTES\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.pdb
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.dll
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.pdb
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.csprojResolveAssemblyReference.cache
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\BoletoNet.Html.resources
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.csproj.GenerateResource.Cache
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.dll
+C:\SVN\INTERACTI PADRAO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.pdb
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.csprojResolveAssemblyReference.cache
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\BoletoNet.Html.resources
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.csproj.GenerateResource.Cache
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.dll
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\obj\Release\Boleto.Net.pdb
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.dll
+C:\SVN\PADRÃO\BOLETO ELETRONICO\Boleto.Net\Boleto.Net\bin\Release\Boleto.Net.pdb

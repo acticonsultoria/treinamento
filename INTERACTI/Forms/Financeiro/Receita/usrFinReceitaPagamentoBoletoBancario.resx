@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grdListagem_DesignTimeLayout_Reference_0.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        R0lGODlhEAAQAIQAACMjNNPa4pmZmU+IcJS+qHSBiEJXY///90ym+7K1uEJaUvb3+BhZhMDGzLm9wrT/
+        lyNfOHp6ej9ARU9tinNzc5mZmf///2ZmZqysrIyLitnu7VNTUytrjcTL0wAAAAAAACH/C05FVFNDQVBF
+        Mi4wAwEBAAAh+QQBFAAWACwAAAAAEAAQAAAIjAAtCMyAQYDBgxgyCFxogeCChxATMhyIAWJEhRMJHtjI
+        UWJGDBw7YhQYIUKGkyhTlrRQskPJlzAjuCzZoMGFmzhz1izpwMGGn0CD9iyZIEHQoxsSPChpMIDTp1AN
+        lnwoIeGEAgoMEJTwMMJBACARaBjA4QAGAAcZhiUAgYHZiQtBhnwL10LBgwYxMAwIADs=
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_1.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAk1JREFUOE/F
+        kt1L01EcxrfrvDD2B0T0HxQRzhrsKvfiXr0Za5t7gb1EYkKZs9Zcge41yPHDRdBlEBHVnRDUVWBhanvB
+        5trc2++3LWapYbIRT+cchxFIt37h4bxwng/fc84jOv7q7z85IB28GL48pOCoFAolp1SqOKVKzanUak49
+        PMwNEw2R/QvSSwunTp+5Tmx9YrH4AGCx2jbSmSwq1RpTuVJFabOMYqmMQrGEfOEr1vMFrKZzeL34DguP
+        n3RkMlmEWE8wyFw4AlqdTgfVGgVUIAgNFApFbBCVNiv4nMlhjWhpeQ2lKo8XL191pNLBMIH0icKRKAPU
+        iNnr9cLtdmM+mYTdbse1sTE8nE/CYrHC67uKO4EgFt+8RaXexNNnz/fPnjv/6BBQLpdhNpthMpkQiUZh
+        NBphdzjYXKfTw2q14cbNSQRD9/H+wycsreRwxe7+fSQgGothZGQEDqcTsVgcer0ettFRTN6aQuBuEB+X
+        V8lVBPgDMzgSEOsBnE4X4okEDAYDu9KUfxrBmRBW1tL41v4B6v0vwOVyIZF4QAAH1/FP30YodI88ahbf
+        t3dJp/G/APqIPp8PHo8HHMcx88TEBFKpFBzEPD4+jtnZOQZc/5LHzs89xOMJHH5jt9sFz/Pg63W0223U
+        ySgIAra2ttj3snWjAZ588fbOLvZ+7TMYDVI+Q1qqkQN1CiAmqgY53Gg20SRqtVpspHs8L5Bu68hmc7TL
+        /D9RpnFV9GKsJjGmEdZoNJxWq+V0Oh2nperN5XJ5WCKRDLA4H2OJRH8APtj3ZlHQM8sAAAAASUVORK5C
+        YII=
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout_Reference_2.Instance" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAedJREFUOE/V
+        kM1LVGEUxu/foIHu2hgtJCNooUUhBEVIZWoWRTHVQiUCQzI1vZqKmkZgYRAUVptWthEqiCj62kx+NGiN
+        5ujojJZ3cGa83hlnaub+PI7CvNt2+cKzOu/5Pc9ztP/juXq2lbm6M8v/SbKzua5pvldlWP4+4A0kX0Ni
+        EP4OQPw5xJ5B9BFEHoDVK7MBoot9+F4Ws7muaWF3GyueDpY9nfLhBZh3IdQOSzfBuAa/K2HBIZB7WL4e
+        wiMOwu5mFdAKq/1EvTqh8QZxfioLl2CuBLxHYfoQrNyWlN2Y384JtFoAugpoEdc7EO4i5q1hafgKduwh
+        TBXA9xyZtWJOt2AOHd8Az18QQJMKaJa44hyoJTF/FePLRQLOSuxVuYt5S6rp/Hp7gqRXEs0WS6oiATSq
+        AF16VmAvXMb4WIodfUzC0DE+nZZK1UTGzpI0ewm8kypTB+BngQAaVEAT+E4R/HyYP6H7qY7rh7P9DuLu
+        kzIrT90jvthO6H2e1NopgHoV0Ijl3E9kVo65fu25Uol5DGaOgKdQHPfB5N6Us+W5TuRDlgDq0gDDWUVw
+        tAr8ZyTiQfmYDxN74EeuuO2Ase3gyobRDHDnEhw6T+BrRRow+WR3qtOG6hXVKbqhqJaJ/l1pwFZ+mrYG
+        /yLfOjnViDgAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="imprimir"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para Imprimir Boleto Bancário&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column1.Image" /&gt;&lt;Key&gt;imprimir&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="boleto_bancario"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para Atualizar Boleto Bancário&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column2.Image" /&gt;&lt;Key&gt;boleto_bancario&lt;/Key&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="email"&gt;&lt;AllowDrag&gt;False&lt;/AllowDrag&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;CellToolTip&gt;UseCellToolTipText&lt;/CellToolTip&gt;&lt;CellToolTipText&gt;Duplo clique para Enviar Boleto Bancário por E-mail&lt;/CellToolTipText&gt;&lt;ColumnType&gt;Image&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Image Reference="GridEXLayoutData.RootTable.Columns.Column3.Image" /&gt;&lt;Key&gt;email&lt;/Key&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="numero_documento"&gt;&lt;BottomMargin&gt;0&lt;/BottomMargin&gt;&lt;Caption&gt;Nº Documento&lt;/Caption&gt;&lt;CellToolTipText /&gt;&lt;ColumnType&gt;ImageAndText&lt;/ColumnType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;MaxLines&gt;0&lt;/MaxLines&gt;&lt;MinLines&gt;0&lt;/MinLines&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TopMargin&gt;0&lt;/TopMargin&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column4&gt;&lt;Column5 ID="data_emissao"&gt;&lt;Caption&gt;Data Emissão&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_emissao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="parcela"&gt;&lt;Caption&gt;Parcela&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column6&gt;&lt;Column7 ID="cnpj_cpf"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;CNPJ / CPF&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cnpj_cpf&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="cliente"&gt;&lt;BottomMargin&gt;0&lt;/BottomMargin&gt;&lt;Caption&gt;Cliente&lt;/Caption&gt;&lt;Key&gt;cliente&lt;/Key&gt;&lt;MaxLines&gt;0&lt;/MaxLines&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TopMargin&gt;0&lt;/TopMargin&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="municipio_uf"&gt;&lt;Caption&gt;Município - UF&lt;/Caption&gt;&lt;Key&gt;municipio_uf&lt;/Key&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;200&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="descritivo"&gt;&lt;Caption&gt;Descritivo&lt;/Caption&gt;&lt;Key&gt;descritivo&lt;/Key&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;Width&gt;300&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="carteira"&gt;&lt;Caption&gt;Carteira&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;carteira&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column11&gt;&lt;Column12 ID="numero_documento_pagamento"&gt;&lt;Caption&gt;Nº Documento de Pagamento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento_pagamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;FilterRowComparison&gt;Contains&lt;/FilterRowComparison&gt;&lt;/Column12&gt;&lt;Column13 ID="data_vencimento"&gt;&lt;Caption&gt;Vencimento&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="atraso"&gt;&lt;Caption&gt;Atraso&lt;/Caption&gt;&lt;FormatString&gt;0&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;atraso&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column14&gt;&lt;Column15 ID="valor"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="juros"&gt;&lt;Caption&gt;Juros&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;juros&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column16&gt;&lt;Column17 ID="desconto"&gt;&lt;Caption&gt;Desconto&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;desconto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column17&gt;&lt;Column18 ID="valor_corrigido"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Corrigido&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_corrigido&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column18&gt;&lt;Column19 ID="valor_pago"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;Info&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column19&gt;&lt;Column20 ID="codigo_banco_conta"&gt;&lt;Caption&gt;Código Banco Conta&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_banco_conta&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column20&gt;&lt;Column21 ID="numero_parcela"&gt;&lt;Caption&gt;N° Parcela&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;numero_parcela&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column21&gt;&lt;Column22 ID="codigo_titulo_capa"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column22&gt;&lt;Column23 ID="codigo_parceiro_negocio"&gt;&lt;Caption&gt;Código parceiro Negócio&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_parceiro_negocio&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column23&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatAtraso"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatAtraso&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;14&lt;/ColumnIndex&gt;&lt;ConditionOperator&gt;GreaterThan&lt;/ConditionOperator&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="FormatNormal"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;DarkGray&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatNormal&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;14&lt;/ColumnIndex&gt;&lt;Value1&gt;0&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRowFormatStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/TotalRowFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdParcela_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="numero_documento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Nº Documento&lt;/Caption&gt;&lt;CellToolTipText /&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;ColumnType&gt;ImageAndText&lt;/ColumnType&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;120&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column0&gt;&lt;Column1 ID="parcela"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Parcela&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;50&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column1&gt;&lt;Column2 ID="carteira"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Carteira&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;carteira&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="numero_documento_pagamento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BottomMargin&gt;0&lt;/BottomMargin&gt;&lt;Caption&gt;Nº Documento de Pagamento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento_pagamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;MaxLines&gt;0&lt;/MaxLines&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TopMargin&gt;0&lt;/TopMargin&gt;&lt;Width&gt;150&lt;/Width&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="descritivo"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BottomMargin&gt;0&lt;/BottomMargin&gt;&lt;Caption&gt;Descritivo&lt;/Caption&gt;&lt;Key&gt;descritivo&lt;/Key&gt;&lt;MaxLines&gt;0&lt;/MaxLines&gt;&lt;MinLines&gt;0&lt;/MinLines&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TopMargin&gt;0&lt;/TopMargin&gt;&lt;Width&gt;300&lt;/Width&gt;&lt;WordWrap&gt;True&lt;/WordWrap&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="data_vencimento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column5&gt;&lt;Column6 ID="data_pagamento"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Data Pagamento&lt;/Caption&gt;&lt;EditType&gt;CalendarCombo&lt;/EditType&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;00/00/0000&lt;/InputMask&gt;&lt;Key&gt;data_pagamento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="valor_total"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Valor Total&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_total&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column7&gt;&lt;Column8 ID="desconto"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Desconto&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;desconto&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="juros"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Juros&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;juros&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="valor_devido"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Valor Devido&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_devido&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;CellStyle&gt;&lt;BackColor&gt;WhiteSmoke&lt;/BackColor&gt;&lt;/CellStyle&gt;&lt;/Column10&gt;&lt;Column11 ID="valor_pago"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Valor Pago&lt;/Caption&gt;&lt;SortIndicator&gt;None&lt;/SortIndicator&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;valor_pago&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="numero_parcela"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;Caption&gt;N° Parcela&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;numero_parcela&lt;/Key&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;70&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="codigo_titulo_capa"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_titulo_capa&lt;/Key&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;Selectable&gt;False&lt;/Selectable&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="codigo_banco_conta"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;Caption&gt;Código Banco Conta&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_banco_conta&lt;/Key&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column14&gt;&lt;/Columns&gt;&lt;SortKeys Collection="true" ElementName="SortKey"&gt;&lt;SortKey0 ID="SortKey0"&gt;&lt;ColIndex&gt;5&lt;/ColIndex&gt;&lt;/SortKey0&gt;&lt;/SortKeys&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RowHeight&gt;20&lt;/RowHeight&gt;&lt;TotalRowFormatStyle&gt;&lt;FontBold&gt;True&lt;/FontBold&gt;&lt;/TotalRowFormatStyle&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>76</value>
+  </metadata>
+</root>

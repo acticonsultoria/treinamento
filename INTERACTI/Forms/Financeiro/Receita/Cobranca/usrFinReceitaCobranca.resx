@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="vsmMain.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btnEnviarProtesto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAwJJREFUOE+N
+        kntIk1EAxT/X0A//EFmyoiKEIKr/SnNZW+kYmflaomQzSstcqFtMoXKa5GKxMhN0Kx8Jvmra1FQSsaAn
+        RqGkmZvO0uZj+az1gEazz9NtftgfFfSDw71czjn3cu+l/he1WiMpLDQos7PztgUEbPdml/+NbWyS87y7
+        b+OBA7F+AsEuv7q61helpUbo9VWMXH6qWxAQTLPWv6Ov6owsLL3LaDSXFoqKSheamjpgNr9DT48VEeHS
+        pzsCd3JY6588ePyMvlLZZW28cw/FxXqcPJmB2FgZEhNToFZrcflyyavyquYMY/P9NWzkNwCoK9ca1T2v
+        J8j0N7Ozs2hpaYVGcxEyWRJU528iSaGLZGPLcG6bTPts4/bPbO6vNLY9QuaFBqtodwiPzVGUVqvdZLFY
+        ql0u1wLrW8Y5NYX37e2wt7XB/PgJFHk1iIo7XiYSiXyo6OgY/4GBgUqn0/mV9S/DuFwwazR4GRICW2oq
+        xuRy9AiFMASHOSOCgiSkwL05Nzc37/rg4BAbW2JxcRH9Z89iMiEBrtpa/OjvB9PbC1d9PWZOnICJx2sI
+        4XI5FIezgi8QiEwJCUkLBkMFHI5P7oIvw8PoDQ7GN5UKs4OD+GCzYbqvDzOjo5jW6WAJDWWu0rTYfYSS
+        spvrj6r0nyWRyYiJOYjOzvt4W1OD9/HxQIYC09XV7hP90lBHB5jTZzB35AiKaFrrLjieebUkWW1EUvYt
+        7JPlYM/eeJwTSzCdkgIoFJjPz3eHGYbBuNGIxawszJM7KaDpAncBeY7V4jBpRZRM1R0n1zkOqcpxVKrA
+        QEQEvpOCT2YzJiwWTHZ1wUH+gyMnB1apFFleXseWCkQiPlEckZIod484rCI8NuVh2YaNc/bDhzGRlgY7
+        uQ/Htq2wKZUYSU/HDT7futbDw89d8AsS5BD5EG0h2k+UGh4YmF++atXIkL8/Pvj64iOfD+vmTajg8d5I
+        uNxANvonJEwJhUJvMvrvFAjEqevWFZz39TXpaPq60tMzbaWHB3/JSVE/AWwP7vDT1VNEAAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="btnCadastrarSMS.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAT5JREFUOE9j
+        GJxA13OlnGnE/tXm0YfBGMQGiUGlCQOgYp2gihv/J615A8Y+Rdf/g8Sg0oQBSHFs/a3/e858BuNgoGEE
+        DQA5EaQIiv0iam/9X77nAxgHlIEN8EOSx/SOZfzB1dGtd//HtkFw3rTn/6dvfQ/GmZOfwcUjm+/+B6mF
+        akMAh6yTq5vXvPvfsf49Cm5f9/5/5dK3/3PmvPmfPP31//gpr/6D1EK1IYBz4enV5as+/K9cg8DFKz78
+        j5/z7n/UzLcoGKQWqg0BnPKOr46a+vR/7HSgc4E4edGH/0mLP4FxwsIP/yOmPIVjkFqoNgQABQxSIPnF
+        zX3xP2PdVzAGsUFiSPL40wRIUdKS1/9zt/0EYxAbJAaVJgxAitNWvf1fuO83GIPYpBog51V9ZnVA62Uw
+        BrFBYlDpQQUYGACM6gP7tSht6AAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="grdListagem_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Caption&gt;teste&lt;/Caption&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;SelectableCells&gt;RowCells, NewRowCells&lt;/SelectableCells&gt;&lt;Width&gt;20&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="banco"&gt;&lt;Caption&gt;Banco&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;banco&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;210&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="setor"&gt;&lt;Caption&gt;Setor&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;setor&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;149&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="codigo_consultora"&gt;&lt;Caption&gt;Código Consultor&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_consultora&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="razao_social"&gt;&lt;Caption&gt;Nome Consultor&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;razao_social&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="telefone1"&gt;&lt;Caption&gt;Telefone&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone1&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;190&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="telefone2"&gt;&lt;Caption&gt;Telefone Recado&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone2&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;192&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="email_parceiro"&gt;&lt;Caption&gt;Email&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;email_parceiro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;328&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="numero_documento"&gt;&lt;Caption&gt;Número Documento&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="nota_fiscal"&gt;&lt;Caption&gt;Nota Fiscal&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nota_fiscal&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="semana"&gt;&lt;Caption&gt;Semana&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;semana&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="nosso_numero"&gt;&lt;Caption&gt;Nosso Número&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nosso_numero&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="nosso_numero_carta"&gt;&lt;Caption&gt;Nosso Número (Carta Boleto)&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nosso_numero_carta&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="data_vencimento"&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="data_vencimento_carta"&gt;&lt;Caption&gt;Data Vencimento (Carta Boleto)&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento_carta&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;/Column14&gt;&lt;Column15 ID="dias_atraso"&gt;&lt;Caption&gt;Dias em Atraso&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;dias_atraso&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="valor_devido"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;valor_devido&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column16&gt;&lt;Column17 ID="valor_devido_corrigido"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor Devido Corrigido&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;InputMask&gt;Number2&lt;/InputMask&gt;&lt;Key&gt;valor_devido_corrigido&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;SelectableCells&gt;FilterRowCells&lt;/SelectableCells&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;90&lt;/Width&gt;&lt;TotalFormatString&gt;#,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;S&lt;/Tag&gt;&lt;/Column17&gt;&lt;Column18 ID="codigo_parceiro_negocio"&gt;&lt;Caption&gt;Código Parceiro Negócio&lt;/Caption&gt;&lt;EditType&gt;NoEdit&lt;/EditType&gt;&lt;Key&gt;codigo_parceiro_negocio&lt;/Key&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;SelectableCells&gt;None&lt;/SelectableCells&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Width&gt;80&lt;/Width&gt;&lt;Tag&gt;N&lt;/Tag&gt;&lt;/Column18&gt;&lt;Column19 ID="codigo"&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column19&gt;&lt;Column20 ID="codigo_parcela"&gt;&lt;Key&gt;codigo_parcela&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column20&gt;&lt;Column21 ID="data_emissao"&gt;&lt;Key&gt;data_emissao&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column21&gt;&lt;Column22 ID="gerado_arquivo"&gt;&lt;Key&gt;gerado_arquivo&lt;/Key&gt;&lt;Position&gt;22&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column22&gt;&lt;Column23 ID="carta_boleto"&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;EditType&gt;CheckBox&lt;/EditType&gt;&lt;Key&gt;carta_boleto&lt;/Key&gt;&lt;Position&gt;23&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column23&gt;&lt;Column24 ID="pk"&gt;&lt;Key&gt;pk&lt;/Key&gt;&lt;Position&gt;24&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column24&gt;&lt;/Columns&gt;&lt;AllowEdit&gt;True&lt;/AllowEdit&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;ChildTables Collection="true" ElementName="Table"&gt;&lt;Table0 ID="Table1"&gt;&lt;Key&gt;Table1&lt;/Key&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="pk"&gt;&lt;Key&gt;pk&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column0&gt;&lt;Column1 ID="codigo_consultora"&gt;&lt;Caption&gt;Código Consultora&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;codigo_consultora&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;122&lt;/Width&gt;&lt;/Column1&gt;&lt;Column2 ID="razao_social"&gt;&lt;Caption&gt;Razão Social&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;razao_social&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;437&lt;/Width&gt;&lt;/Column2&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/Table0&gt;&lt;/ChildTables&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="FormatConditionCartaBoleto"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;FormatConditionCartaBoleto&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;23&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;HeaderLines&gt;2&lt;/HeaderLines&gt;&lt;RepeatHeaders&gt;False&lt;/RepeatHeaders&gt;&lt;RowHeaderWidth&gt;35&lt;/RowHeaderWidth&gt;&lt;SelfReferencingSettings ID="SelfReferencingSettings"&gt;&lt;ChildDataMember&gt;codigo_requisicao&lt;/ChildDataMember&gt;&lt;ChildListMember&gt;codigo_requisicao&lt;/ChildListMember&gt;&lt;ParentDataMember&gt;codigo&lt;/ParentDataMember&gt;&lt;ParentRootMode&gt;SelfReferencingNode&lt;/ParentRootMode&gt;&lt;/SelfReferencingSettings&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="cboStatusFiltro_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="descricao"&gt;&lt;Caption&gt;Descrição&lt;/Caption&gt;&lt;Key&gt;descricao&lt;/Key&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;ShowRowSelector&gt;True&lt;/ShowRowSelector&gt;&lt;/Column0&gt;&lt;Column1 ID="codigo"&gt;&lt;Caption&gt;Código&lt;/Caption&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;/Column1&gt;&lt;/Columns&gt;&lt;GroupCondition /&gt;&lt;/RootTable&gt;&lt;RowWithErrorsFormatStyle&gt;&lt;PredefinedStyle&gt;RowWithErrorsFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowWithErrorsFormatStyle&gt;&lt;LinkFormatStyle&gt;&lt;PredefinedStyle&gt;LinkFormatStyle&lt;/PredefinedStyle&gt;&lt;/LinkFormatStyle&gt;&lt;AlternatingRowFormatStyle&gt;&lt;BackColor&gt;245, 245, 246&lt;/BackColor&gt;&lt;PredefinedStyle&gt;AlternatingRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/AlternatingRowFormatStyle&gt;&lt;CardCaptionFormatStyle&gt;&lt;PredefinedStyle&gt;CardCaptionFormatStyle&lt;/PredefinedStyle&gt;&lt;/CardCaptionFormatStyle&gt;&lt;GroupByBoxFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxFormatStyle&gt;&lt;GroupByBoxInfoFormatStyle&gt;&lt;PredefinedStyle&gt;GroupByBoxInfoFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupByBoxInfoFormatStyle&gt;&lt;GroupRowFormatStyle&gt;&lt;PredefinedStyle&gt;GroupRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/GroupRowFormatStyle&gt;&lt;HeaderFormatStyle&gt;&lt;PredefinedStyle&gt;HeaderFormatStyle&lt;/PredefinedStyle&gt;&lt;/HeaderFormatStyle&gt;&lt;PreviewRowFormatStyle&gt;&lt;PredefinedStyle&gt;PreviewRowFormatStyle&lt;/PredefinedStyle&gt;&lt;/PreviewRowFormatStyle&gt;&lt;RowFormatStyle&gt;&lt;PredefinedStyle&gt;RowFormatStyle&lt;/PredefinedStyle&gt;&lt;/RowFormatStyle&gt;&lt;SelectedFormatStyle&gt;&lt;BackColor /&gt;&lt;ForeColor /&gt;&lt;PredefinedStyle&gt;SelectedFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedFormatStyle&gt;&lt;SelectedInactiveFormatStyle&gt;&lt;PredefinedStyle&gt;SelectedInactiveFormatStyle&lt;/PredefinedStyle&gt;&lt;/SelectedInactiveFormatStyle&gt;&lt;WatermarkImage /&gt;&lt;AlternatingColors&gt;True&lt;/AlternatingColors&gt;&lt;GridLineStyle&gt;Solid&lt;/GridLineStyle&gt;&lt;VisualStyle&gt;Standard&lt;/VisualStyle&gt;&lt;AllowEdit&gt;False&lt;/AllowEdit&gt;&lt;ColumnAutoResize&gt;True&lt;/ColumnAutoResize&gt;&lt;ColumnHeaders&gt;False&lt;/ColumnHeaders&gt;&lt;ExpandableGroups&gt;False&lt;/ExpandableGroups&gt;&lt;FocusStyle&gt;Solid&lt;/FocusStyle&gt;&lt;GroupByBoxVisible&gt;False&lt;/GroupByBoxVisible&gt;&lt;HideSelection&gt;Highlight&lt;/HideSelection&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="grdProtesto_DesignTimeLayout.LayoutString" xml:space="preserve">
+    <value>&lt;GridEXLayoutData&gt;&lt;RootTable&gt;&lt;DynamicFiltering&gt;True&lt;/DynamicFiltering&gt;&lt;Columns Collection="true" ElementName="Column"&gt;&lt;Column0 ID="x"&gt;&lt;AllowSize&gt;False&lt;/AllowSize&gt;&lt;AllowSort&gt;False&lt;/AllowSort&gt;&lt;BoundMode&gt;UnboundFetch&lt;/BoundMode&gt;&lt;ColumnType&gt;CheckBox&lt;/ColumnType&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;x&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;0&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;25&lt;/Width&gt;&lt;ActAsSelector&gt;True&lt;/ActAsSelector&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column0&gt;&lt;Column1 ID="nome"&gt;&lt;AggregateFunction&gt;Count&lt;/AggregateFunction&gt;&lt;Caption&gt;Nome do Devedor&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;nome&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;1&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;253&lt;/Width&gt;&lt;TotalFormatString&gt;N° 00000&lt;/TotalFormatString&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column1&gt;&lt;Column2 ID="endereco"&gt;&lt;Caption&gt;Endereço&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;endereco&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;2&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;327&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column2&gt;&lt;Column3 ID="bairro"&gt;&lt;Caption&gt;Bairro&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;bairro&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;3&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;193&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column3&gt;&lt;Column4 ID="cep"&gt;&lt;Caption&gt;CEP&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cep&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;4&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;102&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column4&gt;&lt;Column5 ID="municipio"&gt;&lt;Caption&gt;Municipio&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;municipio&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;5&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;250&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column5&gt;&lt;Column6 ID="uf"&gt;&lt;Caption&gt;UF&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;uf&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;6&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;55&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column6&gt;&lt;Column7 ID="cnpj_cpf"&gt;&lt;Caption&gt;CNPJ/CPF&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;cnpj_cpf&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;7&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;160&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column7&gt;&lt;Column8 ID="numero_documento"&gt;&lt;Caption&gt;Fatura/N° Título&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;numero_documento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;8&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;167&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column8&gt;&lt;Column9 ID="parcela"&gt;&lt;Caption&gt;Parcela&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;9&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;67&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column9&gt;&lt;Column10 ID="valor_parcela"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor do Título&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_parcela&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;10&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;134&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column10&gt;&lt;Column11 ID="valor_protestar"&gt;&lt;AggregateFunction&gt;Sum&lt;/AggregateFunction&gt;&lt;Caption&gt;Valor a Protestar&lt;/Caption&gt;&lt;FormatString&gt;#,#0.00&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;valor_protestar&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;11&lt;/Position&gt;&lt;TextAlignment&gt;Far&lt;/TextAlignment&gt;&lt;Width&gt;122&lt;/Width&gt;&lt;TotalFormatString&gt;R$ #,#0.00&lt;/TotalFormatString&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column11&gt;&lt;Column12 ID="data_emissao"&gt;&lt;Caption&gt;Data Emissão&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_emissao&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;12&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;154&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column12&gt;&lt;Column13 ID="data_vencimento"&gt;&lt;Caption&gt;Data Vencimento&lt;/Caption&gt;&lt;FormatString&gt;dd/MM/yyyy&lt;/FormatString&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;data_vencimento&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;13&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;147&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column13&gt;&lt;Column14 ID="falimentar"&gt;&lt;Caption&gt;Falimentar&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;falimentar&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;14&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;78&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column14&gt;&lt;Column15 ID="matricula_cliente"&gt;&lt;Caption&gt;Nº Matrícula/Cliente&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;matricula_cliente&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;15&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;173&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column15&gt;&lt;Column16 ID="especie"&gt;&lt;Caption&gt;Espécie&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;especie&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;16&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;73&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column16&gt;&lt;Column17 ID="email"&gt;&lt;Caption&gt;Email&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;email&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;17&lt;/Position&gt;&lt;TextAlignment&gt;Near&lt;/TextAlignment&gt;&lt;Width&gt;335&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column17&gt;&lt;Column18 ID="telefone"&gt;&lt;Caption&gt;Telefone&lt;/Caption&gt;&lt;HeaderAlignment&gt;Center&lt;/HeaderAlignment&gt;&lt;HeaderLineAlignment&gt;Center&lt;/HeaderLineAlignment&gt;&lt;Key&gt;telefone&lt;/Key&gt;&lt;LineAlignment&gt;Center&lt;/LineAlignment&gt;&lt;Position&gt;18&lt;/Position&gt;&lt;TextAlignment&gt;Center&lt;/TextAlignment&gt;&lt;Width&gt;185&lt;/Width&gt;&lt;Tag&gt;s&lt;/Tag&gt;&lt;/Column18&gt;&lt;Column19 ID="status"&gt;&lt;Key&gt;status&lt;/Key&gt;&lt;Position&gt;19&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column19&gt;&lt;Column20 ID="codigo"&gt;&lt;Key&gt;codigo&lt;/Key&gt;&lt;Position&gt;20&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column20&gt;&lt;Column21 ID="codigo_parcela"&gt;&lt;Key&gt;codigo_parcela&lt;/Key&gt;&lt;Position&gt;21&lt;/Position&gt;&lt;Visible&gt;False&lt;/Visible&gt;&lt;Tag&gt;n&lt;/Tag&gt;&lt;/Column21&gt;&lt;/Columns&gt;&lt;CellToolTip&gt;TruncatedText&lt;/CellToolTip&gt;&lt;FormatConditions Collection="true" ElementName="Condition"&gt;&lt;Condition0 ID="AguardandoProtesto"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;DarkGray&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;AguardandoProtesto&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;19&lt;/ColumnIndex&gt;&lt;Value1&gt;1&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition0&gt;&lt;Condition1 ID="Protestado"&gt;&lt;FormatStyle&gt;&lt;ForeColor&gt;Firebrick&lt;/ForeColor&gt;&lt;/FormatStyle&gt;&lt;Key&gt;Protestado&lt;/Key&gt;&lt;FilterCondition&gt;&lt;ColumnIndex&gt;19&lt;/ColumnIndex&gt;&lt;Value1&gt;2&lt;/Value1&gt;&lt;/FilterCondition&gt;&lt;/Condition1&gt;&lt;/FormatConditions&gt;&lt;GroupCondition /&gt;&lt;RowHeaders&gt;False&lt;/RowHeaders&gt;&lt;RowHeaderContent&gt;RowPosition&lt;/RowHeaderContent&gt;&lt;RowHeaderWidth&gt;40&lt;/RowHeaderWidth&gt;&lt;TotalRow&gt;True&lt;/TotalRow&gt;&lt;/RootTable&gt;&lt;/GridEXLayoutData&gt;</value>
+  </data>
+  <data name="btnDesfazerProtesto.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAd0SU1FB9cC
+        FBI6K/DjRbgAAAFtSURBVDhPzVE9a8JQFH2DHyhGHfwYMumQQRwTByEixozqqIu4iX+sLXQoosV2UakK
+        DjZJKaVVRPFPNHlxuc0NSa3QOHvgwuWce8877z1yXbgnJHBHyPKWkBX2Du3JnwEFa+B5Ua3ShSxT7JFz
+        +Vm5TOeS9Ms7ayfcELJ+KZXooduFfbsNc1E0rFPHWLNi0dh3OnDo9QCNLJNXZ+0EJKeCQHfNJmjRKGzr
+        dZgIgjnmeXPbaIAWj8Ou1YJpoUDxMGftBDfqJJ83NpIEaiQC21rNLjTcyDKMcznD8woIFDDyE8cd16II
+        ajhsG20qFRhlsyZqnssI1+CRZc0vQQA1FLJNPnkehix7vGiAAsYbJZP6eyYDSjAIHxxnF/bIoeZ5BXyY
+        AcPoWioFis8HWiIBfYahFmdgj9xbOg3DWAxN/v+FfiCgK1ZkxYo+8Pu/MTIW9sihhjMXf+GBEB3LjerF
+        O2vncIZX1qnLv0Ne/DWAkB+KBdcirH+3fQAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>76</value>
+  </metadata>
+</root>
